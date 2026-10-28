@@ -224,3 +224,6 @@ airflow/logs/
 
 airflow/logs/
 *.log
+
+.env.*
+!.env.example
