@@ -227,3 +227,5 @@ airflow/logs/
 
 .env.*
 !.env.example
+
+raw_data/
