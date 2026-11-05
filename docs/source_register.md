@@ -89,25 +89,28 @@ Salin blok "Hasil uji" untuk setiap sumber dan isi saat pengujian.
 - **Keputusan:** PENDING — alasan:
 
 ### **5. Career pages perusahaan besar**
+
 - **Target data:** kolom sama dengan job portals, meliputi nama posisi (role title), nama perusahaan (company), sektor (sector), lokasi (location), tanggal publikasi (post date), dan keterampilan yang dibutuhkan (skills).
+
 - **Insight:** cross-check data lowongan dari job portals dengan informasi rekrutmen resmi perusahaan untuk memvalidasi kebutuhan tenaga kerja, tren perekrutan, dan permintaan posisi digital/IT di masing-masing sektor.
 
 - **Cek Phase 0:** telah meninjau 8 perusahaan besar dari sektor energi, pertambangan, perbankan, dan manufaktur.
 
   **Daftar perusahaan yang diperiksa:**
 
-  | No. | Sektor | Perusahaan | Struktur halaman dan hasil pemeriksaan |
-  |---|---|---|---|
-  | 1 | Energi | PLN | Portal rekrutmen publik, tersedia menu All Jobs dan filter jenjang, legal entity, serta program studi. Saat pemeriksaan tidak ditemukan lowongan yang ditampilkan. |
-  | 2 | Energi | Pertamina | Website e-Recruitment dapat diakses publik. Terdapat halaman Pertamina Talent Candidate, tetapi jalur yang diuji mengarah ke login untuk melanjutkan. |
-  | 3 | Pertambangan | MIND ID | Portal karier publik dengan pencarian dan filter lokasi, perusahaan, kategori, serta tipe pekerjaan. Saat pemeriksaan tidak ditemukan lowongan yang ditampilkan. |
-  | 4 | Pertambangan | Freeport Indonesia | Halaman karier resmi dapat diakses publik dan memiliki filter kategori. Saat pemeriksaan tidak tersedia lowongan pekerjaan. |
-  | 5 | Pertambangan | ANTAM | Halaman karier melalui portal Klob menampilkan daftar lowongan dan detail pekerjaan, termasuk posisi, perusahaan, lokasi, batas waktu aplikasi, deskripsi, serta persyaratan. Login diperlukan untuk melanjutkan proses melamar. |
-  | 6 | Perbankan | BCA | Portal karier publik menyediakan pencarian dan filter lokasi, pengalaman, serta nama posisi. Daftar lowongan dan detail pekerjaan dapat dilihat tanpa login, termasuk kategori, bidang pekerjaan, periode, lokasi, deskripsi, dan persyaratan. |
-  | 7 | Perbankan | Bank Mandiri | Halaman karier publik menampilkan kategori ODP, Banking Staff, Experienced Hire, dan CPDK. Informasi posisi, bidang pekerjaan, wilayah, deskripsi program, serta status lowongan dapat dilihat tanpa login. |
-  | 8 | Manufaktur | Astra | Portal karier publik menampilkan 168 pekerjaan saat pemeriksaan. Tersedia filter perusahaan, fungsi, dan jenjang. Detail lowongan dapat dilihat tanpa login, termasuk nama posisi, perusahaan, fungsi, batas lamaran, deskripsi, dan persyaratan. |
+  | No. | Perusahaan | Sektor | Hasil sementara |
+  | --- | --- | --- | --- |
+  | 1 | PLN | Energi | PENDING — halaman rekrutmen dapat diakses, tetapi tidak ada lowongan ditampilkan saat pemeriksaan. |
+  | 2 | Pertamina | Energi | PENDING — website e-Recruitment dapat diakses, tetapi jalur informasi lowongan yang diuji mengarah ke login. |
+  | 3 | MIND ID | Pertambangan | PENDING — portal karier dapat diakses, tetapi tidak ada lowongan ditemukan saat pemeriksaan. |
+  | 4 | Freeport Indonesia | Pertambangan | PENDING — halaman karier dapat diakses, tetapi tidak ada lowongan tersedia saat pemeriksaan. |
+  | 5 | ANTAM | Pertambangan | GO — daftar dan detail lowongan dapat diakses publik tanpa login. |
+  | 6 | BCA | Perbankan | GO — daftar dan detail lowongan dapat dilihat tanpa login, termasuk posisi, kategori, lokasi, periode, deskripsi, dan persyaratan. |
+  | 7 | Bank Mandiri | Perbankan | GO — kategori rekrutmen, nama posisi, bidang pekerjaan, wilayah, deskripsi program, dan status lowongan dapat dilihat tanpa login. |
+  | 8 | Astra | Manufaktur | GO — daftar 168 pekerjaan dan detail lowongan dapat diakses tanpa login, termasuk posisi, perusahaan, fungsi, batas lamaran, deskripsi, dan persyaratan. |
 
 - **Risiko:**
+
   1. Akses dan ketentuan penggunaan setiap career page berbeda-beda.
   2. Beberapa perusahaan tidak menampilkan lowongan saat pemeriksaan.
   3. Sebagian informasi rekrutmen hanya dapat dilanjutkan melalui login atau pendaftaran.
@@ -119,21 +122,21 @@ Salin blok "Hasil uji" untuk setiap sumber dan isi saat pengujian.
 - **Hasil uji:**
 
   | Aspek pemeriksaan | Hasil |
-  |---|---|
+  | --- | --- |
   | Jumlah perusahaan diperiksa | 8 perusahaan |
   | Akses halaman karier | Seluruh halaman yang diuji dapat diakses secara publik |
-  | Daftar lowongan | Tersedia pada ANTAM, BCA, Bank Mandiri, dan Astra |
+  | Daftar lowongan | Ditemukan pada ANTAM, BCA, Bank Mandiri, dan Astra |
   | Detail pekerjaan | Berhasil diperiksa pada ANTAM, BCA, dan Astra |
   | Informasi kategori dan bidang pekerjaan | Tersedia pada beberapa portal, termasuk BCA, Bank Mandiri, dan Astra |
   | Informasi lokasi | Tersedia pada beberapa portal, termasuk ANTAM, BCA, Bank Mandiri, dan Astra |
   | Informasi keterampilan/persyaratan | Berhasil diperiksa pada ANTAM, BCA, dan Astra |
   | Informasi tanggal | Batas waktu aplikasi terlihat pada ANTAM, BCA, dan Astra; tanggal publikasi belum selalu tersedia |
-  | Kebutuhan login | Tidak diperlukan untuk melihat informasi publik pada ANTAM, BCA, Bank Mandiri, dan Astra; jalur lowongan Pertamina yang diuji mengarah ke login |
+  | Kebutuhan login | Informasi publik dapat dilihat tanpa login pada ANTAM, BCA, Bank Mandiri, dan Astra; jalur lowongan Pertamina yang diuji mengarah ke login |
   | Izin scraping otomatis | Belum diverifikasi secara menyeluruh |
 
-  **Catatan:** Hasil pemeriksaan menunjukkan kondisi halaman pada tanggal 5 November 2026. Tidak ditemukannya lowongan pada suatu halaman hanya menggambarkan kondisi saat pengujian, bukan berarti perusahaan tidak membuka rekrutmen melalui kanal lain.
+  **Catatan:** Hasil pemeriksaan menunjukkan kondisi halaman pada tanggal 5 November 2026. Status PENDING pada PLN, Pertamina, MIND ID, dan Freeport bukan berarti scraping dilarang, tetapi informasi lowongan yang dibutuhkan belum berhasil diverifikasi secara lengkap. Status GO pada ANTAM, BCA, Bank Mandiri, dan Astra hanya menunjukkan keberhasilan akses informasi publik, bukan izin automated scraping.
 
-- **Keputusan:** PENDING — akses informasi publik berhasil diperiksa pada 8 perusahaan, tetapi izin automated scraping dan ketentuan legal masing-masing situs belum diverifikasi secara menyeluruh. Pengumpulan data secara manual dapat digunakan sebagai fallback sambil menunggu kepastian izin akses otomatis.
+- **Keputusan:** PENDING — pemeriksaan akses informasi publik berhasil dilakukan pada 8 perusahaan. ANTAM, BCA, Bank Mandiri, dan Astra dapat digunakan sebagai referensi lowongan publik, sedangkan PLN, Pertamina, MIND ID, dan Freeport masih memerlukan pemeriksaan lanjutan. Izin automated scraping dan ketentuan legal masing-masing situs belum diverifikasi secara menyeluruh. Pengumpulan data manual dapat digunakan sebagai fallback.
 
 ### 6. Bea Cukai (impor per HS code)
 - **Target data:** impor per HS code, nilai, volume
