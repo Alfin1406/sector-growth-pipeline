@@ -1,0 +1,16 @@
+### Job portals — policy review
+
+**Tanggal pemeriksaan:** 5 November 2026
+
+#### Indeed Indonesia
+
+- **Terms:** https://id.indeed.com/legal?hl=in
+- **Bukti:** Bagian 21 (Peraturan Situs) melarang penggunaan bot, scraper, spider, AI, atau AI Agent untuk mengakses dan menambang data tanpa izin tertulis. Crawling hanya diperbolehkan secara bersyarat sesuai ketentuan robots.txt.
+- **robots.txt:** https://id.indeed.com/robots.txt
+- **Bukti robots.txt:** Aturan `Disallow` ditemukan pada `/jobs/ID/`, `/jobs/title`, `/Jobs/title`, `/m/viewjob`, `/advanced_search`, dan `/api/getrecjobs`.
+- **API resmi:** Indeed menyediakan API untuk integrasi dan pengelolaan lowongan, termasuk Job Sync API dan Job Update API, serta Hiring Lab API untuk data pasar tenaga kerja. Namun, belum ditemukan API pencarian lowongan publik yang sesuai untuk agregasi data lintas perusahaan dan sektor.
+- **Respons server:** File robots.txt berhasil dibuka melalui browser. HTTP status code, CAPTCHA, dan rate limit belum diuji secara independen.
+- **Field:** Belum diuji secara sistematis.
+- **Status:** **NO-GO untuk scraping otomatis tanpa izin.**
+- **Alasan:** Terms membatasi pengambilan data otomatis tanpa izin tertulis. robots.txt juga membatasi pola halaman lowongan Indonesia dan sejumlah endpoint terkait. API resmi yang ditemukan belum sesuai dengan kebutuhan pencarian lowongan publik.
+- **Fallback:** Career pages resmi perusahaan atau unggah manual dari sumber yang penggunaannya diizinkan.

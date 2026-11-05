@@ -1,0 +1,14 @@
+#### Glints Indonesia — Policy review
+
+**Tanggal pemeriksaan:** 5 November 2026
+
+- **Terms:** https://glints.com/id/about/terms
+- **Bukti:** Bagian 2 poin (h) melarang pencurian data, penambangan data, penggunaan robot, serta alat pengumpulan dan ekstraksi data serupa untuk mengambil atau mereproduksi informasi dari platform Glints, kecuali dengan persetujuan tertulis sebelumnya.
+- **robots.txt:** https://glints.com/robots.txt
+- **Bukti robots.txt:** Aturan `Disallow` ditemukan pada pola halaman rekomendasi lowongan, bookmark, halaman eksplorasi dengan parameter tertentu, pengaturan akun, serta beberapa endpoint API. Sitemap Glints juga tercantum dalam file robots.txt.
+- **API resmi:** Belum ditemukan dokumentasi API publik resmi untuk pencarian dan pengambilan daftar lowongan Glints. SDK GitHub yang ditemukan belum cukup untuk membuktikan adanya API pencarian lowongan publik yang dapat digunakan proyek.
+- **Respons server:** robots.txt berhasil dibuka melalui browser. HTTP status code, CAPTCHA, dan rate limit belum diuji secara independen.
+- **Field:** Belum diuji secara sistematis.
+- **Status:** **NO-GO untuk scraping otomatis tanpa izin.**
+- **Alasan:** Terms melarang aktivitas pengumpulan dan ekstraksi data otomatis tanpa persetujuan tertulis. robots.txt membatasi sejumlah halaman dan endpoint, sementara API resmi publik yang sesuai belum ditemukan.
+- **Fallback:** Career pages resmi perusahaan atau unggah manual dari sumber yang penggunaannya diizinkan.
