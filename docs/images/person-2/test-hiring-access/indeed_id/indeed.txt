@@ -2,15 +2,18 @@
 
 **Tanggal pemeriksaan:** 5 November 2026
 
-#### Indeed Indonesia
+#### Indeed Indonesia (NO-GO)
 
 - **Terms:** https://id.indeed.com/legal?hl=in
 - **Bukti:** Bagian 21 (Peraturan Situs) melarang penggunaan bot, scraper, spider, AI, atau AI Agent untuk mengakses dan menambang data tanpa izin tertulis. Crawling hanya diperbolehkan secara bersyarat sesuai ketentuan robots.txt.
 - **robots.txt:** https://id.indeed.com/robots.txt
-- **Bukti robots.txt:** Aturan `Disallow` ditemukan pada `/jobs/ID/`, `/jobs/title`, `/Jobs/title`, `/m/viewjob`, `/advanced_search`, dan `/api/getrecjobs`.
+- **Bukti robots.txt:** Aturan `Disallow` ditemukan pada `/jobs/ID/`, `/jobs/title`, `/Jobs/title`, `/m/viewjob`, `/advanced_search`, dan `/api/getrecjobs`. File robots.txt juga memuat aturan `Allow: /`, sehingga tidak semua halaman publik diblokir.
 - **API resmi:** Indeed menyediakan API untuk integrasi dan pengelolaan lowongan, termasuk Job Sync API dan Job Update API, serta Hiring Lab API untuk data pasar tenaga kerja. Namun, belum ditemukan API pencarian lowongan publik yang sesuai untuk agregasi data lintas perusahaan dan sektor.
-- **Respons server:** File robots.txt berhasil dibuka melalui browser. HTTP status code, CAPTCHA, dan rate limit belum diuji secara independen.
-- **Field:** Belum diuji secara sistematis.
+- **Akses website:** Halaman pencarian lowongan dengan kata kunci Data Analyst dan lokasi Indonesia berhasil dibuka melalui browser. Halaman detail lowongan juga dapat diakses tanpa login pada saat pemeriksaan.
+- **Field:** Dari contoh lowongan *Operations Analyst (Data & Automation)* di Y Ventures Group Ltd., ditemukan judul posisi, nama perusahaan, lokasi Jakarta, kisaran gaji Rp6.300.000–Rp9.800.000 per bulan, tipe pekerjaan Full-time, deskripsi pekerjaan, persyaratan pendidikan, pengalaman, skills (Python, SQL, relational database, Git, dan automated testing), serta atribut/kualifikasi tambahan.
+- **Respons server:** Request utama halaman pencarian melalui Chrome DevTools Network menunjukkan HTTP `200 OK`, dengan metode `GET`. Pemeriksaan ini dilakukan melalui browser, bukan pengujian endpoint API secara terpisah.
+- **CAPTCHA/login:** Tidak ditemukan CAPTCHA dan login tidak diwajibkan untuk membuka contoh halaman pencarian maupun detail lowongan yang diperiksa.
+- **Rate limit:** Belum diuji secara aktif. Tidak dilakukan pengiriman request berulang.
 - **Status:** **NO-GO untuk scraping otomatis tanpa izin.**
-- **Alasan:** Terms membatasi pengambilan data otomatis tanpa izin tertulis. robots.txt juga membatasi pola halaman lowongan Indonesia dan sejumlah endpoint terkait. API resmi yang ditemukan belum sesuai dengan kebutuhan pencarian lowongan publik.
+- **Alasan:** Meskipun halaman pencarian dan detail lowongan dapat diakses secara manual serta field yang dibutuhkan tersedia, Terms Indeed membatasi pengambilan data otomatis tanpa izin tertulis. robots.txt juga membatasi sejumlah pola halaman dan endpoint terkait. Keberhasilan akses HTTP 200 tidak berarti scraping otomatis diperbolehkan.
 - **Fallback:** Career pages resmi perusahaan atau unggah manual dari sumber yang penggunaannya diizinkan.

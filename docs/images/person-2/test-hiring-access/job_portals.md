@@ -1,0 +1,35 @@
+### 4. Job portals (Jobstreet, Indeed, dll.)
+
+- **Target data:** judul posisi, perusahaan, sektor, lokasi, tanggal posting, skills (tanpa data pribadi)
+- **Insight:** total lowongan per sektor (ekspansi), porsi posisi IT/digital per sektor
+- **Cek Phase 0:** uji akses 2–3 portal (catat per portal)
+- **Risiko:** nilai tertinggi tapi risiko tertinggi (terms & blocking)
+- **Fallback:** career pages atau unggah manual
+- **Hasil uji (per portal):**
+  - **Portal / tanggal uji:**
+    - JobStreet Indonesia — 5 November 2026.
+    - Indeed Indonesia — 5 November 2026.
+    - Glints Indonesia — 5 November 2026.
+  - **robots.txt & ToS (ringkasan, izin scraping?):**
+    - JobStreet: Terms melarang agregasi/penyalinan konten serta data mining, screen scraping, dan pengambilan data otomatis tanpa persetujuan tertulis. robots.txt memiliki aturan Disallow untuk sejumlah pola halaman lowongan, parameter pencarian, dan endpoint tertentu. **Scraping otomatis tanpa izin tidak diperbolehkan.**
+    - Indeed: Bagian 21 Terms melarang penggunaan bot, scraper, spider, AI, atau AI Agent untuk mengakses dan mengambil data tanpa izin tertulis. robots.txt memiliki aturan Disallow untuk sejumlah pola halaman lowongan dan endpoint terkait. **Scraping otomatis tanpa izin tidak diperbolehkan.**
+    - Glints: Bagian 2 poin (h) Terms melarang pencurian data, penambangan data, penggunaan robot, serta alat pengumpulan dan ekstraksi data serupa tanpa persetujuan tertulis. robots.txt memiliki aturan Disallow untuk sejumlah halaman rekomendasi, bookmark, halaman eksplorasi dengan parameter tertentu, dan endpoint tertentu. **Pengambilan data otomatis tanpa izin tertulis tidak diperbolehkan.**
+  - **Respons server (HTTP code, captcha, rate limit):**
+    - JobStreet: HTTP `200 OK` pada request utama halaman lowongan. CAPTCHA dan login tidak ditemukan saat pemeriksaan manual. Rate limit tidak diuji secara aktif.
+    - Indeed: HTTP `200 OK` pada request utama halaman pencarian lowongan. CAPTCHA dan login tidak ditemukan saat pemeriksaan manual. Rate limit tidak diuji secara aktif.
+    - Glints: HTTP `200 OK` pada request utama halaman detail lowongan. CAPTCHA dan login tidak ditemukan saat pemeriksaan manual. Rate limit tidak diuji secara aktif.
+    - Ketiga portal berhasil diakses melalui browser. Pemeriksaan rate limit tidak dilakukan secara aktif untuk menghindari request berulang yang berpotensi melanggar ketentuan penggunaan.
+  - **Field yang tersedia:**
+    - JobStreet: judul posisi, perusahaan, klasifikasi pekerjaan, lokasi, tanggal posting, skills/kualifikasi, jenis pekerjaan, dan kisaran gaji pada contoh lowongan yang diperiksa.
+    - Indeed: judul posisi, perusahaan, lokasi, kisaran gaji, tipe pekerjaan, deskripsi pekerjaan, pendidikan, pengalaman, skills, dan kualifikasi pada contoh lowongan yang diperiksa. Tanggal posting belum terlihat pada contoh yang diperiksa.
+    - Glints: judul posisi, perusahaan, kategori pekerjaan, lokasi, tanggal relatif posting, kisaran gaji, tipe pekerjaan, sistem kerja, pendidikan, pengalaman, skills, persyaratan, deskripsi pekerjaan, serta informasi profil perusahaan pada contoh lowongan yang diperiksa.
+  - **Bukti:**
+    - JobStreet: `docs/images/person-2/test-hiring-access/jobstreet/`
+    - Indeed: `docs/images/person-2/test-hiring-access/indeed_id/`
+    - Glints: `docs/images/person-2/test-hiring-access/glints/`
+- **Keputusan:** 
+  - JobStreet: **NO-GO** untuk scraping otomatis tanpa izin karena pembatasan dalam Terms of Service.
+  - Indeed: **NO-GO** untuk scraping otomatis tanpa izin karena pembatasan dalam Terms of Service dan aturan robots.txt.
+  - Glints: **NO-GO** untuk pengambilan data otomatis tanpa persetujuan tertulis karena pembatasan dalam Terms of Service dan aturan robots.txt.
+  - Pengujian akses manual berhasil pada ketiga portal dengan HTTP `200 OK`. Field target tersedia pada contoh lowongan yang diperiksa. Namun, keberhasilan akses manual tidak berarti scraping otomatis diperbolehkan.
+  - **Fallback:** menggunakan career pages resmi perusahaan atau unggah data secara manual dari sumber yang penggunaannya diizinkan.
