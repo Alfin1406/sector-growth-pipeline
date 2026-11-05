@@ -29,7 +29,7 @@ def update_pipeline_status():
     try:
         with conn.cursor() as cursor:
             cursor.execute("""
-                UPDATE public.data_center_news
+                UPDATE public.arza_data_center_news
                 SET pipeline_last_updated = NOW();
             """)
 
@@ -44,7 +44,7 @@ def update_pipeline_status():
 
         if updated_rows == 0:
             print(
-                "PERINGATAN: data_center_news kosong, "
+                "PERINGATAN: arza_data_center_news kosong, "
                 "tidak ada baris untuk menyimpan waktu pembaruan."
             )
 

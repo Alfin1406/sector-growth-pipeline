@@ -1,7 +1,7 @@
 """Load Katadata Sector 3 insight data into PostgreSQL.
 
 Input : data/processed/katadata_enterprise_insight.csv
-Target: market_intelligence.sector3_articles
+Target: market_intelligence.atha_sector3_articles
 
 This loader preserves the `topic` and `subtopic` values produced by
 extract_enterprise_insight.py. It does not force all rows into
@@ -25,7 +25,7 @@ from sqlalchemy.engine import URL
 # ---------------------------------------------------------------------
 PROJECT_ROOT = Path(__file__).resolve().parent 
 INPUT_FILE = PROJECT_ROOT / "data" / "processed" / "katadata_enterprise_insight.csv"
-TABLE_NAME = "sector3_articles"
+TABLE_NAME = "atha_sector3_articles"
 
 DB_HOST = os.getenv("POSTGRES_HOST")
 DB_PORT = int(os.getenv("POSTGRES_PORT", "5432"))

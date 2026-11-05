@@ -132,7 +132,7 @@ def main():
     engine = get_engine_with_retry()
 
     query = text("""
-        INSERT INTO public.tabel_berita_ai (
+        INSERT INTO public.alfin_berita_ai (
             judul,
             tanggal,
             link,

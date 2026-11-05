@@ -1,7 +1,7 @@
 """Load Detik.com four-topic insight data into PostgreSQL.
 
 Input : data/processed/detik_sector3_insight_four_topics_v5.csv
-Target: market_intelligence.sector3_articles
+Target: market_intelligence.atha_sector3_articles
 
 The loader is idempotent for URL conflicts (UPSERT) and preserves the four
 canonical project categories in `subtopic`. It never deletes unrelated rows.
@@ -26,7 +26,7 @@ import pandas as pd
 
 PROJECT_ROOT = Path(__file__).resolve().parent
 INPUT_FILE = PROJECT_ROOT / "data" / "processed" / "detik_sector3_insight_four_topics_v5.csv"
-TABLE_NAME = "sector3_articles"
+TABLE_NAME = "atha_sector3_articles"
 SOURCE_NAME = "Detik.com"
 
 DB_HOST = os.getenv("POSTGRES_HOST")

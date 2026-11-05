@@ -134,17 +134,17 @@ try:
 
         update_assignments.append("""
             subtopic = CASE
-                WHEN data_center_news.subtopic IS NULL
-                     OR BTRIM(data_center_news.subtopic) = ''
+                WHEN arza_data_center_news.subtopic IS NULL
+                     OR BTRIM(arza_data_center_news.subtopic) = ''
                 THEN EXCLUDED.subtopic
-                ELSE data_center_news.subtopic
+                ELSE arza_data_center_news.subtopic
             END
         """)
 
         update_clause = ", ".join(update_assignments)
 
         query = f"""
-            INSERT INTO data_center_news ({columns})
+            INSERT INTO arza_data_center_news ({columns})
             VALUES %s
             ON CONFLICT (article_url)
             DO UPDATE SET

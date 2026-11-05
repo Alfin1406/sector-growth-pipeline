@@ -125,7 +125,7 @@ df = df[columns]
 # ============================================================
 
 sql = text("""
-    INSERT INTO sector3_articles (
+    INSERT INTO atha_sector3_articles (
         article_id,
         title,
         url,
@@ -166,7 +166,7 @@ sql = text("""
         title = EXCLUDED.title,
         published_at = COALESCE(
             EXCLUDED.published_at,
-            sector3_articles.published_at
+            atha_sector3_articles.published_at
         ),
         channel = EXCLUDED.channel,
         source = EXCLUDED.source,
@@ -218,13 +218,13 @@ with engine.begin() as conn:
 with engine.connect() as conn:
 
     total = conn.execute(
-        text("SELECT COUNT(*) FROM sector3_articles")
+        text("SELECT COUNT(*) FROM atha_sector3_articles")
     ).scalar()
 
     bisnis = conn.execute(
         text("""
             SELECT COUNT(*)
-            FROM sector3_articles
+            FROM atha_sector3_articles
             WHERE source = 'Bisnis.com'
         """)
     ).scalar()
@@ -232,7 +232,7 @@ with engine.connect() as conn:
     cyber = conn.execute(
         text("""
             SELECT COUNT(*)
-            FROM sector3_articles
+            FROM atha_sector3_articles
             WHERE topic = 'Cyber Security'
         """)
     ).scalar()
@@ -241,6 +241,6 @@ with engine.connect() as conn:
     print("DATABASE LOAD SELESAI")
     print("=" * 70)
 
-    print(f"Total sector3_articles : {total}")
+    print(f"Total atha_sector3_articles : {total}")
     print(f"Total Bisnis.com       : {bisnis}")
     print(f"Total Cyber Security   : {cyber}")

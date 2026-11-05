@@ -27,7 +27,7 @@ if not all([DB_HOST, DB_NAME, DB_USER, DB_PASSWORD]):
         "Konfigurasi Neon belum lengkap. Periksa environment variable POSTGRES_*."
     )
 
-TABLE_NAME = "sector3_articles" 
+TABLE_NAME = "atha_sector3_articles"
 
 
 # ============================================================
@@ -117,7 +117,7 @@ CREATE TABLE IF NOT EXISTS {TABLE_NAME} (
     content_status TEXT,
     scraped_at TIMESTAMP NULL,
     event_type TEXT
-); 
+);
 """
 
 
@@ -126,7 +126,7 @@ CREATE TABLE IF NOT EXISTS {TABLE_NAME} (
 # ============================================================
 
 
-UPSERT_SQL = f""" 
+UPSERT_SQL = f"""
 INSERT INTO {TABLE_NAME} (
     article_id,
     source,
@@ -295,14 +295,14 @@ def main():
         f"{duplicates_removed}"
     )
 
-    
+
     # --------------------------------------------------------
     # MAP CSV COLUMNS TO SECTOR 3 SCHEMA
     # --------------------------------------------------------
 
     df["topic"] = "Cyber Security"
     df["subtopic"] = df["business_topic"]
-    df["event_type"] = df["threat_type"] 
+    df["event_type"] = df["threat_type"]
 
     # --------------------------------------------------------
     # SELECT DATABASE COLUMNS
@@ -328,7 +328,7 @@ def main():
     ]
 
 
-   
+
     missing_database_columns = [
         column
         for column in database_columns
@@ -341,8 +341,8 @@ def main():
             + ", ".join(missing_database_columns)
         )
 
-    df = df[database_columns].copy() 
- 
+    df = df[database_columns].copy()
+
 
     # --------------------------------------------------------
     # CREATE DATABASE ENGINE
