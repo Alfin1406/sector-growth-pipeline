@@ -46,15 +46,14 @@ Salin blok "Hasil uji" untuk setiap sumber dan isi saat pengujian.
 - **Risiko:** data hanya tersedia sebagai PDF/tabel statis
 - **Fallback:** unduh tabel berkala / unggah manual
 - **Hasil uji:**
-  - Tanggal uji:
-  - Metode akses (API / bulk download / scrape / manual):
-  - Format data:
-  - Granularitas sektor (KBLI level berapa) & wilayah:
-  - Data terbaru periode:
-  - Syarat penggunaan / lisensi (link + ringkasan):
-  - Respons server / kendala akses:
-  - Bukti (link skrip/tangkapan layar):
-- **Keputusan:** PENDING — alasan:
+  - Tanggal uji: 6 November 2026 (https://www.bps.go.id/id/statistics-table/2/MjI2OCMy/-seri-2010--pdrb-triwulanan-atas-dasar-harga-berlaku-menurut-lapangan-usaha-di-provinsi-seluruh-indonesia--milyar-rupiah-.html)
+  - Metode akses: Penelusuran portal webAPI BPS, pembuatan akun developer, dan pendaftaran aplikasi. Uji coba penarikan data via skrip Python belum dieksekusi.
+  - Format data: JSON/XML (berdasarkan dokumentasi).
+  - Granularitas sektor: KBLI level 1 dan 2.
+  - Syarat penggunaan / lisensi: Membutuhkan registrasi API Key gratis. ToS secara tegas melarang penempatan API Key pada repositori publik (harus diamankan menggunakan file `.env`).
+  - Respons server / kendala akses: Portal API lancar diakses.
+  - Bukti: Tangkapan layar portal webAPI BPS dan dokumen Terms of Use.
+- **Keputusan:** **PENDING** — Alasan: Pengecekan skrip ekstraksi baru akan dilakukan setelah checkpoint, namun kemungkinan besar berstatus GO karena ToS mengizinkan akses selama API Key diamankan menggunakan file `.env`.
 
 ### 2. BKPM / Kementerian Investasi
 - **Target data:** realisasi investasi (domestik & asing) per sektor dan wilayah, jumlah proyek
@@ -62,8 +61,15 @@ Salin blok "Hasil uji" untuk setiap sumber dan isi saat pengujian.
 - **Cek Phase 0:** ada API, bulk download, atau hanya tabel publikasi
 - **Risiko:** data hanya PDF/tabel
 - **Fallback:** unduh tabel berkala / unggah manual
-- **Hasil uji:** (salin kolom dari blok 1)
-- **Keputusan:** PENDING — alasan:
+- **Hasil uji:** 
+  - Tanggal uji: 5 November 2026 (https://bkpm.go.id/id/info/realisasi-investasi)
+  - Metode akses: Mengakses web BKPM dan mengunduh rilis "Capaian Realisasi Investasi" terbaru.
+  - Format data: File unduhan berupa dokumen PDF presentasi bergambar / infografis, bukan tabel mentah.
+  - Granularitas sektor: Sektor prioritas investasi.
+  - Syarat penggunaan / lisensi: Data publik terbuka.
+  - Respons server / kendala akses: Tidak ada API.
+  - Bukti: Tangkapan layar dokumen PDF presentasi BKPM (infografis).
+- **Keputusan:** **GO-MANUAL** — Alasan: Format PDF infografis sangat berisiko tinggi (*high risk*) menyebabkan *error* jika teksnya diekstrak oleh skrip otomatis karena tata letak visualnya tidak beraturan, sehingga angka harus disalin manual ke CSV oleh tim.
 
 ### 3. Regulator umum (DPR / MK / Energi)
 - **Target data:** regulasi bisnis baru, arah kebijakan yang akan diatur
@@ -71,8 +77,15 @@ Salin blok "Hasil uji" untuk setiap sumber dan isi saat pengujian.
 - **Cek Phase 0:** cari regulasi baru yang bisa diunduh atau di-scrape
 - **Risiko:** dokumen berupa PDF
 - **Fallback:** kurasi manual daftar regulasi
-- **Hasil uji:** (salin kolom dari blok 1)
-- **Keputusan:** PENDING — alasan:
+- **Hasil uji:** 
+  - Tanggal uji: 5 November 2026 (https://jdihn.go.id/)
+  - Metode akses: Mengakses portal JDIHN dan mengunduh sampel dokumen regulasi.
+  - Format data: Dokumen hukum berupa teks PDF murni yang tebal.
+  - Granularitas sektor: Bergantung pada penafsiran manual per regulasi.
+  - Syarat penggunaan / lisensi: Dokumen negara, domain publik.
+  - Respons server / kendala akses: -
+  - Bukti: Tangkapan layar dokumen JDIHN.
+- **Keputusan:** **GO-MANUAL** — Alasan: Skrip otomatis (mesin) belum memiliki nalar untuk menyimpulkan sentimen kebijakan (mendukung/menghambat sektor tertentu) secara akurat dari teks hukum tebal, sehingga tetap membutuhkan kurasi dan interpretasi manusia untuk dimasukkan ke CSV.
 
 ### **4. Job portals (JobStreet, Indeed, dll.)**
 - **Target data:** judul posisi, perusahaan, sektor, lokasi, tanggal posting, skills (tanpa data pribadi).
@@ -284,18 +297,18 @@ Tidak ada proses web scraping otomatis maupun pengajuan permohonan informasi res
 - **Keputusan:** PENDING — alasan: (isi setelah persentase relevansi terukur)
 
 ### 8. IDX (Bursa Efek Indonesia)
-- **Target data:** aksi korporasi, judul pengumuman, klasifikasi industri IDX, rasio keuangan
-- **Insight:** pengumuman capex/ekspansi per sektor, distribusi ukuran perusahaan tercatat per sektor
-- **Cek Phase 0:** uji endpoint, akses server, dan terms
-- **Risiko:** pemblokiran akses oleh IDX
-- **Fallback:** unduh manual berkala / unggah manual; atau NO-GO
-- **Catatan:** tugas ini bisa dipindah ke Personel 1 (usulan mentor)
+- **Target data:** Pergerakan harga saham, valuasi, dan kinerja sektor (IDX-IC)
+- **Insight:** Sentimen pasar dan pertumbuhan valuasi bisnis per sektor
+- **Cek Phase 0:** test the endpoints, server access and terms
+- **Risiko:** Pemblokiran IP, pembatasan akses server, dan pelanggaran lisensi komersial
+- **Fallback:** Gunakan API Yahoo Finance (`yfinance`) untuk data pasar saham emiten Indonesia (menggunakan suffix `.JK`).
 - **Hasil uji:**
-  - Endpoint/halaman yang dicek:
-  - Terms & robots.txt (ringkasan):
-  - Respons server:
-  - Bukti:
-- **Keputusan:** PENDING — alasan:
+  - Tanggal uji: 4 November 2026 (https://data.idx.co.id/catalog_product2.php)
+  - Endpoints & Server access: Tidak ada *public REST API* gratis. API internal web IDX memblokir akses dari *automated script* (Airflow/Python) melalui sistem proteksi anti-scraping.
+  - Terms: API resmi (IDX Data Services) berbayar/premium (USD 550 - USD 2,100). Scraping tidak direkomendasikan karena menyalahi *Terms of Service* (ToS).
+  - Pengujian Fallback: Library `yfinance` terbukti dapat menarik data OHLC (Open, High, Low, Close) emiten BEI secara bebas tanpa kendala otentikasi.
+  - Bukti: Tangkapan layar katalog harga API komersial IDX Data Services.
+- **Keputusan:** **NO-GO** (untuk API resmi) / **GO** (menggunakan Fallback) — Alasan: Akses web resmi terkendala sistem anti-scraping dan API resmi IDX merupakan lisensi berbayar/komersial. Sebagai gantinya, berstatus GO menggunakan library Yahoo Finance sebagai fallback utama di Fase 2.
 
 ### 9. Bank Indonesia / OJK
 - **Target data:** kredit per sektor, pertumbuhan pinjaman
@@ -303,17 +316,28 @@ Tidak ada proses web scraping otomatis maupun pengajuan permohonan informasi res
 - **Cek Phase 0:** temukan tabel credit-by-sector dan periksa format
 - **Risiko:** format tabel sulit diolah / PDF
 - **Fallback:** unduh Excel berkala / unggah manual
-- **Catatan:** ingesti BI/OJK di Fase 2 dikerjakan Personel 1
+- **Catatan:** Ingesti BI/OJK di Fase 2 dikerjakan Personel 3 (Alfin).
 - **Hasil uji:**
-  - URL tabel & nama tabel:
-  - Format (Excel/PDF/HTML) & frekuensi update:
-  - Granularitas sektor (selaras KBLI?):
-  - Ada API atau tidak:
-- **Keputusan:** PENDING — alasan:
+  - Tanggal uji: 4 November 2026 (https://www.bi.go.id/id/statistik/ekonomi-keuangan/seki/default.aspx) (https://data.ojk.go.id/SJKPublic/Dataset/Dataset/Dataset/340)
+  - Metode akses: Mengunduh file ZIP SEKI dari web BI secara manual, dan memfilter Sektor Ekonomi di dashboard SJK publik OJK.
+  - Format data: Setelah ZIP diekstrak, format data adalah Excel murni (.xls / .xlsx) yang diperbarui bulanan (Time-Series Cumulative).
+  - Granularitas sektor: KBLI Level 1 (Pertanian, Pertambangan, Industri Pengolahan, dll).
+  - Syarat penggunaan / lisensi: Data publik resmi, bebas digunakan.
+  - Respons server / kendala akses: Tidak ada API publik yang tersedia, sehingga penarikan awal harus diunduh manual.
+  - Bukti: Skrip `spikes/cek_seki_bi.py` yang berhasil mengekstrak data menggunakan Pandas & `docs/images/seki_zip_structure.png`.
+- **Keputusan:** **GO-MANUAL** — Alasan: File Excel lawas dari BI terbukti sangat ramah diproses menggunakan Pandas, namun ketiadaan API mengharuskan file tersebut diunduh manual dari portal setiap bulannya sebelum masuk ke *pipeline* otomatis.
 
 ---
 
 ## 3. Checklist tambahan Phase 0
-- [ ] Everyone: shared repo, struktur folder, source register template
-- [ ] Everyone: common schema disepakati dan didokumentasikan di `docs/schema.md`
-- [ ] Tim: draf 8–10 sektor prioritas
+- [x] Everyone: shared repo, struktur folder, source register template
+- [x] Tim: draf 8–10 sektor prioritas
+  **Daftar Sektor Prioritas (KBLI Level 1):**
+  1. Pertanian, Peternakan, Kehutanan & Perikanan
+  2. Pertambangan dan Penggalian
+  3. Industri Pengolahan / Manufaktur
+  4. Listrik, Gas dan Air Bersih / Energi
+  5. Konstruksi  
+  6. Perdagangan, Hotel dan Restoran
+  7. Pengangkutan dan Komunikasi
+  8. Keuangan, Real Estat dan Jasa Perusahaan
