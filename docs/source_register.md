@@ -175,14 +175,98 @@ Salin blok "Hasil uji" untuk setiap sumber dan isi saat pengujian.
 
 - **Keputusan:** PENDING — pemeriksaan akses informasi publik berhasil dilakukan pada 8 perusahaan. ANTAM, BCA, Bank Mandiri, dan Astra dapat digunakan sebagai referensi lowongan publik, sedangkan PLN, Pertamina, MIND ID, dan Freeport masih memerlukan pemeriksaan lanjutan. Izin automated scraping dan ketentuan legal masing-masing situs belum diverifikasi secara menyeluruh. Pengumpulan data manual dapat digunakan sebagai fallback.
 
-### 6. Bea Cukai (impor per HS code)
-- **Target data:** impor per HS code, nilai, volume
-- **Insight:** tren impor peralatan per sektor (turbin, server, mesin industri)
-- **Cek Phase 0:** cara memperoleh data (portal, unduhan, API) dan granularitas HS code
-- **Risiko:** akses & syarat legal
-- **Fallback:** (isi rencana cadangan, mis. data agregat BPS)
-- **Hasil uji:** (salin kolom dari blok 1)
-- **Keputusan:** PENDING — alasan:
+## 3. Bea Cukai & INSW — Penilaian Akses Data Impor
+
+### Tujuan
+Menyelidiki apakah data impor Indonesia dapat diakses melalui platform resmi Bea Cukai atau INSW, termasuk akses portal, ketersediaan dataset yang dapat diunduh, ketersediaan API, serta tingkat kedalaman klasifikasi HS Code.
+
+### 3.1 Hasil Pengujian Akses
+
+| No. | Sumber / Platform | Hasil Pengujian Akses | Data yang Tersedia | Status |
+|---|---|---|---|---|
+| 1 | Bea Cukai — Portal Pengguna Jasa (CEISA) | Portal memerlukan registrasi dan autentikasi pengguna. Fitur Browse Data PIB ditujukan bagi pengguna untuk memantau dokumen kepabeanan milik mereka sendiri. | Informasi PIB milik pengguna dan status layanan kepabeanan. | PENDING |
+| 2 | Bea Cukai — CEISA Open API | Dokumentasi API resmi tersedia. Akses memerlukan pengguna jasa CEISA yang telah terdaftar serta kredensial yang sesuai. | Dokumen kepabeanan, status dokumen, larangan dan pembatasan, nilai tukar, manifes, serta layanan tarif. | PENDING |
+| 3 | Bea Cukai — Statistik Resmi | Halaman statistik publik dapat diakses. Halaman yang diuji terutama menyediakan statistik penerimaan dan penerimaan pajak impor. | Statistik penerimaan dan pajak impor, bukan rincian nilai serta kuantitas transaksi impor berdasarkan HS Code. | NO-GO |
+| 4 | INSW — INTR (Indonesia National Trade Repository) | Pencarian HS Code dan halaman detail komoditas dapat diakses secara publik tanpa login. | Klasifikasi HS, informasi tarif, regulasi impor, larangan dan pembatasan, serta referensi komoditas. | GO — Hanya untuk Data Referensi |
+| 5 | INSW — Informasi Publik | Halaman informasi publik dan pencarian dokumen dapat diakses. Pencarian menggunakan kata kunci "impor" dan "statistik" tidak menemukan dataset transaksi impor secara terperinci. | Dokumen informasi publik, regulasi, dan informasi kelembagaan. | NO-GO — Berdasarkan Pengujian Saat Ini |
+| 6 | Bea Cukai — PPID | Prosedur resmi permohonan informasi publik tersedia melalui e-PPID Kemenkeu, email, atau pengajuan langsung. Belum ada permohonan yang diajukan. | Potensi memperoleh informasi kepabeanan yang diminta, bergantung pada ketersediaan data dan persetujuan. | PENDING |
+
+### 3.2 Pengujian Tingkat Kedalaman HS Code
+
+Pengujian pencarian HS Code publik dilakukan melalui INSW INTR dengan menggunakan kode HS `8471`.
+
+Hasil pencarian menunjukkan tingkatan klasifikasi sebagai berikut:
+
+| Tingkat HS | HS Code | Deskripsi |
+|---|---|---|
+| 4 digit | 8471 | Mesin pengolah data otomatis dan unitnya |
+| 6 digit | 847130 | Mesin pengolah data otomatis portabel dengan berat tidak lebih dari 10 kg |
+| 8 digit | 84713020 | Laptop, termasuk notebook dan subnotebook |
+
+Halaman detail HS Code juga menampilkan:
+- Deskripsi komoditas dalam Bahasa Indonesia dan Bahasa Inggris.
+- Informasi bea masuk dan pajak.
+- Regulasi impor dan larangan serta pembatasan.
+- Dokumen yang dipersyaratkan dan regulasi yang berlaku.
+- Satuan barang atau satuan pengukuran komoditas.
+
+**Temuan:** Informasi klasifikasi HS Code publik berhasil dikonfirmasi hingga 8 digit untuk komoditas yang diuji. Hal ini membuktikan tingkat kedalaman klasifikasi data referensi, bukan ketersediaan statistik transaksi impor pada tingkat yang sama.
+
+### 3.3 Penilaian Permohonan Informasi melalui PPID
+
+Situs resmi Bea Cukai menyediakan prosedur permohonan informasi publik melalui PPID Pelaksana DJBC.
+
+Saluran pengajuan permohonan yang tersedia:
+1. Pengajuan digital melalui e-PPID Kemenkeu.
+2. Mengunduh formulir permohonan dan mengirimkannya melalui email ke `ppid.beacukai@kemenkeu.go.id`.
+3. Pengajuan secara langsung ke Kantor Pusat DJBC melalui loket Pelayanan Terpadu Satu Pintu (PTSP).
+
+Prosedur yang dipublikasikan menyebutkan bahwa:
+- Identitas pemohon harus diverifikasi.
+- Persyaratan yang belum lengkap dapat dilengkapi dalam waktu 3 hari kerja.
+- Pemberitahuan tertulis awal diberikan paling lambat 10 hari kerja.
+- Jangka waktu tersebut dapat diperpanjang selama 7 hari kerja berikutnya.
+
+Belum ada permohonan informasi resmi yang diajukan selama pengujian ini.
+
+### 3.4 Klarifikasi Data yang Dibutuhkan
+
+Informasi berikut masih perlu dikonfirmasi kepada PPID DJBC:
+
+- Apakah data agregat impor Indonesia tersedia berdasarkan HS Code 8 digit.
+- Apakah data mencakup periode bulanan atau tahunan.
+- Apakah tersedia informasi nilai dan kuantitas/volume impor.
+- Apakah data historis dapat diberikan.
+- Apakah data dapat disediakan dalam format CSV atau Excel.
+- Apakah data dapat digunakan untuk keperluan penelitian dan analisis.
+
+### 3.5 Bukti Pengujian
+
+Bukti screenshot disimpan di dalam folder:
+
+`docs/images/person-2/bea-cukai/`
+
+Bukti yang didokumentasikan meliputi:
+- Akses Portal Pengguna Jasa CEISA dan persyaratan registrasi.
+- Dokumentasi CEISA Open API.
+- Statistik resmi Bea Cukai.
+- Hasil pencarian HS Code melalui INSW INTR.
+- Detail komoditas HS Code 8 digit.
+- Informasi tarif dan regulasi impor.
+- Hasil pencarian informasi publik INSW.
+- Prosedur permohonan informasi publik PPID Bea Cukai.
+
+### 3.6 Penilaian dan Alternatif Sumber Data
+
+**Penilaian saat ini: PENDING untuk data transaksi impor.**
+
+Informasi referensi HS Code publik dapat diakses melalui INSW INTR. Namun, akses publik terhadap statistik transaksi impor secara terperinci berdasarkan HS Code 8 digit belum berhasil dikonfirmasi.
+
+Langkah selanjutnya:
+- Meminta klarifikasi kepada PPID DJBC mengenai ketersediaan data agregat impor.
+- Jika data yang dibutuhkan tidak tersedia atau akses tidak diberikan, mencari sumber statistik impor alternatif lainnya yang resmi dan memiliki izin penggunaan.
+
+Tidak ada proses web scraping otomatis maupun pengajuan permohonan informasi resmi yang dilakukan selama pengujian ini.
 
 ### 7. Existing news pipeline
 - **Target data:** artikel tema Data Center/Cloud, AI/Data, Digital Transformation
