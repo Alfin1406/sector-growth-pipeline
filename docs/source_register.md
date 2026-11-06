@@ -87,12 +87,14 @@ Salin blok "Hasil uji" untuk setiap sumber dan isi saat pengujian.
   - Bukti: Tangkapan layar dokumen JDIHN.
 - **Keputusan:** **GO-MANUAL** — Alasan: Skrip otomatis (mesin) belum memiliki nalar untuk menyimpulkan sentimen kebijakan (mendukung/menghambat sektor tertentu) secara akurat dari teks hukum tebal, sehingga tetap membutuhkan kurasi dan interpretasi manusia untuk dimasukkan ke CSV.
 
-### **4. Job portals (JobStreet, Indeed, dll.)**
-- **Target data:** judul posisi, perusahaan, sektor, lokasi, tanggal posting, skills (tanpa data pribadi).
-- **Insight:** total lowongan per sektor (ekspansi), porsi posisi IT/digital per sektor.
+### **4. Job Portals (JobStreet, Indeed, dll.)**
+
+- **Target data:** judul posisi, perusahaan, sektor, lokasi, tanggal posting, dan skills (tanpa data pribadi).
+- **Insight:** total lowongan per sektor (ekspansi) dan porsi posisi IT/digital per sektor.
 - **Cek Phase 0:** telah melakukan pengujian akses pada 3 portal lowongan kerja, yaitu JobStreet, Indeed, dan Glints Indonesia.
 
   **Hasil sementara per portal:**
+
   | No. | Portal | Hasil sementara |
   | --- | --- | --- |
   | 1 | JobStreet Indonesia | NO-GO — Terms of Service melarang agregasi, penyalinan konten, data mining, screen scraping, dan pengambilan data otomatis tanpa persetujuan tertulis. |
@@ -113,7 +115,7 @@ Salin blok "Hasil uji" untuk setiap sumber dan isi saat pengujian.
   - **robots.txt & ToS (ringkasan, izin scraping?):**
     - JobStreet: Terms melarang agregasi/penyalinan konten serta data mining, screen scraping, dan pengambilan data otomatis tanpa persetujuan tertulis. robots.txt memiliki aturan Disallow untuk sejumlah pola halaman lowongan, parameter pencarian, dan endpoint tertentu. **Scraping otomatis tanpa izin tidak diperbolehkan.**
     - Indeed: Bagian 21 Terms melarang penggunaan bot, scraper, spider, AI, atau AI Agent untuk mengakses dan mengambil data tanpa izin tertulis. robots.txt memiliki aturan Disallow untuk sejumlah pola halaman lowongan dan endpoint terkait. **Scraping otomatis tanpa izin tidak diperbolehkan.**
-    - Glints: Bagian 2 poin (h) Terms melarang pencurian data, penambangan data, penggunaan robot, serta alat pengumpulan dan ekstraksi data serupa tanpa persetujuan tertulis. robots.txt memiliki aturan Disallow untuk sejumlah halaman rekomendasi, bookmark, halaman eksplorasi dengan parameter tertentu, dan endpoint tertentu. **Pengambilan data otomatis tanpa izin tertulis tidak diperbolehkan.**
+    - Glints: Bagian 2 poin (h) Terms melarang penggunaan screen scraping, data mining, robot, serta alat pengumpulan dan ekstraksi data serupa tanpa persetujuan tertulis. robots.txt memiliki aturan Disallow untuk sejumlah halaman rekomendasi, bookmark, halaman eksplorasi dengan parameter tertentu, dan endpoint tertentu. **Pengambilan data otomatis tanpa izin tertulis tidak diperbolehkan.**
 
   - **Respons server (HTTP code, captcha, rate limit):**
     - JobStreet: HTTP `200 OK` pada request utama halaman lowongan. CAPTCHA dan login tidak ditemukan saat pemeriksaan manual. Rate limit tidak diuji secara aktif.
@@ -138,7 +140,19 @@ Salin blok "Hasil uji" untuk setiap sumber dan isi saat pengujian.
   - Pengujian akses manual berhasil pada ketiga portal dengan HTTP `200 OK`. Field target tersedia pada contoh lowongan yang diperiksa. Namun, keberhasilan akses manual tidak berarti scraping otomatis diperbolehkan.
   - **Fallback:** menggunakan career pages resmi perusahaan atau unggah data secara manual dari sumber yang penggunaannya diizinkan.
 
-### **5. Career pages perusahaan besar**
+### **4.1 Tautan Referensi Resmi Job Portals**
+
+Tautan berikut digunakan sebagai referensi untuk memeriksa halaman lowongan, ketentuan penggunaan (Terms of Service), dan aturan robots.txt masing-masing portal.
+
+| No. | Portal | Halaman Lowongan | Terms of Service | robots.txt |
+| --- | --- | --- | --- | --- |
+| 1 | JobStreet Indonesia | [Halaman Lowongan](https://id.jobstreet.com/id/id-jobs) | [Terms of Service](https://id.jobstreet.com/id/terms) | [robots.txt](https://id.jobstreet.com/robots.txt) |
+| 2 | Indeed Indonesia | [Halaman Lowongan](https://id.indeed.com/jobs) | [Ketentuan Layanan](https://id.indeed.com/legal?hl=in) | [robots.txt](https://id.indeed.com/robots.txt) |
+| 3 | Glints Indonesia | [Halaman Lowongan](https://glints.com/id/opportunities/jobs/explore?countries=id) | [Terms of Use](https://glints.com/id/about/terms) | [robots.txt](https://glints.com/robots.txt) |
+
+---
+
+### **5. Career Pages Perusahaan Besar**
 
 - **Target data:** kolom sama dengan job portals, meliputi nama posisi (role title), nama perusahaan (company), sektor (sector), lokasi (location), tanggal publikasi (post date), dan keterampilan yang dibutuhkan (skills).
 
@@ -187,6 +201,27 @@ Salin blok "Hasil uji" untuk setiap sumber dan isi saat pengujian.
   **Catatan:** Hasil pemeriksaan menunjukkan kondisi halaman pada tanggal 5 November 2026. Status PENDING pada PLN, Pertamina, MIND ID, dan Freeport bukan berarti scraping dilarang, tetapi informasi lowongan yang dibutuhkan belum berhasil diverifikasi secara lengkap. Status GO pada ANTAM, BCA, Bank Mandiri, dan Astra hanya menunjukkan keberhasilan akses informasi publik, bukan izin automated scraping.
 
 - **Keputusan:** PENDING — pemeriksaan akses informasi publik berhasil dilakukan pada 8 perusahaan. ANTAM, BCA, Bank Mandiri, dan Astra dapat digunakan sebagai referensi lowongan publik, sedangkan PLN, Pertamina, MIND ID, dan Freeport masih memerlukan pemeriksaan lanjutan. Izin automated scraping dan ketentuan legal masing-masing situs belum diverifikasi secara menyeluruh. Pengumpulan data manual dapat digunakan sebagai fallback.
+
+### **5.1 Tautan Referensi Resmi Career Pages**
+
+Tautan berikut merupakan halaman karier atau portal rekrutmen resmi perusahaan yang diperiksa selama pengujian Phase 0.
+
+| No. | Perusahaan | Sektor | Tautan Career Page |
+| --- | --- | --- | --- |
+| 1 | PLN | Energi | [PLN Recruitment](https://rekrutmen.pln.co.id/) |
+| 2 | Pertamina | Energi | [Pertamina e-Recruitment](https://recruitment.pertamina.com/) |
+| 3 | MIND ID | Pertambangan | [MIND ID Career](https://mind.id/pages/karir) · [Portal Rekrutmen Grup MIND ID](https://career.mind.id/) |
+| 4 | Freeport Indonesia | Pertambangan | [Freeport Indonesia Career](https://ptfi.co.id/index.php/en/career?kat=2) |
+| 5 | ANTAM | Pertambangan | [ANTAM Experience Hire 2026 — Portal KLOB](https://www.klob.id/experiencehireANTAM2026/vacancies) |
+| 6 | BCA | Perbankan | [BCA Karir](https://karir.bca.co.id/) |
+| 7 | Bank Mandiri | Perbankan | [Mandiri Career](https://www.bankmandiri.co.id/mandiri-career) |
+| 8 | Astra | Manufaktur | [Astra Career — Lowongan](https://career.astra.co.id/lowongan) |
+
+**Catatan Referensi:**
+- Tautan di atas merupakan referensi halaman resmi atau portal rekrutmen yang digunakan untuk pemeriksaan.
+- Status GO dan PENDING tetap mengacu pada hasil pengujian tanggal 5 November 2026, bukan kondisi lowongan saat tautan dibuka di kemudian hari.
+- Tautan career page yang dapat diakses publik tidak otomatis memberikan izin untuk melakukan scraping otomatis.
+- Ketentuan penggunaan dan izin pengambilan data otomatis masing-masing perusahaan masih perlu diperiksa secara terpisah.
 
 ## 6. Bea Cukai & INSW — Penilaian Akses Data Impor
 
@@ -268,8 +303,23 @@ Bukti yang didokumentasikan meliputi:
 - Informasi tarif dan regulasi impor.
 - Hasil pencarian informasi publik INSW.
 - Prosedur permohonan informasi publik PPID Bea Cukai.
+- Dokumen Daftar Informasi Publik PPID Kemenkeu, termasuk pemeriksaan informasi INTR dan dwelling time.
 
-### 6.6 Penilaian dan Alternatif Sumber Data
+### 6.6 Tautan Referensi Resmi
+
+| No. | Sumber / Platform | Tautan Referensi |
+|---|---|---|
+| 1 | Bea Cukai — Portal Pengguna Jasa (CEISA) | [Portal Pengguna Jasa](https://customer.beacukai.go.id/index.html?pages=browse-data-pib) · [Persyaratan Pengguna](https://customer.beacukai.go.id/index.html?page=requirement) |
+| 2 | Bea Cukai — CEISA Open API | [Developer Portal CEISA](https://openapi.beacukai.go.id/) |
+| 3 | Bea Cukai — Statistik Resmi | [Statistik Penerimaan Bea Cukai](https://beacukai.go.id/statistik-penerimaan) |
+| 4 | INSW — INTR | [Indonesia National Trade Repository](https://www.insw.go.id/intr) |
+| 5 | INSW — Informasi Publik | [Website INSW](https://www.insw.go.id/) · [Informasi Publik Tersedia Setiap Saat](https://insw.go.id/tersedia-setiap-saat) |
+| 6 | Bea Cukai — PPID | [Permintaan Informasi Publik DJBC](https://www.beacukai.go.id/permintaan-informasi) · [Halaman Utama PPID DJBC](https://beacukai.go.id/halaman-utama-ppid) |
+
+**Dokumen Pendukung:**
+- [Keputusan PPID Kemenkeu Nomor KEP-4/PPID/2026 (PDF)](https://api.insw.go.id/assets/upload/cms/1790321106935_cms.pdf)
+
+### 6.7 Penilaian dan Alternatif Sumber Data
 
 **Penilaian saat ini: PENDING untuk data transaksi impor.**
 
@@ -281,7 +331,7 @@ Langkah selanjutnya:
 
 Tidak ada proses web scraping otomatis maupun pengajuan permohonan informasi resmi yang dilakukan selama pengujian ini.
 
-### 7. Existing news pipeline
+### 7. Existing news pipeline 
 - **Target data:** artikel tema Data Center/Cloud, AI/Data, Digital Transformation
 - **Insight:** sector events (proyek baru, ekspansi, regulasi, investasi: tipe, sektor, nominal, wilayah)
 - **Cek Phase 0:** tinjau output pipeline saat ini dan hitung persentase artikel relevan sector-event
@@ -294,7 +344,7 @@ Tidak ada proses web scraping otomatis maupun pengajuan permohonan informasi res
   - Sebaran per event type (New Project / Expansion / Regulation / Investment):
   - Sebaran per sektor (indikatif):
   - Catatan kualitas (duplikat, sumber dominan):
-- **Keputusan:** PENDING — alasan: (isi setelah persentase relevansi terukur)
+- **Keputusan:** PENDING — alasan: (Untuk bagian Alfin dan Arza udah di uji coba dan relevan dan untuk punya atha masih di uji namun hasilnya masih lebih banyak non relevan)
 
 ### 8. IDX (Bursa Efek Indonesia)
 - **Target data:** Pergerakan harga saham, valuasi, dan kinerja sektor (IDX-IC)
