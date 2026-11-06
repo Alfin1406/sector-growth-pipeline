@@ -175,12 +175,12 @@ Salin blok "Hasil uji" untuk setiap sumber dan isi saat pengujian.
 
 - **Keputusan:** PENDING — pemeriksaan akses informasi publik berhasil dilakukan pada 8 perusahaan. ANTAM, BCA, Bank Mandiri, dan Astra dapat digunakan sebagai referensi lowongan publik, sedangkan PLN, Pertamina, MIND ID, dan Freeport masih memerlukan pemeriksaan lanjutan. Izin automated scraping dan ketentuan legal masing-masing situs belum diverifikasi secara menyeluruh. Pengumpulan data manual dapat digunakan sebagai fallback.
 
-## 3. Bea Cukai & INSW — Penilaian Akses Data Impor
+## 6. Bea Cukai & INSW — Penilaian Akses Data Impor
 
 ### Tujuan
 Menyelidiki apakah data impor Indonesia dapat diakses melalui platform resmi Bea Cukai atau INSW, termasuk akses portal, ketersediaan dataset yang dapat diunduh, ketersediaan API, serta tingkat kedalaman klasifikasi HS Code.
 
-### 3.1 Hasil Pengujian Akses
+### 6.1 Hasil Pengujian Akses
 
 | No. | Sumber / Platform | Hasil Pengujian Akses | Data yang Tersedia | Status |
 |---|---|---|---|---|
@@ -191,7 +191,7 @@ Menyelidiki apakah data impor Indonesia dapat diakses melalui platform resmi Bea
 | 5 | INSW — Informasi Publik | Halaman informasi publik dan pencarian dokumen dapat diakses. Pencarian menggunakan kata kunci "impor" dan "statistik" tidak menemukan dataset transaksi impor secara terperinci. | Dokumen informasi publik, regulasi, dan informasi kelembagaan. | NO-GO — Berdasarkan Pengujian Saat Ini |
 | 6 | Bea Cukai — PPID | Prosedur resmi permohonan informasi publik tersedia melalui e-PPID Kemenkeu, email, atau pengajuan langsung. Belum ada permohonan yang diajukan. | Potensi memperoleh informasi kepabeanan yang diminta, bergantung pada ketersediaan data dan persetujuan. | PENDING |
 
-### 3.2 Pengujian Tingkat Kedalaman HS Code
+### 6.2 Pengujian Tingkat Kedalaman HS Code
 
 Pengujian pencarian HS Code publik dilakukan melalui INSW INTR dengan menggunakan kode HS `8471`.
 
@@ -212,7 +212,7 @@ Halaman detail HS Code juga menampilkan:
 
 **Temuan:** Informasi klasifikasi HS Code publik berhasil dikonfirmasi hingga 8 digit untuk komoditas yang diuji. Hal ini membuktikan tingkat kedalaman klasifikasi data referensi, bukan ketersediaan statistik transaksi impor pada tingkat yang sama.
 
-### 3.3 Penilaian Permohonan Informasi melalui PPID
+### 6.3 Penilaian Permohonan Informasi melalui PPID
 
 Situs resmi Bea Cukai menyediakan prosedur permohonan informasi publik melalui PPID Pelaksana DJBC.
 
@@ -229,7 +229,7 @@ Prosedur yang dipublikasikan menyebutkan bahwa:
 
 Belum ada permohonan informasi resmi yang diajukan selama pengujian ini.
 
-### 3.4 Klarifikasi Data yang Dibutuhkan
+### 6.4 Klarifikasi Data yang Dibutuhkan
 
 Informasi berikut masih perlu dikonfirmasi kepada PPID DJBC:
 
@@ -240,7 +240,7 @@ Informasi berikut masih perlu dikonfirmasi kepada PPID DJBC:
 - Apakah data dapat disediakan dalam format CSV atau Excel.
 - Apakah data dapat digunakan untuk keperluan penelitian dan analisis.
 
-### 3.5 Bukti Pengujian
+### 6.5 Bukti Pengujian
 
 Bukti screenshot disimpan di dalam folder:
 
@@ -256,7 +256,7 @@ Bukti yang didokumentasikan meliputi:
 - Hasil pencarian informasi publik INSW.
 - Prosedur permohonan informasi publik PPID Bea Cukai.
 
-### 3.6 Penilaian dan Alternatif Sumber Data
+### 6.6 Penilaian dan Alternatif Sumber Data
 
 **Penilaian saat ini: PENDING untuk data transaksi impor.**
 
