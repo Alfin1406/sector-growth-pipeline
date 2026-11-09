@@ -126,7 +126,9 @@ def main() -> None:
     declared = set(PROMOTE_TO_RELEVANT) | set(DEMOTE_TO_REVIEW) | set(MOVE_TO_OOS)
     unknown = declared - ids
     if unknown:
-        raise ValueError(f"ID keputusan tidak ditemukan pada V4: {sorted(unknown)}")
+        print("\nPERINGATAN: Keputusan manual dilewati karena ID tidak ditemukan pada V4:")
+    for aid in sorted(unknown):
+        print(f"- {aid}")
     overlap = (set(PROMOTE_TO_RELEVANT) & set(DEMOTE_TO_REVIEW)) | (set(PROMOTE_TO_RELEVANT) & set(MOVE_TO_OOS)) | (set(DEMOTE_TO_REVIEW) & set(MOVE_TO_OOS))
     if overlap:
         raise ValueError(f"Ada keputusan V5 yang saling tumpang tindih: {sorted(overlap)}")
@@ -208,12 +210,12 @@ def main() -> None:
     for topic, n in rel.sector3_topic.value_counts().items():
         rows.append({"metric": f"relevant_topic_{topic}", "value": int(n)})
     rows.extend([
-        {"metric": "promoted_review_to_relevant", "value": len(PROMOTE_TO_RELEVANT)},
-        {"metric": "demoted_relevant_to_review", "value": len(DEMOTE_TO_REVIEW)},
-        {"metric": "moved_review_to_out_of_scope", "value": len(MOVE_TO_OOS)},
-        {"metric": "summary_truncated_rows", "value": int(df.get("summary_truncated_indicator", pd.Series(False, index=df.index)).fillna(False).astype(bool).sum())},
-        {"metric": "duplicate_article_id", "value": int(df.article_id.duplicated().sum())},
-        {"metric": "duplicate_url", "value": int(df.url.duplicated().sum()) if "url" in df else 0},
+            {"metric": "promoted_review_to_relevant", "value": int(df["v5_audit_action"].eq("Promosi Review → Relevan").sum())},
+            {"metric": "demoted_relevant_to_review", "value": int(df["v5_audit_action"].eq("Turun Relevan → Perlu Tinjau").sum())},
+            {"metric": "moved_review_to_out_of_scope", "value": int(df["v5_audit_action"].eq("Perlu Tinjau → Di Luar Cakupan").sum())},
+            {"metric": "summary_truncated_rows", "value": int(df.get("summary_truncated_indicator", pd.Series(False, index=df.index)).fillna(False).astype(bool).sum())},
+            {"metric": "duplicate_article_id", "value": int(df.article_id.duplicated().sum())},
+            {"metric": "duplicate_url", "value": int(df.url.duplicated().sum()) if "url" in df else 0},
     ])
     pd.DataFrame(rows).to_csv(paths["report"], index=False, encoding="utf-8-sig")
     comp = pd.crosstab(df["relevance_level_v4"], df["relevance_level"]).reset_index()

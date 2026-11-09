@@ -121,10 +121,10 @@ def main():
     )
 
     parsed_dates = pd.to_datetime(
-        published_at_values,
-        format="ISO8601",
-        errors="coerce"
-    ) 
+    published_at_values,
+    errors="coerce",
+    utc=True
+    )
 
     # Validasi URL ANTARA
     valid_url = (

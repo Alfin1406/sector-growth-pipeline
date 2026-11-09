@@ -253,10 +253,9 @@ def clean_data(df):
     )
 
     parsed_dates = pd.to_datetime(
-        raw_dates,
-        format="ISO8601",
-        errors="coerce",
-        utc=True,
+    raw_dates,
+    errors="coerce",
+    utc=True,
     )
 
     jakarta_dates = parsed_dates.dt.tz_convert(

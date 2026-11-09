@@ -222,7 +222,7 @@ def main():
             result = connection.execute(
                 text("""
                     SELECT link
-                    FROM public.tabel_berita_ai
+                    FROM public.alfin_berita_ai
                     WHERE sumber = :sumber
                       AND link IS NOT NULL
                 """),

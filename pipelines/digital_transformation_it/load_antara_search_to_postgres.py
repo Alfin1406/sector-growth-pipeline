@@ -186,10 +186,9 @@ def parse_local_timestamp(
     """
 
     parsed = pd.to_datetime(
-        series,
-        format="ISO8601",
-        errors="coerce",
-        utc=True,
+    series,
+    errors="coerce",
+    utc=True,
     )
 
     invalid = parsed.isna()

@@ -859,7 +859,11 @@ def classify_article(row: pd.Series, duplicate_id: bool, duplicate_url: bool) ->
         metadata_errors.append("summary_clean kosong")
     if not normalize_url_key(row.get("url", "")):
         metadata_errors.append("URL ANTARA tidak valid")
-    date_value = pd.to_datetime(row.get("published_at", ""), format="ISO8601", errors="coerce")
+    date_value = pd.to_datetime(
+    row.get("published_at", ""),
+    errors="coerce",
+    utc=True
+    )
     if pd.isna(date_value):
         metadata_errors.append("published_at tidak valid")
     if duplicate_id:
