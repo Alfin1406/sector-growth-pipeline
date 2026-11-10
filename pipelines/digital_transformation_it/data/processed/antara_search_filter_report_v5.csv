@@ -1,0 +1,15 @@
+﻿metric,value
+total_articles,93
+status_Relevan,23
+status_Perlu Tinjau,25
+status_Di Luar Cakupan,45
+relevant_topic_Digital Transformation,7
+relevant_topic_Cyber Security,6
+relevant_topic_Cloud Enterprise,5
+relevant_topic_Enterprise Software,5
+promoted_review_to_relevant,11
+demoted_relevant_to_review,8
+moved_review_to_out_of_scope,29
+summary_truncated_rows,93
+duplicate_article_id,0
+duplicate_url,0

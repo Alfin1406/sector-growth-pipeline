@@ -1,0 +1,19 @@
+### Job portals — policy review
+
+**Tanggal pemeriksaan:** 5 November 2026
+
+#### JobStreet (No - Go)
+
+- **Terms:** https://my.jobstreet.com/terms
+- **Bukti:** Ketentuan menyatakan larangan agregasi/penyalinan konten serta data mining, robots, screen scraping, dan automated extraction tanpa persetujuan tertulis. Automated access hanya dapat dilakukan melalui interface/API khusus jika disediakan dan sesuai Terms.
+- **robots.txt:** https://id.jobstreet.com/robots.txt
+- **Bukti robots.txt:** Terdapat aturan `Disallow` untuk pola halaman lowongan (`*/job/`), parameter pencarian (`*?`), endpoint `/graphql`, dan `/api/jobsearch/` bagi crawler umum, dengan beberapa pengecualian khusus.
+- **API resmi:** Dokumentasi SEEK API ditemukan, tetapi belum ditemukan fitur pencarian lowongan umum yang sesuai untuk kebutuhan agregasi proyek. Tidak dilakukan pengujian endpoint karena belum ada akses dan otorisasi yang sesuai.
+- **Akses website:** Halaman pencarian dan detail lowongan berhasil dibuka melalui browser tanpa login atau CAPTCHA pada saat pemeriksaan.
+- **Field yang tersedia:** Judul posisi, perusahaan, klasifikasi pekerjaan, lokasi, tanggal posting, dan skills/kualifikasi ditemukan pada contoh lowongan yang diperiksa. Informasi tambahan berupa jenis pekerjaan dan kisaran gaji juga tersedia.
+- **Respons server:** HTTP `200 OK` pada request utama halaman lowongan melalui Chrome DevTools Network. Waktu respons request tercatat 1,07 detik dengan ukuran dokumen 82,1 kB.
+- **CAPTCHA/login:** Tidak ditemukan CAPTCHA dan login tidak diwajibkan untuk mengakses contoh halaman yang diperiksa.
+- **Rate limit:** Belum diuji secara aktif. Tidak dilakukan pengiriman request berulang karena adanya pembatasan automated access dalam Terms.
+- **Status:** **NO-GO untuk scraping otomatis tanpa izin.**
+- **Alasan:** Meskipun halaman lowongan dapat diakses melalui browser dan field target tersedia, metode pengumpulan otomatis yang direncanakan termasuk aktivitas yang dibatasi Terms. Keberhasilan akses HTTP 200 tidak berarti scraping diperbolehkan.
+- **Fallback:** Career pages resmi perusahaan atau unggah manual, dengan tetap memperhatikan ketentuan penggunaan dan hak atas data.

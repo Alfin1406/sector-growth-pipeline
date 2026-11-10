@@ -1,13 +1,14 @@
 ﻿relevance_level_v5_original,sector3_topic_v5_original,relevance_level,sector3_topic,sector3_topic_normalization_status,article_count
-Di Luar Cakupan,Di Luar Cakupan,Di Luar Cakupan,Di Luar Cakupan,Out of scope preserved,21
-Perlu Tinjau,Cloud Enterprise,Perlu Tinjau,Cloud Enterprise,Already one of the four topics,5
-Perlu Tinjau,Cyber Security,Perlu Tinjau,Cyber Security,Already one of the four topics,3
+Di Luar Cakupan,Di Luar Cakupan,Di Luar Cakupan,Di Luar Cakupan,Out of scope preserved,38
+Perlu Tinjau,Cloud Enterprise,Perlu Tinjau,Cloud Enterprise,Already one of the four topics,13
+Perlu Tinjau,Cyber Security,Perlu Tinjau,Cyber Security,Already one of the four topics,8
 Perlu Tinjau,Digital Transformation,Perlu Tinjau,Digital Transformation,Already one of the four topics,1
 Perlu Tinjau,Enterprise Data & AI,Perlu Tinjau,Cloud Enterprise,Mapped,2
 Perlu Tinjau,Enterprise Data & AI,Perlu Tinjau,Digital Transformation,Mapped,1
-Perlu Tinjau,Enterprise Data & AI,Perlu Tinjau,Perlu Tinjau,Needs review,9
-Relevan,Cloud Enterprise,Relevan,Cloud Enterprise,Already one of the four topics,2
-Relevan,Cyber Security,Relevan,Cyber Security,Already one of the four topics,10
+Perlu Tinjau,Enterprise Data & AI,Perlu Tinjau,Perlu Tinjau,Needs review,12
+Perlu Tinjau,Perlu Tinjau,Perlu Tinjau,Perlu Tinjau,Needs review,1
+Relevan,Cloud Enterprise,Relevan,Cloud Enterprise,Already one of the four topics,5
+Relevan,Cyber Security,Relevan,Cyber Security,Already one of the four topics,17
 Relevan,Digital Transformation,Relevan,Digital Transformation,Already one of the four topics,1
-Relevan,Enterprise Data & AI,Perlu Tinjau,Perlu Tinjau,Needs review,3
+Relevan,Enterprise Data & AI,Perlu Tinjau,Perlu Tinjau,Needs review,5
 Relevan,Enterprise Data & AI,Relevan,Cloud Enterprise,Mapped,2

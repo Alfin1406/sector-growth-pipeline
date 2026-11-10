@@ -1,0 +1,68 @@
+﻿report_type,topic,metric,count,notes
+relevance_distribution,ALL,Relevan,20,Jumlah artikel berdasarkan keputusan klasifikasi V4.
+relevance_distribution,ALL,Perlu Tinjau,57,Jumlah artikel berdasarkan keputusan klasifikasi V4.
+relevance_distribution,ALL,Di Luar Cakupan,16,Jumlah artikel berdasarkan keputusan klasifikasi V4.
+dataset_integrity,ALL,total_input,93,Jumlah baris yang dibaca dari input.
+dataset_integrity,ALL,unique_article_id,93,Jumlah article_id unik.
+dataset_integrity,ALL,duplicate_article_id_rows,0,"Baris ID duplikat; tidak dihapus, diarahkan ke Review."
+dataset_integrity,ALL,duplicate_url_rows,0,"Baris URL duplikat; tidak dihapus, diarahkan ke Review."
+source_quality,ALL,truncated_summary_rows,93,Snippet yang secara eksplisit berakhir dengan ellipsis.
+primary_topic_distribution,Cloud Enterprise,Relevan,3,Artikel Relevan dengan topik utama tersebut.
+primary_topic_distribution,Cloud Enterprise,Perlu Tinjau,10,Artikel Review dengan topik utama sementara tersebut.
+topic_signal_distribution,Cloud Enterprise,score_nonzero,18,Artikel dengan sinyal untuk topik; distribusi dapat tumpang tindih.
+primary_topic_distribution,Cyber Security,Relevan,11,Artikel Relevan dengan topik utama tersebut.
+primary_topic_distribution,Cyber Security,Perlu Tinjau,9,Artikel Review dengan topik utama sementara tersebut.
+topic_signal_distribution,Cyber Security,score_nonzero,19,Artikel dengan sinyal untuk topik; distribusi dapat tumpang tindih.
+primary_topic_distribution,Digital Transformation,Relevan,3,Artikel Relevan dengan topik utama tersebut.
+primary_topic_distribution,Digital Transformation,Perlu Tinjau,13,Artikel Review dengan topik utama sementara tersebut.
+topic_signal_distribution,Digital Transformation,score_nonzero,29,Artikel dengan sinyal untuk topik; distribusi dapat tumpang tindih.
+primary_topic_distribution,Enterprise Software,Relevan,3,Artikel Relevan dengan topik utama tersebut.
+primary_topic_distribution,Enterprise Software,Perlu Tinjau,3,Artikel Review dengan topik utama sementara tersebut.
+topic_signal_distribution,Enterprise Software,score_nonzero,3,Artikel dengan sinyal untuk topik; distribusi dapat tumpang tindih.
+review_priority_distribution,ALL,High,13,Jumlah artikel Review menurut prioritas audit manual.
+review_priority_distribution,ALL,Medium,19,Jumlah artikel Review menurut prioritas audit manual.
+review_priority_distribution,ALL,Low,25,Jumlah artikel Review menurut prioritas audit manual.
+rule_usage,ALL,insufficient_truncated_source_text,21,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,digital_signal_needs_concrete_use_case,11,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,nontech_general_award,3,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,weak_cyber_signal,3,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,cloud_signal_with_enterprise_context,3,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,cloud_signal_needs_infrastructure_context,3,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,cyber_summary_signal_needs_title,3,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,direct_cloud_infrastructure_title,3,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,nontech_education_talent,2,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,close_topic_competition,2,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,nontech_engineering_event,2,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,direct_cyber_title_and_support,2,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,nontech_financial_results,2,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,quantum_computing_cyber_threat,2,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,nontech_health_story,2,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,enterprise_storage_solution_review,1,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,eucc_network_camera_certification,1,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,nontech_corporate_governance_award,1,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,enterprise_content_agentic_platform_review,1,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,public_digital_border_system_review,1,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,ai_commerce_platform_review,1,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,government_data_security_context,1,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,nontech_sustainability_profile,1,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,enterprise_ai_infrastructure_vendor_review,1,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,nontech_executive_appointment,1,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,scaleocean_erp_business_software,1,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,domain_abuse_data_exchange,1,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,industrial_cyber_resilience_center,1,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,bssn_ai_cyber_threat,1,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,b2b_ict_service_expansion_review,1,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,enterprise_hr_data_workflow_review,1,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,firewall_security_technical_publication,1,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,ai_agent_government_system_breach,1,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,cyber_conference_event_review,1,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,integrated_enterprise_software,1,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,iif_digital_financing_platform_process_improvement,1,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,nontech_hajj_finance_forum,1,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,smart_manufacturing_industry_40,1,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,agentic_ai_manufacturing_operations,1,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,proactive_cybersecurity_service,1,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,nontech_gaming_safety_feature,1,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,health_tech_screening_use_case_review,1,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,spionage_digital_threat_intelligence,1,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.
+rule_usage,ALL,mekari_tax_business_software,1,Jumlah artikel yang diputuskan/diprioritaskan oleh rule ID tersebut.

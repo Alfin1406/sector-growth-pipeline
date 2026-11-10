@@ -11,7 +11,6 @@ PROJECT_DIR = "/opt/airflow/sector-growth-pipeline/pipelines/digital_transformat
 
 
 def project_command(script: str, *args: str) -> str:
-    """Build a fail-fast Bash command executed from the project root."""
     command = " ".join([f"python {script}", *args])
     return f"set -euo pipefail\ncd {PROJECT_DIR}\n{command}\n"
 
@@ -39,45 +38,49 @@ with DAG(
     schedule_interval="@weekly",
     catchup=False,
     default_args=default_args,
-    tags=["sector3", "digital-transformation", "detik", "katadata", "bisnis-cyber"],
+    tags=["sector3", "digital-transformation", "antara", "detik", "katadata"],
 ) as dag:
 
-    # ========================================================
     # START
-    # ========================================================
     start = EmptyOperator(task_id="start_pipeline")
 
     # ========================================================
-    # BISNIS.COM CYBER SECURITY
+    # ANTARA SEARCH
     # ========================================================
-    bisnis_scrape = dag_bash(
-        "bisnis_scrape",
-        "scrape_bisnis_cyber.py",
+    antara_scrape = dag_bash(
+        "antara_scrape",
+        "scrape_antara_search.py",
     )
 
-    bisnis_content = dag_bash(
-        "bisnis_content",
-        "scrape_bisnis_cyber_content.py",
+    antara_prepare = dag_bash(
+        "antara_prepare_summary",
+        "prepare_antara_search_summary.py",
     )
 
-    bisnis_clean = dag_bash(
-        "bisnis_clean",
-        "clean_bisnis_cyber.py",
+    antara_clean = dag_bash(
+        "antara_clean",
+        "clean_antara_search.py",
     )
 
-    bisnis_filter = dag_bash(
-        "bisnis_filter",
-        "filter_bisnis_cyber.py",
+    antara_filter_v4 = dag_bash(
+        "antara_filter_v4",
+        "filter_antara_search_v4.py",
     )
 
-    bisnis_insight = dag_bash(
-        "bisnis_insight",
-        "extract_cyber_insight.py",
+    antara_filter_v5 = dag_bash(
+        "antara_filter_v5",
+        "filter_antara_search_v5.py",
     )
 
-    bisnis_load = dag_bash(
-        "bisnis_load_postgres",
-        "load_cyber_to_postgres.py",
+    antara_validate = dag_bash(
+        "antara_validate_postgres_input",
+        "load_antara_search_to_postgres.py",
+        "--dry-run",
+    )
+
+    antara_load = dag_bash(
+        "antara_load_postgres",
+        "load_antara_search_to_postgres.py",
     )
 
     # ========================================================
@@ -147,23 +150,22 @@ with DAG(
         "load_detik_to_postgres.py",
     )
 
-    # ========================================================
     # END
-    # ========================================================
     pipeline_done = EmptyOperator(task_id="pipeline_done")
 
-    # Bisnis.com Cyber Security
+    # ANTARA dependency
     (
         start
-        >> bisnis_scrape
-        >> bisnis_content
-        >> bisnis_clean
-        >> bisnis_filter
-        >> bisnis_insight
-        >> bisnis_load
+        >> antara_scrape
+        >> antara_prepare
+        >> antara_clean
+        >> antara_filter_v4
+        >> antara_filter_v5
+        >> antara_validate
+        >> antara_load
     )
 
-    # Katadata
+    # KATADATA dependency
     (
         start
         >> katadata_scrape
@@ -173,7 +175,7 @@ with DAG(
         >> katadata_load
     )
 
-    # Detik.com
+    # DETIK dependency
     (
         start
         >> detik_scrape
@@ -186,4 +188,4 @@ with DAG(
     )
 
     # Finish after all branches succeed
-    [bisnis_load, katadata_load, detik_load] >> pipeline_done
+    [antara_load, katadata_load, detik_load] >> pipeline_done
