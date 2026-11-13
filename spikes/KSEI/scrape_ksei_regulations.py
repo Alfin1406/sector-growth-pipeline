@@ -3,7 +3,7 @@ import pdfplumber
 
 def analyze_ksei_local_pdfs():
     # Folder tempat kamu menyimpan PDF KSEI yang didownload manual
-    folder_path = 'raw_data/ksei' 
+    folder_path = 'raw_data/KSEI' 
     
     # Pastikan foldernya ada
     if not os.path.exists(folder_path):
