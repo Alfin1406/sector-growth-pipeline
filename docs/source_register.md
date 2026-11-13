@@ -150,6 +150,125 @@ Tautan berikut digunakan sebagai referensi untuk memeriksa halaman lowongan, ket
 | 2 | Indeed Indonesia | [Halaman Lowongan](https://id.indeed.com/jobs) | [Ketentuan Layanan](https://id.indeed.com/legal?hl=in) | [robots.txt](https://id.indeed.com/robots.txt) |
 | 3 | Glints Indonesia | [Halaman Lowongan](https://glints.com/id/opportunities/jobs/explore?countries=id) | [Terms of Use](https://glints.com/id/about/terms) | [robots.txt](https://glints.com/robots.txt) |
 
+### **4.2 LinkedIn — Hiring & Company Intelligence**
+
+- **Target data:**
+  - **LinkedIn Jobs:** judul posisi, perusahaan, sektor, lokasi, tanggal posting, jenis pekerjaan, sistem kerja (Remote/Hybrid/On-site), deskripsi pekerjaan, kualifikasi, dan skills.
+  - **LinkedIn Company Feeds:** nama perusahaan, tanggal posting, isi posting, topik, URL posting, serta informasi interaksi (jumlah likes, komentar, dan repost jika terlihat).
+  - **LinkedIn Company Profile:** nama perusahaan, industri, lokasi, jumlah pengikut, rentang jumlah karyawan, dan deskripsi perusahaan.
+  - Tidak mengambil data pribadi pengguna LinkedIn.
+
+- **Insight:**
+  - Total lowongan per sektor untuk melihat indikasi ekspansi perusahaan.
+  - Porsi posisi IT/digital pada setiap sektor.
+  - Tren skills yang paling banyak dibutuhkan perusahaan.
+  - Aktivitas dan perkembangan perusahaan berdasarkan postingan.
+  - Identifikasi tren teknologi, ekspansi bisnis, perekrutan, dan investasi perusahaan.
+
+- **Cek Phase 0:** telah melakukan pengujian akses terhadap LinkedIn Jobs, LinkedIn Company Profile, dan LinkedIn Company Feeds menggunakan akun LinkedIn pribadi yang sudah login.
+
+  **Hasil sementara:**
+
+  | No. | Komponen | Hasil sementara |
+  | --- | --- | --- |
+  | 1 | LinkedIn Jobs | GO — halaman pencarian dan detail lowongan berhasil diakses secara manual menggunakan akun yang sudah login. |
+  | 2 | LinkedIn Company Feeds | GO — postingan perusahaan dan informasi interaksi berhasil diamati secara manual. |
+  | 3 | LinkedIn Company Profile | GO — profil perusahaan Shopee berhasil dibuka dan diamati. |
+  | 4 | Scraping otomatis | NO-GO — tanpa izin resmi LinkedIn, pengambilan data otomatis tidak diperbolehkan. |
+  | 5 | API resmi | PENDING — pemeriksaan awal telah dilakukan, tetapi akses API untuk kebutuhan proyek belum berhasil diperoleh. |
+  | 6 | robots.txt | NO-GO — LinkedIn menyatakan penggunaan robot atau metode otomatis untuk mengakses layanan tanpa izin resmi dilarang. |
+
+- **Risiko:** nilai potensi data tinggi karena LinkedIn menyediakan informasi lowongan pekerjaan, profil perusahaan, dan aktivitas bisnis. Namun, risiko penggunaan otomatis tinggi karena pembatasan Terms of Service, aturan robots.txt, serta persyaratan akses API LinkedIn.
+
+- **Fallback:** menggunakan career pages resmi perusahaan, sumber berita perusahaan yang mengizinkan pengambilan data otomatis, atau data yang diperoleh melalui API maupun izin resmi.
+
+- **Hasil uji:**
+
+  - **Portal / tanggal uji:**
+    - LinkedIn Jobs — 10 November 2026.
+    - LinkedIn Company Profile (Shopee) — 10 November 2026.
+    - LinkedIn Company Feeds (Shopee) — 10 November 2026.
+    - LinkedIn Developer Portal — 10 November 2026.
+    - Chrome DevTools Network — 10 November 2026.
+    - LinkedIn robots.txt — 10 November 2026.
+
+  - **Terms of Service (ringkasan, izin scraping?):**
+    - LinkedIn: User Agreement Bagian 8.2 membatasi penggunaan software, script, robot, crawler, browser plugin, dan teknologi otomatis lainnya untuk melakukan scraping atau menyalin data dari layanan LinkedIn tanpa izin.
+    - LinkedIn juga membatasi penggunaan bot atau metode otomatis tanpa persetujuan.
+    - **Scraping otomatis tanpa izin resmi LinkedIn tidak diperbolehkan.**
+
+  - **robots.txt (aturan crawling):**
+    - LinkedIn: file `https://www.linkedin.com/robots.txt` berhasil dibuka dan diperiksa.
+    - Pada bagian awal file terdapat pemberitahuan bahwa penggunaan robot atau metode otomatis untuk mengakses LinkedIn tanpa izin resmi dilarang.
+    - LinkedIn menyediakan mekanisme pengajuan izin crawling melalui email `whitelist-crawl@linkedin.com`.
+    - File robots.txt memiliki aturan berbeda untuk sejumlah User-agent crawler. Aturan perlu dibaca sesuai User-agent yang digunakan.
+    - **Pengambilan data otomatis tanpa izin resmi LinkedIn tidak diperbolehkan.**
+    - Pemeriksaan dilakukan terhadap file robots.txt, bukan pengujian crawling langsung ke halaman Jobs atau Company Feeds.
+
+  - **Respons server (HTTP code, CAPTCHA, rate limit):**
+    - LinkedIn Jobs: halaman pencarian lowongan berhasil dibuka menggunakan akun LinkedIn pribadi yang sudah login.
+    - LinkedIn Company Profile: halaman profil perusahaan Shopee berhasil dibuka menggunakan akun yang sama.
+    - LinkedIn Company Feeds: postingan perusahaan dan informasi interaksi dapat diamati.
+    - Selama pengujian manual tidak ditemukan CAPTCHA yang menghalangi akses halaman.
+    - HTTP status code halaman dan rate limit belum diuji secara khusus.
+    - Pemeriksaan Network menemukan dua request dengan status `200 OK (from disk cache)`. Status tersebut merupakan respons dari cache browser, bukan bukti keberhasilan pengambilan data lowongan.
+    - Tidak dilakukan percobaan bypass login, CAPTCHA, pembatasan akses, maupun rate limit.
+
+  - **Pemeriksaan API melalui Chrome DevTools:**
+    - Pemeriksaan dilakukan melalui tab Network dengan filter Fetch/XHR pada browser Google Chrome.
+    - Ditemukan request `voyager-web-jobs` dengan URL `https://platform.linkedin.com/litms/allowlist/voyager-web-jobs`. Request menggunakan metode GET, memiliki status `200 OK (from disk cache)`, dan Content-Type `application/json`. Request ini merupakan konfigurasi allowlist, bukan endpoint yang terbukti mengembalikan data lowongan.
+    - Ditemukan request `voyager-web-global` dengan URL `https://platform.linkedin.com/litms/allowlist/voyager-web-global`. Request menggunakan metode GET, memiliki status `200 OK (from disk cache)`, dan Content-Type `application/json`. Request ini merupakan konfigurasi allowlist global.
+    - Kedua request berhasil ditemukan, tetapi tidak memberikan bukti bahwa data Jobs atau Company Feeds berhasil diperoleh melalui API.
+    - **Hasil: belum ditemukan endpoint API yang terbukti dapat digunakan untuk mengambil data lowongan atau postingan perusahaan.**
+
+  - **Pemeriksaan LinkedIn Developer Portal:**
+    - Halaman LinkedIn Developer Portal berhasil dibuka.
+    - Halaman API Products berhasil diakses.
+    - Halaman My Apps dan formulir Create an App berhasil dibuka.
+    - Formulir pembuatan aplikasi belum diisi dan aplikasi belum dibuat.
+    - Belum dilakukan autentikasi OAuth maupun pengujian pemanggilan API resmi.
+    - **Hasil: pemeriksaan portal berhasil, tetapi akses API belum diperoleh dan belum diuji secara langsung.**
+
+  - **Field yang tersedia:**
+    - LinkedIn Jobs: judul posisi, perusahaan, lokasi, tanggal atau waktu relatif posting, jenis pekerjaan, sistem kerja, deskripsi pekerjaan, kualifikasi, dan skills pada contoh lowongan yang diperiksa.
+    - LinkedIn Company Profile: nama perusahaan, industri, lokasi, jumlah pengikut, rentang jumlah karyawan, deskripsi perusahaan, dan website pada profil yang diperiksa.
+    - LinkedIn Company Feeds: nama perusahaan, tanggal relatif posting, isi postingan, topik, URL postingan, serta jumlah likes, komentar, dan repost jika terlihat.
+    - Field tersebut merupakan hasil pengamatan manual dan belum diperoleh melalui API.
+
+  - **Bukti:**
+    - LinkedIn Jobs: `docs/images/person-2/test-hiring-access/linkedin/`
+    - LinkedIn Company Profile: `docs/images/person-2/test-hiring-access/linkedin/`
+    - LinkedIn Company Feeds: `docs/images/person-2/test-hiring-access/linkedin/`
+    - Pemeriksaan Network: `docs/images/person-2/test-hiring-access/linkedin/`
+    - Pemeriksaan robots.txt: `docs/images/person-2/test-hiring-access/linkedin/`
+
+- **Keputusan:**
+  - LinkedIn Jobs: **GO** untuk akses dan observasi manual, tetapi belum berhasil memperoleh akses API untuk mengambil data lowongan.
+  - LinkedIn Company Feeds: **GO** untuk akses dan observasi manual, tetapi API resmi belum diuji secara langsung.
+  - LinkedIn Company Profile: **GO** untuk akses dan observasi manual, tetapi API resmi belum diuji secara langsung.
+  - Scraping otomatis: **NO-GO** tanpa izin resmi LinkedIn karena pembatasan dalam Terms of Service.
+  - robots.txt: **NO-GO** untuk crawling otomatis tanpa izin resmi LinkedIn.
+  - API resmi: **PENDING** karena pemeriksaan Developer Portal telah dilakukan, tetapi aplikasi belum dibuat dan akses API belum diperoleh.
+  - Pemeriksaan Network berhasil menemukan dua request konfigurasi allowlist, tetapi belum menemukan endpoint yang terbukti dapat digunakan untuk mengambil data Jobs maupun Company Feeds.
+  - Pengujian akses manual berhasil menggunakan akun LinkedIn pribadi yang sudah login. Namun, keberhasilan akses manual tidak berarti scraping otomatis diperbolehkan.
+  - **Fallback:** menggunakan career pages resmi perusahaan atau sumber berita dan platform lain yang mengizinkan pengambilan data otomatis.
+
+### **4.2.1 Tautan Referensi Resmi LinkedIn**
+
+Tautan berikut digunakan sebagai referensi untuk memeriksa halaman lowongan, profil perusahaan, postingan perusahaan, ketentuan penggunaan (Terms of Service), aturan robots.txt, dan dokumentasi API LinkedIn.
+
+| No. | Komponen | Tautan |
+| --- | --- | --- |
+| 1 | LinkedIn Jobs | [Halaman Lowongan](https://www.linkedin.com/jobs/) |
+| 2 | LinkedIn Company Page | [Shopee Company Page](https://www.linkedin.com/company/shopee/) |
+| 3 | LinkedIn Developer Portal | [Developer Portal](https://www.linkedin.com/developers/) |
+| 4 | LinkedIn API Products | [API Products](https://developer.linkedin.com/product-catalog) |
+| 5 | LinkedIn User Agreement | [Terms of Service](https://www.linkedin.com/legal/user-agreement) |
+| 6 | LinkedIn Automated Activity | [Automated Activity Help Center](https://www.linkedin.com/help/linkedin/answer/a1341543) |
+| 7 | LinkedIn Prohibited Software | [Prohibited Software and Extensions](https://www.linkedin.com/help/linkedin/answer/a1341387) |
+| 8 | LinkedIn API | [API Terms of Use](https://developer.linkedin.com/legal) |
+| 9 | LinkedIn Crawling Terms | [Crawling Terms and Conditions](https://www.linkedin.com/legal/crawling-terms) |
+| 10 | LinkedIn robots.txt | [robots.txt](https://www.linkedin.com/robots.txt) |
 ---
 
 ### **5. Career Pages Perusahaan Besar**
