@@ -175,8 +175,8 @@ Tautan berikut digunakan sebagai referensi untuk memeriksa halaman lowongan, ket
   | 2 | LinkedIn Company Feeds | GO — postingan perusahaan dan informasi interaksi berhasil diamati secara manual. |
   | 3 | LinkedIn Company Profile | GO — profil perusahaan Shopee berhasil dibuka dan diamati. |
   | 4 | Scraping otomatis | NO-GO — tanpa izin resmi LinkedIn, pengambilan data otomatis tidak diperbolehkan. |
-  | 5 | API resmi | PENDING — pemeriksaan awal telah dilakukan, tetapi akses API untuk kebutuhan proyek belum berhasil diperoleh. |
-  | 6 | robots.txt | NO-GO — LinkedIn menyatakan penggunaan robot atau metode otomatis untuk mengakses layanan tanpa izin resmi dilarang. |
+  | 5 | API resmi | NO-GO (sementara) — belum dilakukan pengujian API secara langsung dan akses API untuk kebutuhan proyek belum diperoleh. |
+  | 6 | robots.txt | NO-GO — berdasarkan pemeriksaan robots.txt, penggunaan robot atau metode otomatis tanpa izin resmi dibatasi. |
 
 - **Risiko:** nilai potensi data tinggi karena LinkedIn menyediakan informasi lowongan pekerjaan, profil perusahaan, dan aktivitas bisnis. Namun, risiko penggunaan otomatis tinggi karena pembatasan Terms of Service, aturan robots.txt, serta persyaratan akses API LinkedIn.
 
@@ -189,13 +189,14 @@ Tautan berikut digunakan sebagai referensi untuk memeriksa halaman lowongan, ket
     - LinkedIn Company Profile (Shopee) — 10 November 2026.
     - LinkedIn Company Feeds (Shopee) — 10 November 2026.
     - LinkedIn Developer Portal — 10 November 2026.
+    - LinkedIn API Products — 10 November 2026.
     - Chrome DevTools Network — 10 November 2026.
     - LinkedIn robots.txt — 10 November 2026.
 
   - **Terms of Service (ringkasan, izin scraping?):**
-    - LinkedIn: User Agreement Bagian 8.2 membatasi penggunaan software, script, robot, crawler, browser plugin, dan teknologi otomatis lainnya untuk melakukan scraping atau menyalin data dari layanan LinkedIn tanpa izin.
-    - LinkedIn juga membatasi penggunaan bot atau metode otomatis tanpa persetujuan.
-    - **Scraping otomatis tanpa izin resmi LinkedIn tidak diperbolehkan.**
+    - LinkedIn User Agreement Bagian 8.2 membatasi penggunaan software, script, robot, crawler, browser plugin, dan teknologi otomatis lainnya untuk melakukan scraping atau menyalin data dari layanan LinkedIn tanpa izin.
+    - Ketentuan tersebut menjadi dasar bahwa scraping otomatis tanpa izin resmi LinkedIn tidak diperbolehkan.
+    - **Kesimpulan: scraping otomatis tanpa izin resmi LinkedIn tidak diperbolehkan.**
 
   - **robots.txt (aturan crawling):**
     - LinkedIn: file `https://www.linkedin.com/robots.txt` berhasil dibuka dan diperiksa.
@@ -248,14 +249,14 @@ Tautan berikut digunakan sebagai referensi untuk memeriksa halaman lowongan, ket
   - LinkedIn Company Profile: **GO** untuk akses dan observasi manual, tetapi API resmi belum diuji secara langsung.
   - Scraping otomatis: **NO-GO** tanpa izin resmi LinkedIn karena pembatasan dalam Terms of Service.
   - robots.txt: **NO-GO** untuk crawling otomatis tanpa izin resmi LinkedIn.
-  - API resmi: **PENDING** karena pemeriksaan Developer Portal telah dilakukan, tetapi aplikasi belum dibuat dan akses API belum diperoleh.
+  - API resmi: **NO-GO (sementara)** karena belum dilakukan pengujian autentikasi OAuth maupun pemanggilan API resmi, dan akses API untuk kebutuhan proyek belum diperoleh.
   - Pemeriksaan Network berhasil menemukan dua request konfigurasi allowlist, tetapi belum menemukan endpoint yang terbukti dapat digunakan untuk mengambil data Jobs maupun Company Feeds.
   - Pengujian akses manual berhasil menggunakan akun LinkedIn pribadi yang sudah login. Namun, keberhasilan akses manual tidak berarti scraping otomatis diperbolehkan.
   - **Fallback:** menggunakan career pages resmi perusahaan atau sumber berita dan platform lain yang mengizinkan pengambilan data otomatis.
 
-### **4.2.1 Tautan Referensi Resmi LinkedIn**
+### **4.2.1 Tautan Referensi LinkedIn**
 
-Tautan berikut digunakan sebagai referensi untuk memeriksa halaman lowongan, profil perusahaan, postingan perusahaan, ketentuan penggunaan (Terms of Service), aturan robots.txt, dan dokumentasi API LinkedIn.
+Tautan berikut merupakan halaman yang telah digunakan dalam pemeriksaan LinkedIn pada Phase 0.
 
 | No. | Komponen | Tautan |
 | --- | --- | --- |
@@ -264,11 +265,7 @@ Tautan berikut digunakan sebagai referensi untuk memeriksa halaman lowongan, pro
 | 3 | LinkedIn Developer Portal | [Developer Portal](https://www.linkedin.com/developers/) |
 | 4 | LinkedIn API Products | [API Products](https://developer.linkedin.com/product-catalog) |
 | 5 | LinkedIn User Agreement | [Terms of Service](https://www.linkedin.com/legal/user-agreement) |
-| 6 | LinkedIn Automated Activity | [Automated Activity Help Center](https://www.linkedin.com/help/linkedin/answer/a1341543) |
-| 7 | LinkedIn Prohibited Software | [Prohibited Software and Extensions](https://www.linkedin.com/help/linkedin/answer/a1341387) |
-| 8 | LinkedIn API | [API Terms of Use](https://developer.linkedin.com/legal) |
-| 9 | LinkedIn Crawling Terms | [Crawling Terms and Conditions](https://www.linkedin.com/legal/crawling-terms) |
-| 10 | LinkedIn robots.txt | [robots.txt](https://www.linkedin.com/robots.txt) |
+| 6 | LinkedIn robots.txt | [robots.txt](https://www.linkedin.com/robots.txt) |
 ---
 
 ### **5. Career Pages Perusahaan Besar**
