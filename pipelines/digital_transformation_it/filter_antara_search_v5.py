@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 """ANTARA Search V5: policy-aligned, title/snippet-only audit.
 
@@ -18,18 +19,19 @@ from pathlib import Path
 import pandas as pd
 
 TOPIC = {
-    "antara_5721756": "Enterprise Software",  # Boomi data/workflow use at HEB Construction
-    "antara_5615964": "Cloud Enterprise",     # IONext.ai enterprise AI cloud platform
-    "antara_5590344": "Enterprise Software",  # Hyland content/agentic enterprise solution
-    "antara_5547475": "Cloud Enterprise",     # enterprise infrastructure for AI workloads
-    "antara_5662008": "Enterprise Software",  # Geene 2.0 / AI commerce business platform
-    "antara_5636701": "Cyber Security",       # EUCC-certified network camera product
-    "antara_5630400": "Digital Transformation", # digital border-monitoring pilot
-    "antara_5752812": "Digital Transformation", # Huawei SCALE partner enablement system
-    "antara_5694857": "Digital Transformation", # deployed JAKI public-service application
-    "antara_5386274": "Digital Transformation", # Lintasarta LAMPU digital platform
-    "antara_5684424": "Cloud Enterprise",     # data-storage solution portfolio for AI
+    "antara_5721756": "Enterprise Software",
+    "antara_5615964": "Cloud Enterprise",
+    "antara_5590344": "Enterprise Software",
+    "antara_5547475": "Cloud Enterprise",
+    "antara_5662008": "Enterprise Software",
+    "antara_5636701": "Cyber Security",
+    "antara_5630400": "Digital Transformation",
+    "antara_5752812": "Digital Transformation",
+    "antara_5694857": "Digital Transformation",
+    "antara_5386274": "Digital Transformation",
+    "antara_5684424": "Cloud Enterprise",
 }
+
 PROMOTE_TO_RELEVANT = {
     "antara_5721756": "Snippet describes HEB Construction establishing a workforce-data source of truth to produce tender responses; concrete enterprise data/workflow use case.",
     "antara_5615964": "Title and snippet identify a named cloud AI platform designed for enterprise implementation.",
@@ -104,6 +106,7 @@ def main() -> None:
     parser.add_argument("--input", type=Path, default=project_root / "data/processed/antara_search_all_classified_v4.csv")
     parser.add_argument("--output-dir", type=Path, default=project_root / "data/processed")
     args = parser.parse_args()
+
     if not args.input.exists():
         raise FileNotFoundError(f"Input V4 tidak ditemukan: {args.input}")
     args.output_dir.mkdir(parents=True, exist_ok=True)
@@ -116,39 +119,52 @@ def main() -> None:
     if df["article_id"].duplicated().any():
         raise ValueError("article_id duplikat ditemukan; hentikan sebelum klasifikasi V5.")
 
+    df["article_id"] = df["article_id"].astype(str).str.strip()
     df["relevance_level_v4"] = df["relevance_level"]
     df["sector3_topic_v4"] = df["sector3_topic"]
     df["v5_audit_action"] = "Dipertahankan dari V4"
     df["v5_audit_note"] = "Dipertahankan; tidak ada bukti snippet yang cukup kuat untuk mengubah keputusan V4."
 
-    indexed = df.set_index("article_id", drop=False)
-    ids = set(indexed.index.astype(str))
+    ids = set(df["article_id"])
     declared = set(PROMOTE_TO_RELEVANT) | set(DEMOTE_TO_REVIEW) | set(MOVE_TO_OOS)
     unknown = declared - ids
+
     if unknown:
         print("\nPERINGATAN: Keputusan manual dilewati karena ID tidak ditemukan pada V4:")
-    for aid in sorted(unknown):
-        print(f"- {aid}")
+        for aid in sorted(unknown):
+            print(f"- {aid}")
+
     overlap = (set(PROMOTE_TO_RELEVANT) & set(DEMOTE_TO_REVIEW)) | (set(PROMOTE_TO_RELEVANT) & set(MOVE_TO_OOS)) | (set(DEMOTE_TO_REVIEW) & set(MOVE_TO_OOS))
     if overlap:
         raise ValueError(f"Ada keputusan V5 yang saling tumpang tindih: {sorted(overlap)}")
 
+    applied = {"promote": 0, "demote": 0, "oos": 0}
+
     for aid, note in PROMOTE_TO_RELEVANT.items():
-        m = df.article_id.eq(aid)
+        m = df["article_id"].eq(aid)
+        if not m.any():
+            continue
+
+        title = df.loc[m, "title"].iloc[0]
+        summary = df.loc[m, "summary"].iloc[0]
         df.loc[m, "relevance_level"] = "Relevan"
         df.loc[m, "sector3_topic"] = TOPIC[aid]
         df.loc[m, "classification_confidence"] = "Sedang"
         df.loc[m, "review_priority"] = "Low"
         df.loc[m, "manual_review_recommended"] = False
         df.loc[m, "classification_reason"] = note
-        df.loc[m, "classification_evidence"] = f"title={df.loc[m, 'title'].iloc[0]} | summary={df.loc[m, 'summary'].iloc[0]}"
+        df.loc[m, "classification_evidence"] = f"title={title} | summary={summary}"
         df.loc[m, "classification_rule_override"] = "v5_scope_evidence_promotion"
         df.loc[m, "classification_rule_evidence"] = note
         df.loc[m, "v5_audit_action"] = "Promosi Review → Relevan"
         df.loc[m, "v5_audit_note"] = note
+        applied["promote"] += int(m.sum())
 
     for aid, note in DEMOTE_TO_REVIEW.items():
-        m = df.article_id.eq(aid)
+        m = df["article_id"].eq(aid)
+        if not m.any():
+            continue
+
         df.loc[m, "relevance_level"] = "Perlu Tinjau"
         df.loc[m, "classification_confidence"] = "Rendah"
         df.loc[m, "review_priority"] = "Medium"
@@ -158,9 +174,13 @@ def main() -> None:
         df.loc[m, "classification_rule_evidence"] = note
         df.loc[m, "v5_audit_action"] = "Turun Relevan → Perlu Tinjau"
         df.loc[m, "v5_audit_note"] = note
+        applied["demote"] += int(m.sum())
 
     for aid, note in MOVE_TO_OOS.items():
-        m = df.article_id.eq(aid)
+        m = df["article_id"].eq(aid)
+        if not m.any():
+            continue
+
         df.loc[m, "relevance_level"] = "Di Luar Cakupan"
         df.loc[m, "sector3_topic"] = "Di Luar Cakupan"
         df.loc[m, "classification_confidence"] = "Sedang"
@@ -171,10 +191,10 @@ def main() -> None:
         df.loc[m, "classification_rule_evidence"] = note
         df.loc[m, "v5_audit_action"] = "Perlu Tinjau → Di Luar Cakupan"
         df.loc[m, "v5_audit_note"] = note
+        applied["oos"] += int(m.sum())
 
     df["classification_version"] = "v5"
     df["classification_method"] = "title_summary_scope_audit_v5"
-    # Recompute derived audit flags and retain all original source/cleaning fields.
     df["manual_review_recommended"] = df["relevance_level"].eq("Perlu Tinjau")
 
     stem = "antara_search_"
@@ -188,10 +208,12 @@ def main() -> None:
         "comparison": args.output_dir / f"{stem}filter_comparison_v4_v5.csv",
         "decisions": args.output_dir / f"{stem}v5_audit_decisions.csv",
     }
+
     df.to_csv(paths["all"], index=False, encoding="utf-8-sig")
     rel = df[df.relevance_level.eq("Relevan")].copy()
     rev = df[df.relevance_level.eq("Perlu Tinjau")].copy()
     oos = df[df.relevance_level.eq("Di Luar Cakupan")].copy()
+
     rel.to_csv(paths["filtered"], index=False, encoding="utf-8-sig")
     rev.to_csv(paths["review"], index=False, encoding="utf-8-sig")
     oos.to_csv(paths["oos"], index=False, encoding="utf-8-sig")
@@ -205,25 +227,26 @@ def main() -> None:
 
     rows = [{"metric": "total_articles", "value": len(df)}]
     for status in ["Relevan", "Perlu Tinjau", "Di Luar Cakupan"]:
-        n = int(df.relevance_level.eq(status).sum())
-        rows.append({"metric": f"status_{status}", "value": n})
+        rows.append({"metric": f"status_{status}", "value": int(df.relevance_level.eq(status).sum())})
     for topic, n in rel.sector3_topic.value_counts().items():
         rows.append({"metric": f"relevant_topic_{topic}", "value": int(n)})
+
     rows.extend([
-            {"metric": "promoted_review_to_relevant", "value": int(df["v5_audit_action"].eq("Promosi Review → Relevan").sum())},
-            {"metric": "demoted_relevant_to_review", "value": int(df["v5_audit_action"].eq("Turun Relevan → Perlu Tinjau").sum())},
-            {"metric": "moved_review_to_out_of_scope", "value": int(df["v5_audit_action"].eq("Perlu Tinjau → Di Luar Cakupan").sum())},
-            {"metric": "summary_truncated_rows", "value": int(df.get("summary_truncated_indicator", pd.Series(False, index=df.index)).fillna(False).astype(bool).sum())},
-            {"metric": "duplicate_article_id", "value": int(df.article_id.duplicated().sum())},
-            {"metric": "duplicate_url", "value": int(df.url.duplicated().sum()) if "url" in df else 0},
+        {"metric": "promoted_review_to_relevant", "value": applied["promote"]},
+        {"metric": "demoted_relevant_to_review", "value": applied["demote"]},
+        {"metric": "moved_review_to_out_of_scope", "value": applied["oos"]},
+        {"metric": "summary_truncated_rows", "value": int(df.get("summary_truncated_indicator", pd.Series(False, index=df.index)).fillna(False).astype(bool).sum())},
+        {"metric": "duplicate_article_id", "value": int(df.article_id.duplicated().sum())},
+        {"metric": "duplicate_url", "value": int(df.url.duplicated().sum()) if "url" in df else 0},
     ])
     pd.DataFrame(rows).to_csv(paths["report"], index=False, encoding="utf-8-sig")
+
     comp = pd.crosstab(df["relevance_level_v4"], df["relevance_level"]).reset_index()
     comp.to_csv(paths["comparison"], index=False, encoding="utf-8-sig")
+
     changed = df[df["v5_audit_action"].ne("Dipertahankan dari V4")][["article_id", "title", "relevance_level_v4", "relevance_level", "sector3_topic_v4", "sector3_topic", "v5_audit_action", "v5_audit_note"]].copy()
     changed.to_csv(paths["decisions"], index=False, encoding="utf-8-sig")
 
-    # Strong partition checks.
     if len(rel) + len(rev) + len(oos) != len(df):
         raise AssertionError("Partisi status V5 tidak lengkap.")
     if set(rel.article_id) & set(rev.article_id) or set(rel.article_id) & set(oos.article_id) or set(rev.article_id) & set(oos.article_id):
@@ -237,12 +260,13 @@ def main() -> None:
     print(f"Out of Scope: {len(oos)}")
     print("Topik Relevan:")
     print(rel.sector3_topic.value_counts().to_string())
-    print(f"Promosi     : {len(PROMOTE_TO_RELEVANT)}")
-    print(f"Demosi      : {len(DEMOTE_TO_REVIEW)}")
-    print(f"Review→OOS  : {len(MOVE_TO_OOS)}")
+    print(f"Promosi     : {applied['promote']}")
+    print(f"Demosi      : {applied['demote']}")
+    print(f"Review→OOS  : {applied['oos']}")
     print("\nFile output:")
     for name, p in paths.items():
         print(f"- {p}")
+
 
 if __name__ == "__main__":
     main()
