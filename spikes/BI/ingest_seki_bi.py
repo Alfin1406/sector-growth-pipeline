@@ -1,102 +1,141 @@
+import requests
+import zipfile
+import io
+import os
 import pandas as pd
 import numpy as np
+from datetime import datetime
 import warnings
 
-# Membisukan warning Pandas agar terminal tetap bersih
-warnings.filterwarnings("ignore")
+# Matikan warning Pandas
+warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl")
+warnings.filterwarnings("ignore", message="The xlrd engine is deprecated")
+warnings.filterwarnings("ignore", category=FutureWarning)
 
-def proses_sheet_bi(filepath, sheet_name):
-    print(f"Mengekstrak sheet: {sheet_name}...")
-    
-    # 1. Baca data kasar, lewati 3 baris pertama
-    df_raw = pd.read_excel(filepath, sheet_name=sheet_name, header=None, skiprows=3)
-    
-    # 2. PERBAIKAN FINAL: Deteksi Tahun Berdasarkan Munculnya Bulan "Jan"
-    row_year_raw = pd.to_numeric(df_raw.iloc[0], errors='coerce').dropna().tolist() 
-    baris_bulan = df_raw.iloc[1].tolist()
-    
-    header_baru = []
-    year_idx = -1  # Indeks pelacak tahun
-    
-    for b in baris_bulan:
-        if pd.notna(b):
-            b_str = str(b).strip()
-            # Setiap kali ketemu "Jan", maju ke tahun berikutnya
-            if b_str == 'Jan':
-                year_idx += 1
-            
-            # Pasangkan tahun dengan bulannya (Contoh: 2025_Mar)
-            if year_idx >= 0 and year_idx < len(row_year_raw):
-                current_year = int(row_year_raw[year_idx])
-                if b_str not in ['NaN', 'GROUP OF BANKS AND ECONOMIC SECTOR', 'Dec']:
-                    header_baru.append(f"{current_year}_{b_str}")
-                else:
-                    header_baru.append("Kolom_Abaikan")
-            else:
-                header_baru.append("Kolom_Abaikan")
-        else:
-            header_baru.append("Kolom_Abaikan")
-    
-    # 3. Potong DataFrame (Mulai dari baris ke-2)
-    df_data = df_raw.iloc[2:].copy()
-    
-    # Penyesuaian jumlah kolom (Ada kolom NaN tersembunyi di Excel BI)
-    df_data.columns = ['Nomor', 'Kolom_NaN', 'Uraian'] + header_baru[3:] 
-    
-    # Buang kolom yang tidak perlu
-    kolom_valid = ['Uraian'] + [col for col in df_data.columns if "_" in col]
-    df_data = df_data[kolom_valid]
-    
-    # 4. Paksa kolom Uraian menjadi String sebelum memanggil .str
-    df_data['Uraian'] = df_data['Uraian'].astype(str).str.strip()
-    df_data = df_data[(df_data['Uraian'] != 'nan') & (df_data['Uraian'] != 'None')]
-    
-    # 5. Pembersihan Data & Propagasi Kelompok Bank
-    df_data['Kelompok_Bank'] = np.where(df_data['Uraian'].str.match(r'^\d+\.\sBank'), df_data['Uraian'], np.nan)
-    df_data['Kelompok_Bank'] = df_data['Kelompok_Bank'].ffill() 
-    
-    df_data['Kategori_Pinjaman'] = np.where(df_data['Uraian'].str.contains('Pinjaman Berdasarkan|Pinjaman Kepada|Jumlah'), df_data['Uraian'], np.nan)
-    df_data['Kategori_Pinjaman'] = df_data['Kategori_Pinjaman'].ffill()
-    
-    df_data['Sektor_KBLI'] = np.where(~df_data['Uraian'].isin(df_data['Kelompok_Bank']) & 
-                                      ~df_data['Uraian'].isin(df_data['Kategori_Pinjaman']), 
-                                      df_data['Uraian'], np.nan)
-    
-    df_data = df_data.dropna(subset=['Sektor_KBLI']) 
-    
-    # 6. UNPIVOT / MELT (Mengubah kolom bulan menjadi baris)
-    kolom_id = ['Kelompok_Bank', 'Kategori_Pinjaman', 'Sektor_KBLI']
-    kolom_value = [col for col in df_data.columns if "_" in col]
-    
-    df_melt = pd.melt(df_data, id_vars=kolom_id, value_vars=kolom_value, 
-                      var_name='Periode_Raw', value_name='Nilai_Kredit_Miliar_Rp')
-    
-    # Pecah Periode_Raw ("2025_Jan") menjadi Tahun dan Bulan
-    df_melt[['Tahun', 'Bulan']] = df_melt['Periode_Raw'].str.split('_', expand=True)
-    df_melt['Sheet_Asal'] = sheet_name
-    
-    df_final = df_melt[['Sheet_Asal', 'Tahun', 'Bulan', 'Kelompok_Bank', 'Kategori_Pinjaman', 'Sektor_KBLI', 'Nilai_Kredit_Miliar_Rp']]
-    
-    df_final['Nilai_Kredit_Miliar_Rp'] = pd.to_numeric(df_final['Nilai_Kredit_Miliar_Rp'], errors='coerce')
-    df_final = df_final.dropna(subset=['Nilai_Kredit_Miliar_Rp'])
-    
-    return df_final
+# 1. SETUP FOLDER LOKAL (Kunci Path di dalam Root)
+PROJECT_ROOT = os.getcwd() 
+RAW_DIR = os.path.join(PROJECT_ROOT, "raw_data", "BI (SEKI)")
+os.makedirs(RAW_DIR, exist_ok=True)
 
-if __name__ == "__main__":
-    filepath = 'raw_data/TABEL1_4.xls'
-    sheet_targets = ['I.4_1', 'I.4_2', 'I.4_3']
+bulan_indo = {
+    1: "JANUARI", 2: "FEBRUARI", 3: "MARET", 4: "APRIL", 
+    5: "MEI", 6: "JUNI", 7: "JULI", 8: "AGUSTUS", 
+    9: "SEPTEMBER", 10: "OKTOBER", 11: "NOVEMBER", 12: "DESEMBER"
+}
+
+headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+print("[*] Memulai Ingest End-to-End Data SEKI BI...")
+
+current_date = datetime.now()
+target_xls_bytes = None
+bulan_rilis, tahun_rilis = "", 0
+
+# 2. LOOPING DOWNLOAD ZIP OTOMATIS
+for i in range(4):
+    target_bulan = current_date.month - i
+    target_tahun = current_date.year
+    if target_bulan <= 0:
+        target_bulan += 12
+        target_tahun -= 1
+        
+    nama_bulan = bulan_indo[target_bulan]
+    url_bi = f"https://www.bi.go.id/id/statistik/ekonomi-keuangan/seki/Documents/SEKI_{nama_bulan}_{target_tahun}.zip"
     
-    all_data = []
-    for sheet in sheet_targets:
+    print(f"[*] Mengecek: SEKI {nama_bulan} {target_tahun}...")
+    response = requests.get(url_bi, headers=headers)
+    
+    if response.status_code == 200:
         try:
-            df_sheet = proses_sheet_bi(filepath, sheet)
-            all_data.append(df_sheet)
-            print(f"✅ {sheet} berhasil diproses ({len(df_sheet)} baris).")
-        except Exception as e:
-            print(f"❌ Gagal memproses {sheet}: {e}")
+            with zipfile.ZipFile(io.BytesIO(response.content)) as zip_ref:
+                for nama_file in zip_ref.namelist():
+                    if "TABEL1_4" in nama_file.upper() and nama_file.endswith(('.xls', '.xlsx')):
+                        print(f"[*] Ketemu file Excel: {nama_file}")
+                        target_xls_bytes = zip_ref.read(nama_file)
+                        bulan_rilis = nama_bulan.capitalize()
+                        tahun_rilis = target_tahun
+                        break
+            if target_xls_bytes: break
+        except zipfile.BadZipFile:
+            print(f"[-] Belum rilis (Server merespons 200, tapi bukan ZIP). Mundur...")
+    else:
+        print(f"[-] Belum rilis (Status {response.status_code}). Mundur...")
+
+# 3. PROSES CLEANSING TINGKAT TINGGI DENGAN FORWARD FILL
+if target_xls_bytes:
+    print("\n[*] Memulai proses Cleansing & Unpivot data Excel...")
+    excel_file = pd.ExcelFile(io.BytesIO(target_xls_bytes))
+    list_df_clean = []
+    
+    for sheet_name in ['I.4_1', 'I.4_2', 'I.4_3']:
+        if sheet_name in excel_file.sheet_names:
+            # Baca file mulai baris ke-5 agar header bulan terbaca lurus
+            df = pd.read_excel(excel_file, sheet_name=sheet_name, skiprows=4)
             
-    if all_data:
-        df_master = pd.concat(all_data, ignore_index=True)
-        output_path = 'raw_data/hasil_seki_bi_raw_master.csv'
-        df_master.to_csv(output_path, index=False)
-        print(f"\n📂 SUPERB! Seluruh data sukses diekstrak ({len(df_master)} baris) ke: {output_path}")
+            # Kolom deskripsi (Nama Bank, Pinjaman, Sektor) ada di kolom 'Unnamed: 2'
+            if 'Unnamed: 2' not in df.columns: continue
+            df = df.rename(columns={'Unnamed: 2': 'Deskripsi'})
+            df = df.dropna(subset=['Deskripsi'])
+            
+            # --- LOGIKA KECERDASAN BUATAN UNTUK MEMBACA BARIS EXCEL ---
+            # Menggunakan None agar tipe datanya ter-set sebagai Object (bisa menampung teks)
+            df['Kelompok_Bank'] = None
+            df['Kategori_Pinjaman'] = None
+            
+            def klasifikasi_baris(val):
+                teks = str(val).strip()
+                if teks.startswith(('1.', '2.', '3.', '4.', '5.', '6.')):
+                    return 'BANK'
+                elif teks.startswith('Pinjaman'):
+                    return 'KATEGORI'
+                else:
+                    return 'SEKTOR'
+                    
+            tipe_baris = df['Deskripsi'].apply(klasifikasi_baris)
+            
+            # Pindahkan data ke kolom yang sesuai
+            df.loc[tipe_baris == 'BANK', 'Kelompok_Bank'] = df['Deskripsi']
+            df.loc[tipe_baris == 'KATEGORI', 'Kategori_Pinjaman'] = df['Deskripsi']
+            
+            # FORWARD FILL: Tarik nilai Bank dan Kategori ke bawah mengisi baris yang kosong
+            df['Kelompok_Bank'] = df['Kelompok_Bank'].ffill()
+            df['Kategori_Pinjaman'] = df['Kategori_Pinjaman'].ffill()
+            
+            # Sisakan HANYA baris yang merupakan rincian SEKTOR
+            df = df[tipe_baris == 'SEKTOR']
+            df = df.rename(columns={'Deskripsi': 'Sektor_KBLI'})
+            
+            # Filter hanya kolom bulan untuk proses unpivot
+            bulan_valid = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+            month_cols = [c for c in df.columns if str(c).split('.')[0] in bulan_valid]
+            
+            # UNPIVOT
+            df_melted = df.melt(id_vars=['Sektor_KBLI', 'Kelompok_Bank', 'Kategori_Pinjaman'], 
+                                value_vars=month_cols, var_name='Bulan_Tahun', value_name='Nilai_Kredit_Miliar_Rp')
+            
+            df_melted = df_melted.dropna(subset=['Nilai_Kredit_Miliar_Rp'])
+            df_melted = df_melted[pd.to_numeric(df_melted['Nilai_Kredit_Miliar_Rp'], errors='coerce').notnull()]
+            
+            # Ekstrak Tahun dan Bulan ('Jan.1' berarti tahun berjalan, 'Jan' berarti tahun lalu)
+            df_melted['Bulan'] = df_melted['Bulan_Tahun'].apply(lambda x: x.split('.')[0])
+            df_melted['Tahun'] = df_melted['Bulan_Tahun'].apply(lambda x: str(tahun_rilis) if '.1' in str(x) else str(tahun_rilis - 1))
+            
+            df_melted['Sheet_Asal'] = sheet_name
+            
+            # Rapikan Kolom
+            df_clean = df_melted[['Sheet_Asal', 'Tahun', 'Bulan', 'Kelompok_Bank', 'Kategori_Pinjaman', 'Sektor_KBLI', 'Nilai_Kredit_Miliar_Rp']]
+            list_df_clean.append(df_clean)
+
+    if list_df_clean:
+        df_final = pd.concat(list_df_clean, ignore_index=True)
+        
+        # Simpan CSV persis di folder proyekmu
+        nama_file_csv = f"hasil_seki_bi_{bulan_rilis}_{tahun_rilis}.csv"
+        path_csv = os.path.join(RAW_DIR, nama_file_csv)
+        df_final.to_csv(path_csv, index=False)
+        
+        print(f"\n[v] PIPELINE SUKSES! {len(df_final)} baris data master CSV berhasil dibuat di:")
+        print(f"    {path_csv}")
+    else:
+        print("[!] Gagal melakukan pembersihan data Excel.")
+else:
+    print("[!] Pipeline terhenti karena file Excel tidak didapatkan.")
