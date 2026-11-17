@@ -72,7 +72,7 @@ class OjkDokumen(Base):
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     kategori = Column(String(50), nullable=False)
-    tanggal_rilis = Column(String(50))
+    tanggal_rilis = Column(Date)  # <-- Sudah diubah menjadi tipe Date yang ketat
     judul = Column(Text, nullable=False)
     isi_teks = Column(Text)
     link_lampiran = Column(String(255), nullable=False)
