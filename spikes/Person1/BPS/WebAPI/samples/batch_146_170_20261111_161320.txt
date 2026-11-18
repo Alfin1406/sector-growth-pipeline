@@ -1,0 +1,98 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261111161320
+Username: LAPTOP-2JE222S4\Atha Habibi Gunanda
+RunAs User: LAPTOP-2JE222S4\Atha Habibi Gunanda
+Configuration Name: 
+Machine: LAPTOP-2JE222S4 (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\Atha Habibi Gunanda\AppData\Local\Programs\Microsoft VS Code\c4453f8ea4\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 32676
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is spikes\Person1\BPS\WebAPI\samples\batch_146_170_20261111_161320.txt
+
+========== HALAMAN 146 / 177 ==========
+
+
+========== HALAMAN 147 / 177 ==========
+
+
+========== HALAMAN 148 / 177 ==========
+
+
+========== HALAMAN 149 / 177 ==========
+
+
+========== HALAMAN 150 / 177 ==========
+
+
+========== HALAMAN 151 / 177 ==========
+
+
+========== HALAMAN 152 / 177 ==========
+
+
+========== HALAMAN 153 / 177 ==========
+
+
+========== HALAMAN 154 / 177 ==========
+
+
+========== HALAMAN 155 / 177 ==========
+
+
+========== HALAMAN 156 / 177 ==========
+
+
+========== HALAMAN 157 / 177 ==========
+
+
+========== HALAMAN 158 / 177 ==========
+
+
+========== HALAMAN 159 / 177 ==========
+
+
+========== HALAMAN 160 / 177 ==========
+
+
+========== HALAMAN 161 / 177 ==========
+
+
+========== HALAMAN 162 / 177 ==========
+
+
+========== HALAMAN 163 / 177 ==========
+
+
+========== HALAMAN 164 / 177 ==========
+
+
+========== HALAMAN 165 / 177 ==========
+
+
+========== HALAMAN 166 / 177 ==========
+
+
+========== HALAMAN 167 / 177 ==========
+
+
+========== HALAMAN 168 / 177 ==========
+
+
+========== HALAMAN 169 / 177 ==========
+
+
+========== HALAMAN 170 / 177 ==========
+
+**********************
+Windows PowerShell transcript end
+End time: 20261111161411
+**********************

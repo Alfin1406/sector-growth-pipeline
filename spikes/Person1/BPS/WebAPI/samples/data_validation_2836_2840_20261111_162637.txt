@@ -1,0 +1,65 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261111162637
+Username: LAPTOP-2JE222S4\Atha Habibi Gunanda
+RunAs User: LAPTOP-2JE222S4\Atha Habibi Gunanda
+Configuration Name: 
+Machine: LAPTOP-2JE222S4 (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\Atha Habibi Gunanda\AppData\Local\Programs\Microsoft VS Code\c4453f8ea4\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 32676
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is spikes\Person1\BPS\WebAPI\samples\data_validation_2836_2840_20261111_162637.txt
+
+========== DATA VARIABLE ID 2836 ==========
+
+
+========== DATA VARIABLE ID 2837 ==========
+
+
+========== DATA VARIABLE ID 2838 ==========
+
+
+========== DATA VARIABLE ID 2839 ==========
+
+
+========== DATA VARIABLE ID 2840 ==========
+2026 | Pegunungan Bintang | 0.01 Persen | decoded
+2026 | Pegunungan Bintang | 0.01 Persen | decoded
+2026 | Pegunungan Bintang | 0.03 Persen | decoded
+2026 | Pegunungan Bintang | 0.03 Persen | decoded
+2026 | Pegunungan Bintang | 0.02 Persen | decoded
+2026 | Pegunungan Bintang | 0 Persen | decoded
+2026 | Pegunungan Bintang | 0.03 Persen | decoded
+2026 | Pegunungan Bintang | 0.04 Persen | decoded
+2026 | Pegunungan Bintang | 0.01 Persen | decoded
+2026 | Pegunungan Bintang | 0.01 Persen | decoded
+2026 | Pegunungan Bintang | 0.75 Persen | decoded
+2026 | Pegunungan Bintang | 0.36 Persen | decoded
+2026 | Pegunungan Bintang | 0.18 Persen | decoded
+2026 | Pegunungan Bintang | 0.16 Persen | decoded
+2026 | Pegunungan Bintang | 0.02 Persen | decoded
+2026 | Pegunungan Bintang | 0.05 Persen | decoded
+2026 | Pegunungan Bintang | 0.03 Persen | decoded
+2026 | Pegunungan Bintang | 0.04 Persen | decoded
+2026 | Pegunungan Bintang | 3.57 Persen | decoded
+2026 | Pegunungan Bintang | 3.97 Persen | decoded
+
+Jumlah observasi datacontent: 18504
+Berhasil decoded            : 18504
+
+[SUCCESS] Dynamic Data berhasil diproses.
+[RAW JSON] C:\dev\sector-growth-pipeline\spikes\Person1\BPS\WebAPI\samples\20261111_162657_data_var_2840_period_126.json
+[DECODED CSV] C:\dev\sector-growth-pipeline\spikes\Person1\BPS\WebAPI\samples\20261111_162657_data_var_2840_period_126_decoded.csv
+Periksa decode_status dan metadata sebelum menggunakan CSV untuk analisis.
+**********************
+Windows PowerShell transcript end
+End time: 20261111162701
+**********************

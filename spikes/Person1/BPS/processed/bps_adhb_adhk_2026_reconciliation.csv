@@ -1,0 +1,2057 @@
+﻿year,period_id,subperiod_id,subperiod_label,quarter,vervar_id,vervar_label,unit,published_pdrb_total,sum_of_17_industries,difference_total_minus_industries,review_tolerance_miliar,within_review_tolerance,price_basis
+2026,126,31,Triwulan I,Q1,1101,Simeulue,Milyar Rupiah,859.24,859.25,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1101,Simeulue,Milyar Rupiah,920.5,920.51,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1102,Aceh Singkil,Milyar Rupiah,946.1,946.11,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1102,Aceh Singkil,Milyar Rupiah,991.44,991.47,-0.03,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1103,Aceh Selatan,Milyar Rupiah,2059.22,2059.22,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1103,Aceh Selatan,Milyar Rupiah,2213.98,2213.97,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1104,Aceh Tenggara,Milyar Rupiah,1868.49,1868.48,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1104,Aceh Tenggara,Milyar Rupiah,1990.06,1990.06,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1105,Aceh Timur,Milyar Rupiah,4134.9,4134.89,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1105,Aceh Timur,Milyar Rupiah,4294.45,4294.45,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1106,Aceh Tengah,Milyar Rupiah,3033.43,3033.43,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1106,Aceh Tengah,Milyar Rupiah,3022.48,3022.48,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1107,Aceh Barat,Milyar Rupiah,4013.58,4013.59,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1107,Aceh Barat,Milyar Rupiah,4043.16,4043.18,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1108,Aceh Besar,Milyar Rupiah,5164.01,5164.03,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1108,Aceh Besar,Milyar Rupiah,5269.77,5269.78,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1109,Pidie,Milyar Rupiah,4031.92,4031.92,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1109,Pidie,Milyar Rupiah,4168.9,4168.90,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1110,Bireuen,Milyar Rupiah,5092.69,5092.70,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1110,Bireuen,Milyar Rupiah,5482.9,5482.89,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1111,Aceh Utara,Milyar Rupiah,7929.62,7929.60,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1111,Aceh Utara,Milyar Rupiah,8681.43,8681.44,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1112,Aceh Barat Daya,Milyar Rupiah,1466.14,1466.13,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1112,Aceh Barat Daya,Milyar Rupiah,1559.35,1559.36,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1113,Gayo Lues,Milyar Rupiah,982.37,982.39,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1113,Gayo Lues,Milyar Rupiah,1020.24,1020.24,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1114,Aceh Tamiang,Milyar Rupiah,3223.64,3223.64,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1114,Aceh Tamiang,Milyar Rupiah,3317.77,3317.76,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1115,Nagan Raya,Milyar Rupiah,3524.32,3524.32,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1115,Nagan Raya,Milyar Rupiah,3521.16,3521.15,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1116,Aceh Jaya,Milyar Rupiah,956.11,956.10,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1116,Aceh Jaya,Milyar Rupiah,1019.68,1019.67,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1117,Bener Meriah,Milyar Rupiah,1838.59,1838.60,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1117,Bener Meriah,Milyar Rupiah,1848.12,1848.13,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1118,Pidie Jaya,Milyar Rupiah,1303.79,1303.79,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1118,Pidie Jaya,Milyar Rupiah,1357.92,1357.94,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1171,Kota Banda Aceh,Milyar Rupiah,7062.06,7062.06,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1171,Kota Banda Aceh,Milyar Rupiah,7433.09,7433.09,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1172,Kota Sabang,Milyar Rupiah,497.41,497.40,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1172,Kota Sabang,Milyar Rupiah,524.72,524.73,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1173,Kota Langsa,Milyar Rupiah,2025.23,2025.24,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1173,Kota Langsa,Milyar Rupiah,2101.38,2101.38,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1174,Kota Lhokseumawe,Milyar Rupiah,3277.76,3277.79,-0.03,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1174,Kota Lhokseumawe,Milyar Rupiah,3427.88,3427.91,-0.03,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1175,Kota Subulussalam,Milyar Rupiah,757.31,757.31,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1175,Kota Subulussalam,Milyar Rupiah,798.46,798.44,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1201,Nias,Milyar Rupiah,1474.76,1474.77,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1201,Nias,Milyar Rupiah,1532.31,1532.31,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1202,Mandailing Natal,Milyar Rupiah,5719.44,5719.44,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1202,Mandailing Natal,Milyar Rupiah,6019.3,6019.32,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1203,Tapanuli Selatan,Milyar Rupiah,6183.36,6183.36,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1203,Tapanuli Selatan,Milyar Rupiah,6659.1,6659.11,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1204,Tapanuli Tengah,Milyar Rupiah,3750.02,3750.00,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1204,Tapanuli Tengah,Milyar Rupiah,3922.79,3922.78,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1205,Tapanuli Utara,Milyar Rupiah,3140.63,3140.63,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1205,Tapanuli Utara,Milyar Rupiah,3284.4,3284.42,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1206,Toba Samosir,Milyar Rupiah,2687.73,2687.72,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1206,Toba Samosir,Milyar Rupiah,2789.95,2789.94,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1207,Labuhan Batu,Milyar Rupiah,14018.63,14018.64,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1207,Labuhan Batu,Milyar Rupiah,14917.19,14917.19,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1208,Asahan,Milyar Rupiah,16159.39,16159.38,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1208,Asahan,Milyar Rupiah,17305.02,17305.03,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1209,Simalungun,Milyar Rupiah,16751.18,16751.18,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1209,Simalungun,Milyar Rupiah,17820.34,17820.33,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1210,Dairi,Milyar Rupiah,3564.82,3564.83,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1210,Dairi,Milyar Rupiah,3685.06,3685.06,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1211,Karo,Milyar Rupiah,7886.23,7886.23,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1211,Karo,Milyar Rupiah,8196.42,8196.45,-0.03,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1212,Deli Serdang,Milyar Rupiah,42361.14,42361.13,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1212,Deli Serdang,Milyar Rupiah,44811.17,44811.17,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1213,Langkat,Milyar Rupiah,17536.9,17536.91,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1213,Langkat,Milyar Rupiah,18581.58,18581.58,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1214,Nias Selatan,Milyar Rupiah,2509.26,2509.28,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1214,Nias Selatan,Milyar Rupiah,2592.53,2592.53,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1215,Humbang Hasundutan,Milyar Rupiah,2285.46,2285.47,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1215,Humbang Hasundutan,Milyar Rupiah,2383.37,2383.37,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1216,Pakpak Bharat,Milyar Rupiah,491.35,491.35,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1216,Pakpak Bharat,Milyar Rupiah,502.04,502.02,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1217,Samosir,Milyar Rupiah,1688.86,1688.84,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1217,Samosir,Milyar Rupiah,1771.59,1771.58,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1218,Serdang Bedagai,Milyar Rupiah,12111.08,12111.09,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1218,Serdang Bedagai,Milyar Rupiah,12792.31,12792.30,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1219,Batu Bara,Milyar Rupiah,13536.82,13536.82,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1219,Batu Bara,Milyar Rupiah,14474.33,14474.34,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1220,Padang Lawas Utara,Milyar Rupiah,4917.9,4917.91,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1220,Padang Lawas Utara,Milyar Rupiah,5243.33,5243.36,-0.03,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1221,Padang Lawas,Milyar Rupiah,5227.1,5227.10,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1221,Padang Lawas,Milyar Rupiah,5558.08,5558.10,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1222,Labuhan Batu Selatan,Milyar Rupiah,11847.43,11847.45,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1222,Labuhan Batu Selatan,Milyar Rupiah,12632.31,12632.33,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1223,Labuhan Batu Utara,Milyar Rupiah,10183.03,10183.03,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1223,Labuhan Batu Utara,Milyar Rupiah,10814.39,10814.39,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1224,Nias Utara,Milyar Rupiah,1329.88,1329.87,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1224,Nias Utara,Milyar Rupiah,1378.55,1378.55,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1225,Nias Barat,Milyar Rupiah,699.69,699.70,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1225,Nias Barat,Milyar Rupiah,719.85,719.87,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1271,Kota Sibolga,Milyar Rupiah,1957.58,1957.58,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1271,Kota Sibolga,Milyar Rupiah,2065.83,2065.82,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1272,Kota Tanjung Balai,Milyar Rupiah,3446.64,3446.66,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1272,Kota Tanjung Balai,Milyar Rupiah,3576.44,3576.43,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1273,Kota Pematang Siantar,Milyar Rupiah,4820.75,4820.73,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1273,Kota Pematang Siantar,Milyar Rupiah,5000.49,5000.49,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1274,Kota Tebing Tinggi,Milyar Rupiah,2146.42,2146.43,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1274,Kota Tebing Tinggi,Milyar Rupiah,2207.3,2207.30,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1275,Kota Medan,Milyar Rupiah,91445.67,91445.66,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1275,Kota Medan,Milyar Rupiah,98029.51,98029.50,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1276,Kota Binjai,Milyar Rupiah,4303.32,4303.31,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1276,Kota Binjai,Milyar Rupiah,4534.55,4534.54,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1277,Kota Padangsidimpuan,Milyar Rupiah,2379.7,2379.69,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1277,Kota Padangsidimpuan,Milyar Rupiah,2435.06,2435.06,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1278,Kota Gunungsitoli,Milyar Rupiah,1969.04,1969.07,-0.03,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1278,Kota Gunungsitoli,Milyar Rupiah,2036.4,2036.42,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1301,Kepulauan Mentawai,Milyar Rupiah,1712.27,1712.27,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1301,Kepulauan Mentawai,Milyar Rupiah,1760.55,1760.55,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1302,Pesisir Selatan,Milyar Rupiah,5352.33,5352.33,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1302,Pesisir Selatan,Milyar Rupiah,5427.37,5427.38,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1303,Solok,Milyar Rupiah,5158.29,5158.28,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1303,Solok,Milyar Rupiah,5328.92,5328.92,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1304,Sijunjung,Milyar Rupiah,3568.17,3568.19,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1304,Sijunjung,Milyar Rupiah,3643.05,3643.05,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1305,Tanah Datar,Milyar Rupiah,4960.71,4960.71,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1305,Tanah Datar,Milyar Rupiah,5075.53,5075.55,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1306,Padang Pariaman,Milyar Rupiah,7331.89,7331.87,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1306,Padang Pariaman,Milyar Rupiah,7519.1,7519.11,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1307,Agam,Milyar Rupiah,7873.42,7873.42,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1307,Agam,Milyar Rupiah,8030.25,8030.27,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1308,Lima Puluh Kota,Milyar Rupiah,6040.36,6040.38,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1308,Lima Puluh Kota,Milyar Rupiah,6161.13,6161.14,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1309,Pasaman,Milyar Rupiah,3375.76,3375.78,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1309,Pasaman,Milyar Rupiah,3453.12,3453.12,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1310,Solok Selatan,Milyar Rupiah,2199.46,2199.45,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1310,Solok Selatan,Milyar Rupiah,2264.03,2264.04,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1311,Dharmasraya,Milyar Rupiah,3992.69,3992.68,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1311,Dharmasraya,Milyar Rupiah,4258.09,4258.09,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1312,Pasaman Barat,Milyar Rupiah,6008.43,6008.43,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1312,Pasaman Barat,Milyar Rupiah,6214.96,6214.95,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1371,Kota Padang,Milyar Rupiah,23523.06,23523.05,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1371,Kota Padang,Milyar Rupiah,24215.37,24215.36,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1372,Kota Solok,Milyar Rupiah,1543.54,1543.55,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1372,Kota Solok,Milyar Rupiah,1600.99,1601.00,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1373,Kota Sawah Lunto,Milyar Rupiah,1443.95,1443.96,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1373,Kota Sawah Lunto,Milyar Rupiah,1493.71,1493.68,0.03,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1374,Kota Padang Panjang,Milyar Rupiah,1349.68,1349.68,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1374,Kota Padang Panjang,Milyar Rupiah,1395.92,1395.91,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1375,Kota Bukittinggi,Milyar Rupiah,3280.67,3280.68,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1375,Kota Bukittinggi,Milyar Rupiah,3401.29,3401.29,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1376,Kota Payakumbuh,Milyar Rupiah,2567.48,2567.48,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1376,Kota Payakumbuh,Milyar Rupiah,2627.34,2627.32,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1377,Kota Pariaman,Milyar Rupiah,1937.87,1937.87,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1377,Kota Pariaman,Milyar Rupiah,1990.54,1990.53,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1401,Kuantan Singingi,Milyar Rupiah,14685.73,14685.75,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1401,Kuantan Singingi,Milyar Rupiah,16145.08,16145.08,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1402,Indragiri Hulu,Milyar Rupiah,16954.76,16954.76,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1402,Indragiri Hulu,Milyar Rupiah,17298.71,17298.72,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1403,Indragiri Hilir,Milyar Rupiah,27064.73,27064.73,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1403,Indragiri Hilir,Milyar Rupiah,27892.56,27892.58,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1404,Pelalawan,Milyar Rupiah,22184.62,22184.62,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1404,Pelalawan,Milyar Rupiah,22641.4,22641.41,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1405,Siak,Milyar Rupiah,35377.73,35377.73,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1405,Siak,Milyar Rupiah,38356.41,38356.41,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1406,Kampar,Milyar Rupiah,33455,33454.99,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1406,Kampar,Milyar Rupiah,36442.17,36442.16,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1407,Rokan Hulu,Milyar Rupiah,17021.23,17021.24,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1407,Rokan Hulu,Milyar Rupiah,17942.27,17942.28,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1408,Bengkalis,Milyar Rupiah,46868.18,46868.18,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1408,Bengkalis,Milyar Rupiah,53785.42,53785.42,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1409,Rokan Hilir,Milyar Rupiah,28499.87,28499.86,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1409,Rokan Hilir,Milyar Rupiah,31871.96,31871.95,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1410,Kepulauan Meranti,Milyar Rupiah,7789.34,7789.33,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1410,Kepulauan Meranti,Milyar Rupiah,7718.14,7718.15,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1471,Kota Pekanbaru,Milyar Rupiah,48989.43,48989.44,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1471,Kota Pekanbaru,Milyar Rupiah,51163.02,51163.03,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1473,Kota Dumai,Milyar Rupiah,15586.33,15586.34,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1473,Kota Dumai,Milyar Rupiah,15626.26,15626.26,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1501,Kerinci,Milyar Rupiah,3980.19,3980.18,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1501,Kerinci,Milyar Rupiah,4241.72,4241.71,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1502,Merangin,Milyar Rupiah,7065.01,7065.02,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1502,Merangin,Milyar Rupiah,7462.25,7462.25,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1503,Sarolangun,Milyar Rupiah,6351.08,6351.08,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1503,Sarolangun,Milyar Rupiah,6780.89,6780.89,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1504,Batang Hari,Milyar Rupiah,7165.85,7165.85,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1504,Batang Hari,Milyar Rupiah,7639.96,7639.97,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1505,Muaro Jambi,Milyar Rupiah,11104.92,11104.92,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1505,Muaro Jambi,Milyar Rupiah,11892.62,11892.62,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1506,Tanjung Jabung Timur,Milyar Rupiah,7965.3,7965.29,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1506,Tanjung Jabung Timur,Milyar Rupiah,8858.91,8858.91,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1507,Tanjung Jabung Barat,Milyar Rupiah,15967.17,15967.18,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1507,Tanjung Jabung Barat,Milyar Rupiah,17547.51,17547.50,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1508,Tebo,Milyar Rupiah,6384.84,6384.83,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1508,Tebo,Milyar Rupiah,6738.34,6738.34,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1509,Bungo,Milyar Rupiah,7430.12,7430.11,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1509,Bungo,Milyar Rupiah,8017.01,8017.03,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1571,Kota Jambi,Milyar Rupiah,11998.5,11998.49,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1571,Kota Jambi,Milyar Rupiah,12942.42,12942.41,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1572,Kota Sungai Penuh,Milyar Rupiah,2936.01,2936.03,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1572,Kota Sungai Penuh,Milyar Rupiah,3058.16,3058.16,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1601,Ogan Komering Ulu,Milyar Rupiah,5735.71,5735.71,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1601,Ogan Komering Ulu,Milyar Rupiah,5978.71,5978.71,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1602,Ogan Komering Ilir,Milyar Rupiah,13447.22,13447.21,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1602,Ogan Komering Ilir,Milyar Rupiah,13806.4,13806.39,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1603,Muara Enim,Milyar Rupiah,30185.38,30185.38,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1603,Muara Enim,Milyar Rupiah,35842.81,35842.81,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1604,Lahat,Milyar Rupiah,7704.83,7704.82,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1604,Lahat,Milyar Rupiah,9178.03,9178.04,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1605,Musi Rawas,Milyar Rupiah,7054.77,7054.77,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1605,Musi Rawas,Milyar Rupiah,7654.86,7654.87,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1606,Musi Banyuasin,Milyar Rupiah,25976.6,25976.60,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1606,Musi Banyuasin,Milyar Rupiah,26908.3,26908.28,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1607,Banyu Asin,Milyar Rupiah,12064.28,12064.30,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1607,Banyu Asin,Milyar Rupiah,12284.28,12284.27,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1608,Ogan Komering Ulu Selatan,Milyar Rupiah,3391.17,3391.18,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1608,Ogan Komering Ulu Selatan,Milyar Rupiah,3469.73,3469.73,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1609,Ogan Komering Ulu Timur,Milyar Rupiah,5872.05,5872.05,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1609,Ogan Komering Ulu Timur,Milyar Rupiah,6433.54,6433.53,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1610,Ogan Ilir,Milyar Rupiah,4209.81,4209.80,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1610,Ogan Ilir,Milyar Rupiah,4443.86,4443.85,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1611,Empat Lawang,Milyar Rupiah,1898.05,1898.04,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1611,Empat Lawang,Milyar Rupiah,2021.05,2021.06,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1612,Penukal Abab Lematang Ilir,Milyar Rupiah,2723.04,2723.04,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1612,Penukal Abab Lematang Ilir,Milyar Rupiah,2778.12,2778.11,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1613,Musi Rawas Utara,Milyar Rupiah,2568.74,2568.74,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1613,Musi Rawas Utara,Milyar Rupiah,2754.88,2754.87,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1671,Kota Palembang,Milyar Rupiah,59304.06,59304.07,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1671,Kota Palembang,Milyar Rupiah,61790.48,61790.49,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1672,Kota Prabumulih,Milyar Rupiah,2934.15,2934.17,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1672,Kota Prabumulih,Milyar Rupiah,3037.65,3037.65,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1673,Kota Pagar Alam,Milyar Rupiah,1071.16,1071.14,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1673,Kota Pagar Alam,Milyar Rupiah,1126.67,1126.66,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1674,Kota Lubuklinggau,Milyar Rupiah,2436.52,2436.52,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1674,Kota Lubuklinggau,Milyar Rupiah,2538.65,2538.63,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1701,Bengkulu Selatan,Milyar Rupiah,2178.16,2178.15,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1701,Bengkulu Selatan,Milyar Rupiah,2378.53,2378.56,-0.03,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1702,Rejang Lebong,Milyar Rupiah,3631.07,3631.05,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1702,Rejang Lebong,Milyar Rupiah,3955.89,3955.90,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1703,Bengkulu Utara,Milyar Rupiah,3366.16,3366.15,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1703,Bengkulu Utara,Milyar Rupiah,3744.34,3744.34,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1704,Kaur,Milyar Rupiah,1409.84,1409.84,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1704,Kaur,Milyar Rupiah,1530.36,1530.36,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1705,Seluma,Milyar Rupiah,1780.88,1780.88,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1705,Seluma,Milyar Rupiah,1929.2,1929.21,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1706,Mukomuko,Milyar Rupiah,2120.64,2120.65,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1706,Mukomuko,Milyar Rupiah,2383.39,2383.39,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1707,Lebong,Milyar Rupiah,1297.82,1297.81,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1707,Lebong,Milyar Rupiah,1378.03,1378.05,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1708,Kepahiang,Milyar Rupiah,1792.88,1792.91,-0.03,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1708,Kepahiang,Milyar Rupiah,1932.36,1932.37,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1709,Bengkulu Tengah,Milyar Rupiah,1760.37,1760.37,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1709,Bengkulu Tengah,Milyar Rupiah,1848.55,1848.55,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1771,Kota Bengkulu,Milyar Rupiah,9303.36,9303.35,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1771,Kota Bengkulu,Milyar Rupiah,10276.29,10276.30,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1801,Lampung Barat,Milyar Rupiah,2694.91,2694.90,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1801,Lampung Barat,Milyar Rupiah,2926.8,2926.80,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1802,Tanggamus,Milyar Rupiah,5730.12,5730.15,-0.03,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1802,Tanggamus,Milyar Rupiah,6410.71,6410.72,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1803,Lampung Selatan,Milyar Rupiah,16643.13,16643.13,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1803,Lampung Selatan,Milyar Rupiah,18650.17,18650.19,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1804,Lampung Timur,Milyar Rupiah,15465.51,15465.49,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1804,Lampung Timur,Milyar Rupiah,18131.86,18131.86,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1805,Lampung Tengah,Milyar Rupiah,26522.67,26522.67,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1805,Lampung Tengah,Milyar Rupiah,29976.79,29976.80,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1806,Lampung Utara,Milyar Rupiah,8616.79,8616.79,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1806,Lampung Utara,Milyar Rupiah,9649.1,9649.09,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1807,Way Kanan,Milyar Rupiah,5271.96,5271.95,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1807,Way Kanan,Milyar Rupiah,5856.53,5856.53,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1808,Tulangbawang,Milyar Rupiah,8329.27,8329.28,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1808,Tulangbawang,Milyar Rupiah,9327.09,9327.09,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1809,Pesawaran,Milyar Rupiah,5899.46,5899.46,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1809,Pesawaran,Milyar Rupiah,6630.49,6630.51,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1810,Pringsewu,Milyar Rupiah,4139.84,4139.84,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1810,Pringsewu,Milyar Rupiah,4552.59,4552.59,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1811,Mesuji,Milyar Rupiah,3862.56,3862.56,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1811,Mesuji,Milyar Rupiah,4320.42,4320.41,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1812,Tulang Bawang Barat,Milyar Rupiah,4147.35,4147.36,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1812,Tulang Bawang Barat,Milyar Rupiah,4833.19,4833.20,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1813,Pesisir Barat,Milyar Rupiah,1696.28,1696.27,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1813,Pesisir Barat,Milyar Rupiah,1843.2,1843.20,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1871,Kota Bandar Lampung,Milyar Rupiah,22346.62,22346.62,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1871,Kota Bandar Lampung,Milyar Rupiah,23647.27,23647.28,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1872,Kota Metro,Milyar Rupiah,2370.5,2370.50,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1872,Kota Metro,Milyar Rupiah,2507.53,2507.54,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1901,Bangka,Milyar Rupiah,5759.25,5759.27,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1901,Bangka,Milyar Rupiah,6097.78,6097.79,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1902,Belitung,Milyar Rupiah,3959.63,3959.63,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1902,Belitung,Milyar Rupiah,4280.43,4280.42,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1903,Bangka Barat,Milyar Rupiah,6072.58,6072.60,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1903,Bangka Barat,Milyar Rupiah,6212.05,6212.05,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1904,Bangka Tengah,Milyar Rupiah,3327.93,3327.94,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1904,Bangka Tengah,Milyar Rupiah,3639.91,3639.91,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1905,Bangka Selatan,Milyar Rupiah,3395.52,3395.52,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1905,Bangka Selatan,Milyar Rupiah,3592.61,3592.59,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1906,Belitung Timur,Milyar Rupiah,3103.12,3103.11,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1906,Belitung Timur,Milyar Rupiah,3349.12,3349.10,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1971,Kota Pangkal Pinang,Milyar Rupiah,5181.56,5181.55,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,1971,Kota Pangkal Pinang,Milyar Rupiah,5599.54,5599.54,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,2101,Karimun,Milyar Rupiah,5079.57,5079.60,-0.03,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,2101,Karimun,Milyar Rupiah,5291.36,5291.36,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,2102,Bintan,Milyar Rupiah,8508.69,8508.69,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,2102,Bintan,Milyar Rupiah,8738.9,8738.93,-0.03,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,2103,Natuna,Milyar Rupiah,6028.42,6028.42,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,2103,Natuna,Milyar Rupiah,7100.95,7100.95,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,2104,Lingga,Milyar Rupiah,1514.31,1514.32,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,2104,Lingga,Milyar Rupiah,1585.45,1585.42,0.03,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,2105,Kepulauan Anambas,Milyar Rupiah,4902.5,4902.48,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,2105,Kepulauan Anambas,Milyar Rupiah,5787.91,5787.91,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,2171,Kota Batam,Milyar Rupiah,66989.96,66989.96,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,2171,Kota Batam,Milyar Rupiah,71991.29,71991.28,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,2172,Kota Tanjung Pinang,Milyar Rupiah,6950.16,6950.17,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,2172,Kota Tanjung Pinang,Milyar Rupiah,7237.7,7237.68,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3101,Kepulauan Seribu,Milyar Rupiah,2069.84,2069.85,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3101,Kepulauan Seribu,Milyar Rupiah,2348.08,2348.08,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3171,Kota Jakarta Selatan,Milyar Rupiah,238621.95,238621.95,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3171,Kota Jakarta Selatan,Milyar Rupiah,245241.23,245241.24,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3172,Kota Jakarta Timur,Milyar Rupiah,176031.59,176031.59,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3172,Kota Jakarta Timur,Milyar Rupiah,180489.66,180489.66,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3173,Kota Jakarta Pusat,Milyar Rupiah,258378.66,258378.65,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3173,Kota Jakarta Pusat,Milyar Rupiah,266784.23,266784.22,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3174,Kota Jakarta Barat,Milyar Rupiah,175753.31,175753.30,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3174,Kota Jakarta Barat,Milyar Rupiah,180687.11,180687.11,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3175,Kota Jakarta Utara,Milyar Rupiah,185775.88,185775.87,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3175,Kota Jakarta Utara,Milyar Rupiah,191159.82,191159.81,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3201,Bogor,Milyar Rupiah,88462.23,88462.23,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3201,Bogor,Milyar Rupiah,90441.63,90441.62,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3202,Sukabumi,Milyar Rupiah,25505.76,25505.74,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3202,Sukabumi,Milyar Rupiah,25683.37,25683.36,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3203,Cianjur,Milyar Rupiah,18643.09,18643.09,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3203,Cianjur,Milyar Rupiah,19896,19896.01,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3204,Bandung,Milyar Rupiah,47109.15,47109.14,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3204,Bandung,Milyar Rupiah,49037.8,49037.80,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3205,Garut,Milyar Rupiah,23619.13,23619.12,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3205,Garut,Milyar Rupiah,24023.74,24023.76,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3206,Tasikmalaya,Milyar Rupiah,14599.64,14599.65,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3206,Tasikmalaya,Milyar Rupiah,14918.18,14918.17,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3207,Ciamis,Milyar Rupiah,12420.04,12420.04,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3207,Ciamis,Milyar Rupiah,12913.95,12913.95,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3208,Kuningan,Milyar Rupiah,11439.37,11439.36,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3208,Kuningan,Milyar Rupiah,12206.91,12206.90,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3209,Cirebon,Milyar Rupiah,19011.87,19011.87,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3209,Cirebon,Milyar Rupiah,20756.45,20756.45,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3210,Majalengka,Milyar Rupiah,13493.74,13493.76,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3210,Majalengka,Milyar Rupiah,14687.75,14687.75,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3211,Sumedang,Milyar Rupiah,13365.96,13365.97,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3211,Sumedang,Milyar Rupiah,13860.07,13860.06,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3212,Indramayu,Milyar Rupiah,28495.3,28495.31,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3212,Indramayu,Milyar Rupiah,32574.66,32574.68,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3213,Subang,Milyar Rupiah,15073.88,15073.86,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3213,Subang,Milyar Rupiah,16070.54,16070.54,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3214,Purwakarta,Milyar Rupiah,25092.28,25092.27,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3214,Purwakarta,Milyar Rupiah,26277.48,26277.49,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3215,Karawang,Milyar Rupiah,86126.44,86126.44,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3215,Karawang,Milyar Rupiah,90047.91,90047.91,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3216,Bekasi,Milyar Rupiah,118640.52,118640.50,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3216,Bekasi,Milyar Rupiah,121336.14,121336.14,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3217,Bandung Barat,Milyar Rupiah,17337.14,17337.14,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3217,Bandung Barat,Milyar Rupiah,18117.35,18117.35,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3218,Pangandaran,Milyar Rupiah,4440.56,4440.55,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3218,Pangandaran,Milyar Rupiah,4505.36,4505.37,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3271,Kota Bogor,Milyar Rupiah,17340.62,17340.61,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3271,Kota Bogor,Milyar Rupiah,17835.34,17835.35,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3272,Kota Sukabumi,Milyar Rupiah,4301.12,4301.12,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3272,Kota Sukabumi,Milyar Rupiah,4490.88,4490.89,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3273,Kota Bandung,Milyar Rupiah,106014.49,106014.47,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3273,Kota Bandung,Milyar Rupiah,109715.49,109715.51,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3274,Kota Cirebon,Milyar Rupiah,8718.8,8718.79,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3274,Kota Cirebon,Milyar Rupiah,9115.07,9115.06,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3275,Kota Bekasi,Milyar Rupiah,36578.34,36578.35,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3275,Kota Bekasi,Milyar Rupiah,38367.87,38367.85,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3276,Kota Depok,Milyar Rupiah,26366.85,26366.84,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3276,Kota Depok,Milyar Rupiah,27504.1,27504.10,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3277,Kota Cimahi,Milyar Rupiah,12206.43,12206.44,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3277,Kota Cimahi,Milyar Rupiah,12868.61,12868.61,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3278,Kota Tasikmalaya,Milyar Rupiah,8496.59,8496.60,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3278,Kota Tasikmalaya,Milyar Rupiah,8841.12,8841.12,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3279,Kota Banjar,Milyar Rupiah,1528.56,1528.53,0.03,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3279,Kota Banjar,Milyar Rupiah,1551.77,1551.77,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3301,Cilacap,Milyar Rupiah,36980.93,36980.95,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3301,Cilacap,Milyar Rupiah,39133.97,39133.98,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3302,Banyumas,Milyar Rupiah,21251.25,21251.26,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3302,Banyumas,Milyar Rupiah,21819.73,21819.73,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3303,Purbalingga,Milyar Rupiah,9529.16,9529.14,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3303,Purbalingga,Milyar Rupiah,9936.88,9936.89,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3304,Banjarnegara,Milyar Rupiah,8225.98,8225.97,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3304,Banjarnegara,Milyar Rupiah,8471.45,8471.47,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3305,Kebumen,Milyar Rupiah,11298.58,11298.57,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3305,Kebumen,Milyar Rupiah,11004.16,11004.17,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3306,Purworejo,Milyar Rupiah,7063.63,7063.63,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3306,Purworejo,Milyar Rupiah,7097.79,7097.79,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3307,Wonosobo,Milyar Rupiah,6927.48,6927.50,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3307,Wonosobo,Milyar Rupiah,7317.59,7317.59,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3308,Magelang,Milyar Rupiah,12365.45,12365.46,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3308,Magelang,Milyar Rupiah,12856.11,12856.10,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3309,Boyolali,Milyar Rupiah,12917.63,12917.62,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3309,Boyolali,Milyar Rupiah,13451.13,13451.14,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3310,Klaten,Milyar Rupiah,15285.57,15285.59,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3310,Klaten,Milyar Rupiah,15805.64,15805.62,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3311,Sukoharjo,Milyar Rupiah,14043.13,14043.16,-0.03,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3311,Sukoharjo,Milyar Rupiah,14477.51,14477.51,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3312,Wonogiri,Milyar Rupiah,11877.03,11877.01,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3312,Wonogiri,Milyar Rupiah,11459.25,11459.23,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3313,Karanganyar,Milyar Rupiah,14400.75,14400.76,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3313,Karanganyar,Milyar Rupiah,15084.29,15084.30,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3314,Sragen,Milyar Rupiah,14735.85,14735.84,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3314,Sragen,Milyar Rupiah,15313.03,15313.03,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3315,Grobogan,Milyar Rupiah,11238.85,11238.84,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3315,Grobogan,Milyar Rupiah,10840.4,10840.41,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3316,Blora,Milyar Rupiah,9447.09,9447.10,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3316,Blora,Milyar Rupiah,9690.66,9690.68,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3317,Rembang,Milyar Rupiah,7623.51,7623.51,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3317,Rembang,Milyar Rupiah,7411.74,7411.74,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3318,Pati,Milyar Rupiah,16843.9,16843.89,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3318,Pati,Milyar Rupiah,17621.29,17621.28,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3319,Kudus,Milyar Rupiah,34187.2,34187.21,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3319,Kudus,Milyar Rupiah,34884.08,34884.10,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3320,Jepara,Milyar Rupiah,11384.44,11384.46,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3320,Jepara,Milyar Rupiah,12039.24,12039.23,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3321,Demak,Milyar Rupiah,10620.82,10620.82,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3321,Demak,Milyar Rupiah,10583.06,10583.05,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3322,Semarang,Milyar Rupiah,18358.93,18358.92,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3322,Semarang,Milyar Rupiah,19340.06,19340.06,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3323,Temanggung,Milyar Rupiah,8258.36,8258.37,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3323,Temanggung,Milyar Rupiah,8776.98,8776.96,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3324,Kendal,Milyar Rupiah,17059.21,17059.21,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3324,Kendal,Milyar Rupiah,17959.16,17959.17,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3325,Batang,Milyar Rupiah,8656.72,8656.74,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3325,Batang,Milyar Rupiah,9210.21,9210.23,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3326,Pekalongan,Milyar Rupiah,8727.68,8727.69,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3326,Pekalongan,Milyar Rupiah,8995.26,8995.24,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3327,Pemalang,Milyar Rupiah,9578.57,9578.59,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3327,Pemalang,Milyar Rupiah,10265.64,10265.63,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3328,Tegal,Milyar Rupiah,13614.37,13614.39,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3328,Tegal,Milyar Rupiah,14079.24,14079.26,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3329,Brebes,Milyar Rupiah,17765.87,17765.88,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3329,Brebes,Milyar Rupiah,18204.46,18204.45,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3371,Kota Magelang,Milyar Rupiah,3317.01,3317.00,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3371,Kota Magelang,Milyar Rupiah,3473.03,3473.04,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3372,Kota Surakarta,Milyar Rupiah,17764.42,17764.42,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3372,Kota Surakarta,Milyar Rupiah,18504.31,18504.29,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3373,Kota Salatiga,Milyar Rupiah,5127.12,5127.12,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3373,Kota Salatiga,Milyar Rupiah,5332.81,5332.79,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3374,Kota Semarang,Milyar Rupiah,75346.41,75346.41,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3374,Kota Semarang,Milyar Rupiah,78781.91,78781.90,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3375,Kota Pekalongan,Milyar Rupiah,4163.39,4163.39,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3375,Kota Pekalongan,Milyar Rupiah,4330.62,4330.62,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3376,Kota Tegal,Milyar Rupiah,5887.02,5887.01,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3376,Kota Tegal,Milyar Rupiah,6124.42,6124.42,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3401,Kulon Progo,Milyar Rupiah,4729.19,4729.18,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3401,Kulon Progo,Milyar Rupiah,4748.95,4748.97,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3402,Bantul,Milyar Rupiah,10396.8,10396.78,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3402,Bantul,Milyar Rupiah,10522.14,10522.15,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3403,Gunung Kidul,Milyar Rupiah,7985.39,7985.42,-0.03,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3403,Gunung Kidul,Milyar Rupiah,7740.38,7740.39,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3404,Sleman,Milyar Rupiah,18410.58,18410.57,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3404,Sleman,Milyar Rupiah,18865.77,18865.76,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3471,Kota Yogyakarta,Milyar Rupiah,13730.18,13730.17,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3471,Kota Yogyakarta,Milyar Rupiah,14134.7,14134.70,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3501,Pacitan,Milyar Rupiah,5929.95,5929.93,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3501,Pacitan,Milyar Rupiah,6224.12,6224.11,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3502,Ponorogo,Milyar Rupiah,7384.05,7384.03,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3502,Ponorogo,Milyar Rupiah,7963.48,7963.50,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3503,Trenggalek,Milyar Rupiah,6685.83,6685.84,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3503,Trenggalek,Milyar Rupiah,7110.72,7110.73,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3504,Tulungagung,Milyar Rupiah,14213.64,14213.63,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3504,Tulungagung,Milyar Rupiah,15114.79,15114.79,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3505,Blitar,Milyar Rupiah,13180.02,13180.02,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3505,Blitar,Milyar Rupiah,14250.14,14250.15,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3506,Kediri,Milyar Rupiah,14915.64,14915.63,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3506,Kediri,Milyar Rupiah,15570.92,15570.89,0.03,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3507,Malang,Milyar Rupiah,38998.58,38998.58,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3507,Malang,Milyar Rupiah,40609.66,40609.66,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3508,Lumajang,Milyar Rupiah,11822.66,11822.68,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3508,Lumajang,Milyar Rupiah,12928.91,12928.91,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3509,Jember,Milyar Rupiah,27790.27,27790.25,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3509,Jember,Milyar Rupiah,30851.66,30851.65,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3510,Banyuwangi,Milyar Rupiah,29937.33,29937.31,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3510,Banyuwangi,Milyar Rupiah,32887.24,32887.24,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3511,Bondowoso,Milyar Rupiah,7122.46,7122.48,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3511,Bondowoso,Milyar Rupiah,8228.06,8228.06,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3512,Situbondo,Milyar Rupiah,7375.48,7375.49,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3512,Situbondo,Milyar Rupiah,8078.05,8078.05,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3513,Probolinggo,Milyar Rupiah,12408.92,12408.93,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3513,Probolinggo,Milyar Rupiah,14295.82,14295.83,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3514,Pasuruan,Milyar Rupiah,57188.69,57188.68,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3514,Pasuruan,Milyar Rupiah,59350.51,59350.52,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3515,Sidoarjo,Milyar Rupiah,83588.62,83588.64,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3515,Sidoarjo,Milyar Rupiah,87487.17,87487.16,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3516,Mojokerto,Milyar Rupiah,31680.45,31680.46,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3516,Mojokerto,Milyar Rupiah,33509.82,33509.84,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3517,Jombang,Milyar Rupiah,14977.95,14977.94,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3517,Jombang,Milyar Rupiah,16109.75,16109.75,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3518,Nganjuk,Milyar Rupiah,10568.1,10568.11,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3518,Nganjuk,Milyar Rupiah,10781.15,10781.15,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3519,Madiun,Milyar Rupiah,6869.89,6869.89,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3519,Madiun,Milyar Rupiah,7468.88,7468.90,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3520,Magetan,Milyar Rupiah,6840.74,6840.72,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3520,Magetan,Milyar Rupiah,7054.34,7054.35,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3521,Ngawi,Milyar Rupiah,7433.72,7433.71,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3521,Ngawi,Milyar Rupiah,7197.21,7197.20,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3522,Bojonegoro,Milyar Rupiah,28440.1,28440.10,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3522,Bojonegoro,Milyar Rupiah,29938.01,29938.00,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3523,Tuban,Milyar Rupiah,25435.47,25435.48,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3523,Tuban,Milyar Rupiah,24449.93,24449.92,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3524,Lamongan,Milyar Rupiah,14991.3,14991.28,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3524,Lamongan,Milyar Rupiah,16157.08,16157.06,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3525,Gresik,Milyar Rupiah,53379.27,53379.27,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3525,Gresik,Milyar Rupiah,55963.54,55963.54,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3526,Bangkalan,Milyar Rupiah,8006.5,8006.50,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3526,Bangkalan,Milyar Rupiah,8449.77,8449.77,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3527,Sampang,Milyar Rupiah,7038.22,7038.23,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3527,Sampang,Milyar Rupiah,7133.43,7133.43,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3528,Pamekasan,Milyar Rupiah,6720.66,6720.65,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3528,Pamekasan,Milyar Rupiah,6481.71,6481.68,0.03,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3529,Sumenep,Milyar Rupiah,12273.67,12273.66,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3529,Sumenep,Milyar Rupiah,13481.28,13481.26,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3571,Kota Kediri,Milyar Rupiah,45198.23,45198.24,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3571,Kota Kediri,Milyar Rupiah,45630.47,45630.46,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3572,Kota Blitar,Milyar Rupiah,2550.18,2550.18,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3572,Kota Blitar,Milyar Rupiah,2660.72,2660.73,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3573,Kota Malang,Milyar Rupiah,27853.17,27853.19,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3573,Kota Malang,Milyar Rupiah,29028.13,29028.12,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3574,Kota Probolinggo,Milyar Rupiah,4252.53,4252.53,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3574,Kota Probolinggo,Milyar Rupiah,4450.67,4450.68,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3575,Kota Pasuruan,Milyar Rupiah,3126.62,3126.61,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3575,Kota Pasuruan,Milyar Rupiah,3180.49,3180.48,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3576,Kota Mojokerto,Milyar Rupiah,2401.44,2401.44,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3576,Kota Mojokerto,Milyar Rupiah,2469.24,2469.26,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3577,Kota Madiun,Milyar Rupiah,5250.76,5250.75,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3577,Kota Madiun,Milyar Rupiah,5422.11,5422.12,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3578,Kota Surabaya,Milyar Rupiah,218329.06,218329.07,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3578,Kota Surabaya,Milyar Rupiah,224759.93,224759.93,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3579,Kota Batu,Milyar Rupiah,6130.36,6130.35,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3579,Kota Batu,Milyar Rupiah,6520.78,6520.80,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3601,Pandeglang,Milyar Rupiah,10759.33,10759.34,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3601,Pandeglang,Milyar Rupiah,10321.78,10321.76,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3602,Lebak,Milyar Rupiah,10960.36,10960.37,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3602,Lebak,Milyar Rupiah,10646.37,10646.36,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3603,Tangerang,Milyar Rupiah,52468.46,52468.48,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3603,Tangerang,Milyar Rupiah,54633.26,54633.26,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3604,Serang,Milyar Rupiah,28941.47,28941.47,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3604,Serang,Milyar Rupiah,29482.33,29482.34,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3671,Kota Tangerang,Milyar Rupiah,63839.01,63838.99,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3671,Kota Tangerang,Milyar Rupiah,65539.18,65539.18,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3672,Kota Cilegon,Milyar Rupiah,39136.34,39136.34,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3672,Kota Cilegon,Milyar Rupiah,40262.34,40262.33,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3673,Kota Serang,Milyar Rupiah,12082.76,12082.75,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3673,Kota Serang,Milyar Rupiah,12439.54,12439.55,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,3674,Kota Tangerang Selatan,Milyar Rupiah,31279.27,31279.26,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,3674,Kota Tangerang Selatan,Milyar Rupiah,32101.21,32101.23,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5101,Jembrana,Milyar Rupiah,4622.96,4622.97,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5101,Jembrana,Milyar Rupiah,4872.88,4872.89,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5102,Tabanan,Milyar Rupiah,7601.94,7601.95,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5102,Tabanan,Milyar Rupiah,8253.91,8253.88,0.03,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5103,Badung,Milyar Rupiah,20671.64,20671.64,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5103,Badung,Milyar Rupiah,22806.85,22806.85,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5104,Gianyar,Milyar Rupiah,9273.64,9273.64,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5104,Gianyar,Milyar Rupiah,9763.6,9763.60,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5105,Klungkung,Milyar Rupiah,3067.94,3067.93,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5105,Klungkung,Milyar Rupiah,3291.66,3291.66,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5106,Bangli,Milyar Rupiah,2350.82,2350.82,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5106,Bangli,Milyar Rupiah,2537.55,2537.55,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5107,Karangasem,Milyar Rupiah,5619.3,5619.32,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5107,Karangasem,Milyar Rupiah,5915.66,5915.67,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5108,Buleleng,Milyar Rupiah,11402.23,11402.24,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5108,Buleleng,Milyar Rupiah,12273.34,12273.36,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5171,Kota Denpasar,Milyar Rupiah,18013.23,18013.20,0.03,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5171,Kota Denpasar,Milyar Rupiah,19635.29,19635.27,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5201,Lombok Barat,Milyar Rupiah,5420.84,5420.85,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5201,Lombok Barat,Milyar Rupiah,5550.14,5550.14,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5202,Lombok Tengah,Milyar Rupiah,6248.31,6248.30,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5202,Lombok Tengah,Milyar Rupiah,6407.56,6407.57,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5203,Lombok Timur,Milyar Rupiah,7115.2,7115.19,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5203,Lombok Timur,Milyar Rupiah,7241.74,7241.75,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5204,Sumbawa,Milyar Rupiah,5302.84,5302.84,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5204,Sumbawa,Milyar Rupiah,5367.98,5367.99,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5205,Dompu,Milyar Rupiah,2600.31,2600.33,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5205,Dompu,Milyar Rupiah,2733.58,2733.60,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5206,Bima,Milyar Rupiah,4136.14,4136.13,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5206,Bima,Milyar Rupiah,4421.34,4421.34,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5207,Sumbawa Barat,Milyar Rupiah,12047.61,12047.60,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5207,Sumbawa Barat,Milyar Rupiah,12129.49,12129.49,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5208,Lombok Utara,Milyar Rupiah,1613.47,1613.49,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5208,Lombok Utara,Milyar Rupiah,1762.99,1762.98,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5271,Kota Mataram,Milyar Rupiah,6845.68,6845.67,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5271,Kota Mataram,Milyar Rupiah,7026.19,7026.17,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5272,Kota Bima,Milyar Rupiah,1455.66,1455.67,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5272,Kota Bima,Milyar Rupiah,1508.98,1508.99,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5301,Sumba Barat,Milyar Rupiah,839.46,839.45,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5301,Sumba Barat,Milyar Rupiah,910.6,910.60,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5302,Sumba Timur,Milyar Rupiah,2165.24,2165.23,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5302,Sumba Timur,Milyar Rupiah,2335.74,2335.73,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5303,Kupang,Milyar Rupiah,2760.98,2760.97,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5303,Kupang,Milyar Rupiah,3008.09,3008.09,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5304,Timor Tengah Selatan,Milyar Rupiah,2766.63,2766.63,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5304,Timor Tengah Selatan,Milyar Rupiah,3064.27,3064.27,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5305,Timor Tengah Utara,Milyar Rupiah,1397.21,1397.21,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5305,Timor Tengah Utara,Milyar Rupiah,1526.56,1526.53,0.03,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5306,Belu,Milyar Rupiah,1649.33,1649.33,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5306,Belu,Milyar Rupiah,1776.51,1776.52,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5307,Alor,Milyar Rupiah,1099.61,1099.61,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5307,Alor,Milyar Rupiah,1197.29,1197.29,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5308,Lembata,Milyar Rupiah,639.2,639.20,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5308,Lembata,Milyar Rupiah,691.44,691.42,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5309,Flores Timur,Milyar Rupiah,1791.53,1791.52,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5309,Flores Timur,Milyar Rupiah,1929.05,1929.04,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5310,Sikka,Milyar Rupiah,1869.37,1869.36,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5310,Sikka,Milyar Rupiah,2024.34,2024.34,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5311,Ende,Milyar Rupiah,2171.08,2171.05,0.03,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5311,Ende,Milyar Rupiah,2362.78,2362.76,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5312,Ngada,Milyar Rupiah,1218.07,1218.08,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5312,Ngada,Milyar Rupiah,1329.94,1329.94,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5313,Manggarai,Milyar Rupiah,1580.78,1580.78,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5313,Manggarai,Milyar Rupiah,1746.48,1746.47,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5314,Rote Ndao,Milyar Rupiah,1188.04,1188.04,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5314,Rote Ndao,Milyar Rupiah,1251.89,1251.89,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5315,Manggarai Barat,Milyar Rupiah,1268.94,1268.94,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5315,Manggarai Barat,Milyar Rupiah,1432.7,1432.70,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5316,Sumba Tengah,Milyar Rupiah,423.47,423.45,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5316,Sumba Tengah,Milyar Rupiah,472.6,472.61,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5317,Sumba Barat Daya,Milyar Rupiah,1350.46,1350.46,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5317,Sumba Barat Daya,Milyar Rupiah,1459.65,1459.64,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5318,Nagekeo,Milyar Rupiah,776.62,776.63,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5318,Nagekeo,Milyar Rupiah,864.82,864.79,0.03,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5319,Manggarai Timur,Milyar Rupiah,1163.75,1163.75,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5319,Manggarai Timur,Milyar Rupiah,1301.77,1301.77,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5320,Sabu Raijua,Milyar Rupiah,492.91,492.90,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5320,Sabu Raijua,Milyar Rupiah,533.51,533.52,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5321,Malaka,Milyar Rupiah,1020.95,1020.96,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5321,Malaka,Milyar Rupiah,1120.92,1120.91,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,5371,Kota Kupang,Milyar Rupiah,8481.09,8481.09,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,5371,Kota Kupang,Milyar Rupiah,9132.66,9132.67,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6101,Sambas,Milyar Rupiah,8122.23,8122.22,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6101,Sambas,Milyar Rupiah,8374.41,8374.42,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6102,Bengkayang,Milyar Rupiah,3564.53,3564.51,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6102,Bengkayang,Milyar Rupiah,3553.1,3553.11,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6103,Landak,Milyar Rupiah,4373,4373.01,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6103,Landak,Milyar Rupiah,4347.66,4347.64,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6104,Mempawah,Milyar Rupiah,3604.96,3604.98,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6104,Mempawah,Milyar Rupiah,3750.5,3750.50,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6105,Sanggau,Milyar Rupiah,7807.48,7807.46,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6105,Sanggau,Milyar Rupiah,8032.46,8032.46,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6106,Ketapang,Milyar Rupiah,12126.18,12126.18,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6106,Ketapang,Milyar Rupiah,12710.24,12710.25,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6107,Sintang,Milyar Rupiah,6003.55,6003.54,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6107,Sintang,Milyar Rupiah,6253.67,6253.64,0.03,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6108,Kapuas Hulu,Milyar Rupiah,4057.34,4057.33,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6108,Kapuas Hulu,Milyar Rupiah,4233.31,4233.30,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6109,Sekadau,Milyar Rupiah,2642.6,2642.61,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6109,Sekadau,Milyar Rupiah,2743.84,2743.85,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6110,Melawi,Milyar Rupiah,2044.52,2044.53,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6110,Melawi,Milyar Rupiah,2109.02,2109.04,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6111,Kayong Utara,Milyar Rupiah,1671.43,1671.43,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6111,Kayong Utara,Milyar Rupiah,1757.11,1757.11,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6112,Kubu Raya,Milyar Rupiah,11811.48,11811.48,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6112,Kubu Raya,Milyar Rupiah,12285.79,12285.79,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6171,Kota Pontianak,Milyar Rupiah,14237.96,14237.95,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6171,Kota Pontianak,Milyar Rupiah,15173.59,15173.60,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6172,Kota Singkawang,Milyar Rupiah,4053.51,4053.49,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6172,Kota Singkawang,Milyar Rupiah,4085.54,4085.52,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6201,Kotawaringin Barat,Milyar Rupiah,8829.92,8829.94,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6201,Kotawaringin Barat,Milyar Rupiah,9504.81,9504.81,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6202,Kotawaringin Timur,Milyar Rupiah,10540.17,10540.18,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6202,Kotawaringin Timur,Milyar Rupiah,11448.69,11448.67,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6203,Kapuas,Milyar Rupiah,7027.21,7027.20,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6203,Kapuas,Milyar Rupiah,7193.29,7193.29,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6204,Barito Selatan,Milyar Rupiah,2350.7,2350.70,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6204,Barito Selatan,Milyar Rupiah,2419.81,2419.81,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6205,Barito Utara,Milyar Rupiah,3727.04,3727.03,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6205,Barito Utara,Milyar Rupiah,3946.66,3946.65,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6206,Sukamara,Milyar Rupiah,1755.89,1755.90,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6206,Sukamara,Milyar Rupiah,1931.87,1931.87,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6207,Lamandau,Milyar Rupiah,2160.14,2160.13,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6207,Lamandau,Milyar Rupiah,2377.2,2377.22,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6208,Seruyan,Milyar Rupiah,3431.05,3431.05,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6208,Seruyan,Milyar Rupiah,3739.74,3739.73,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6209,Katingan,Milyar Rupiah,3226.24,3226.24,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6209,Katingan,Milyar Rupiah,3460.91,3460.90,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6210,Pulang Pisau,Milyar Rupiah,2059.09,2059.09,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6210,Pulang Pisau,Milyar Rupiah,2217.33,2217.35,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6211,Gunung Mas,Milyar Rupiah,2758.31,2758.33,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6211,Gunung Mas,Milyar Rupiah,2847.06,2847.05,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6212,Barito Timur,Milyar Rupiah,2768.13,2768.12,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6212,Barito Timur,Milyar Rupiah,2883.75,2883.75,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6213,Murung Raya,Milyar Rupiah,2948.93,2948.90,0.03,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6213,Murung Raya,Milyar Rupiah,3082,3082.00,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6271,Kota Palangka Raya,Milyar Rupiah,7168.7,7168.70,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6271,Kota Palangka Raya,Milyar Rupiah,7582.27,7582.27,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6301,Tanah Laut,Milyar Rupiah,5641.85,5641.85,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6301,Tanah Laut,Milyar Rupiah,6192.31,6192.30,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6302,Kota Baru,Milyar Rupiah,10147.71,10147.71,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6302,Kota Baru,Milyar Rupiah,10955.78,10955.77,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6303,Banjar,Milyar Rupiah,6224.88,6224.88,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6303,Banjar,Milyar Rupiah,6661.12,6661.11,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6304,Barito Kuala,Milyar Rupiah,2875.42,2875.42,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6304,Barito Kuala,Milyar Rupiah,3014.46,3014.46,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6305,Tapin,Milyar Rupiah,3544.89,3544.88,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6305,Tapin,Milyar Rupiah,4537.65,4537.64,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6306,Hulu Sungai Selatan,Milyar Rupiah,2597.59,2597.61,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6306,Hulu Sungai Selatan,Milyar Rupiah,3008.73,3008.73,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6307,Hulu Sungai Tengah,Milyar Rupiah,2766.6,2766.61,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6307,Hulu Sungai Tengah,Milyar Rupiah,3244.21,3244.25,-0.04,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6308,Hulu Sungai Utara,Milyar Rupiah,1794.66,1794.67,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6308,Hulu Sungai Utara,Milyar Rupiah,1873.57,1873.56,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6309,Tabalong,Milyar Rupiah,8731.2,8731.19,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6309,Tabalong,Milyar Rupiah,9715.52,9715.53,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6310,Tanah Bumbu,Milyar Rupiah,9805.95,9805.96,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6310,Tanah Bumbu,Milyar Rupiah,10696.55,10696.55,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6311,Balangan,Milyar Rupiah,5390.79,5390.78,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6311,Balangan,Milyar Rupiah,6468.41,6468.41,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6371,Kota Banjarmasin,Milyar Rupiah,12604.23,12604.23,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6371,Kota Banjarmasin,Milyar Rupiah,13252.2,13252.22,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6372,Kota Banjar Baru,Milyar Rupiah,3996.54,3996.56,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6372,Kota Banjar Baru,Milyar Rupiah,4252.76,4252.75,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6401,Paser,Milyar Rupiah,14636.43,14636.43,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6401,Paser,Milyar Rupiah,16108.99,16109.00,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6402,Kutai Barat,Milyar Rupiah,10485.45,10485.45,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6402,Kutai Barat,Milyar Rupiah,11389.47,11389.49,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6403,Kutai Kartanegara,Milyar Rupiah,54915,54915.00,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6403,Kutai Kartanegara,Milyar Rupiah,58735.63,58735.62,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6404,Kutai Timur,Milyar Rupiah,38871.11,38871.10,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6404,Kutai Timur,Milyar Rupiah,42901.08,42901.09,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6405,Berau,Milyar Rupiah,13004.99,13004.98,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6405,Berau,Milyar Rupiah,14002.39,14002.37,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6409,Penajam Paser Utara,Milyar Rupiah,6467.73,6467.73,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6409,Penajam Paser Utara,Milyar Rupiah,6759.64,6759.63,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6411,Mahakam Ulu,Milyar Rupiah,1064.91,1064.93,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6411,Mahakam Ulu,Milyar Rupiah,1117.57,1117.58,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6471,Kota Balikpapan,Milyar Rupiah,43830.27,43830.26,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6471,Kota Balikpapan,Milyar Rupiah,47561.47,47561.47,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6472,Kota Samarinda,Milyar Rupiah,27979.09,27979.08,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6472,Kota Samarinda,Milyar Rupiah,29144.5,29144.49,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6474,Kota Bontang,Milyar Rupiah,17540.55,17540.55,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6474,Kota Bontang,Milyar Rupiah,18963.38,18963.38,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6501,Malinau,Milyar Rupiah,4648.58,4648.58,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6501,Malinau,Milyar Rupiah,4743.59,4743.59,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6502,Bulungan,Milyar Rupiah,7254.53,7254.53,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6502,Bulungan,Milyar Rupiah,7711.74,7711.76,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6503,Tana Tidung,Milyar Rupiah,2470.95,2470.97,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6503,Tana Tidung,Milyar Rupiah,2612.54,2612.55,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6504,Nunukan,Milyar Rupiah,10960.7,10960.70,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6504,Nunukan,Milyar Rupiah,11597.64,11597.64,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,6571,Kota Tarakan,Milyar Rupiah,15450.12,15450.14,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,6571,Kota Tarakan,Milyar Rupiah,16202.5,16202.51,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7101,Bolaang Mongondow,Milyar Rupiah,3164.9,3164.89,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7101,Bolaang Mongondow,Milyar Rupiah,3465.68,3465.68,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7102,Minahasa,Milyar Rupiah,6593.61,6593.61,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7102,Minahasa,Milyar Rupiah,7027.58,7027.57,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7103,Kepulauan Sangihe,Milyar Rupiah,1708.87,1708.88,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7103,Kepulauan Sangihe,Milyar Rupiah,1845.29,1845.28,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7104,Kepulauan Talaud,Milyar Rupiah,852.47,852.47,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7104,Kepulauan Talaud,Milyar Rupiah,927.03,927.06,-0.03,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7105,Minahasa Selatan,Milyar Rupiah,3454.35,3454.33,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7105,Minahasa Selatan,Milyar Rupiah,3680.38,3680.39,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7106,Minahasa Utara,Milyar Rupiah,5631.73,5631.72,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7106,Minahasa Utara,Milyar Rupiah,6003.51,6003.51,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7107,Bolaang Mongondow Utara,Milyar Rupiah,970.78,970.77,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7107,Bolaang Mongondow Utara,Milyar Rupiah,1042.16,1042.18,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7108,Siau Tagulandang Biaro,Milyar Rupiah,931.58,931.57,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7108,Siau Tagulandang Biaro,Milyar Rupiah,979.61,979.61,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7109,Minahasa Tenggara,Milyar Rupiah,2013.76,2013.75,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7109,Minahasa Tenggara,Milyar Rupiah,2144.1,2144.12,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7110,Bolaang Mongondow Selatan,Milyar Rupiah,808.93,808.93,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7110,Bolaang Mongondow Selatan,Milyar Rupiah,878.49,878.48,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7111,Bolaang Mongondow Timur,Milyar Rupiah,1174.31,1174.32,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7111,Bolaang Mongondow Timur,Milyar Rupiah,1276.64,1276.64,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7171,Kota Manado,Milyar Rupiah,14544.74,14544.74,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7171,Kota Manado,Milyar Rupiah,15573.12,15573.12,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7172,Kota Bitung,Milyar Rupiah,6997.11,6997.09,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7172,Kota Bitung,Milyar Rupiah,7342.19,7342.17,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7173,Kota Tomohon,Milyar Rupiah,1596.87,1596.88,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7173,Kota Tomohon,Milyar Rupiah,1724.17,1724.21,-0.04,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7174,Kota Kotamobagu,Milyar Rupiah,1426.04,1426.03,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7174,Kota Kotamobagu,Milyar Rupiah,1524.05,1524.06,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7201,Banggai Kepulauan,Milyar Rupiah,1535.07,1535.07,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7201,Banggai Kepulauan,Milyar Rupiah,1613.41,1613.41,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7202,Banggai,Milyar Rupiah,11826.52,11826.52,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7202,Banggai,Milyar Rupiah,12902.48,12902.48,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7203,Morowali,Milyar Rupiah,51089.06,51089.07,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7203,Morowali,Milyar Rupiah,56375.2,56375.20,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7204,Poso,Milyar Rupiah,3645.79,3645.81,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7204,Poso,Milyar Rupiah,3871.65,3871.66,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7205,Donggala,Milyar Rupiah,4626.92,4626.92,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7205,Donggala,Milyar Rupiah,5167.68,5167.69,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7206,Toli-Toli,Milyar Rupiah,3067.29,3067.29,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7206,Toli-Toli,Milyar Rupiah,3251.84,3251.85,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7207,Buol,Milyar Rupiah,2292.46,2292.47,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7207,Buol,Milyar Rupiah,2417.56,2417.56,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7208,Parigi Moutong,Milyar Rupiah,6651.87,6651.87,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7208,Parigi Moutong,Milyar Rupiah,6894.16,6894.16,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7209,Tojo Una-Una,Milyar Rupiah,2036.35,2036.36,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7209,Tojo Una-Una,Milyar Rupiah,2219.89,2219.88,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7210,Sigi,Milyar Rupiah,3569.78,3569.77,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7210,Sigi,Milyar Rupiah,3658.98,3658.97,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7211,Banggai Laut,Milyar Rupiah,924.43,924.42,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7211,Banggai Laut,Milyar Rupiah,957.27,957.28,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7212,Morowali Utara,Milyar Rupiah,9995.52,9995.53,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7212,Morowali Utara,Milyar Rupiah,10681.02,10681.02,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7271,Kota Palu,Milyar Rupiah,9003.01,9003.02,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7271,Kota Palu,Milyar Rupiah,9708.19,9708.18,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7301,Kepulauan Selayar,Milyar Rupiah,2305.3,2305.29,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7301,Kepulauan Selayar,Milyar Rupiah,2457.57,2457.56,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7302,Bulukumba,Milyar Rupiah,5476.12,5476.12,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7302,Bulukumba,Milyar Rupiah,5879.22,5879.20,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7303,Bantaeng,Milyar Rupiah,3645.81,3645.80,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7303,Bantaeng,Milyar Rupiah,3832.08,3832.07,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7304,Jeneponto,Milyar Rupiah,3543.65,3543.66,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7304,Jeneponto,Milyar Rupiah,4455.25,4455.26,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7305,Takalar,Milyar Rupiah,3703.88,3703.87,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7305,Takalar,Milyar Rupiah,3804.56,3804.56,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7306,Gowa,Milyar Rupiah,8677.85,8677.85,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7306,Gowa,Milyar Rupiah,9662.36,9662.37,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7307,Sinjai,Milyar Rupiah,4581.35,4581.34,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7307,Sinjai,Milyar Rupiah,4715.45,4715.47,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7308,Maros,Milyar Rupiah,7609.72,7609.70,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7308,Maros,Milyar Rupiah,8001.18,8001.18,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7309,Pangkajene dan Kepulauan,Milyar Rupiah,10440.43,10440.44,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7309,Pangkajene dan Kepulauan,Milyar Rupiah,10993.71,10993.72,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7310,Barru,Milyar Rupiah,2750.64,2750.63,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7310,Barru,Milyar Rupiah,3026.69,3026.68,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7311,Bone,Milyar Rupiah,14940.22,14940.22,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7311,Bone,Milyar Rupiah,15603.49,15603.50,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7312,Soppeng,Milyar Rupiah,4485.28,4485.29,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7312,Soppeng,Milyar Rupiah,4453.94,4453.95,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7313,Wajo,Milyar Rupiah,7606.05,7606.06,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7313,Wajo,Milyar Rupiah,7375,7375.01,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7314,Sidenreng Rappang,Milyar Rupiah,5662.59,5662.60,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7314,Sidenreng Rappang,Milyar Rupiah,6014.71,6014.68,0.03,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7315,Pinrang,Milyar Rupiah,6771.42,6771.42,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7315,Pinrang,Milyar Rupiah,8304.71,8304.71,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7316,Enrekang,Milyar Rupiah,2897.55,2897.54,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7316,Enrekang,Milyar Rupiah,3019.05,3019.04,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7317,Luwu,Milyar Rupiah,6414.45,6414.46,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7317,Luwu,Milyar Rupiah,6990.59,6990.57,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7318,Tana Toraja,Milyar Rupiah,2785.83,2785.82,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7318,Tana Toraja,Milyar Rupiah,2886.44,2886.43,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7322,Luwu Utara,Milyar Rupiah,5503.38,5503.38,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7322,Luwu Utara,Milyar Rupiah,5955.31,5955.32,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7325,Luwu Timur,Milyar Rupiah,7607.01,7607.00,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7325,Luwu Timur,Milyar Rupiah,9047.74,9047.75,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7326,Toraja Utara,Milyar Rupiah,3566.65,3566.67,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7326,Toraja Utara,Milyar Rupiah,3787.8,3787.79,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7371,Kota Makassar,Milyar Rupiah,65888.26,65888.26,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7371,Kota Makassar,Milyar Rupiah,72453.6,72453.61,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7372,Kota Parepare,Milyar Rupiah,2590.6,2590.63,-0.03,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7372,Kota Parepare,Milyar Rupiah,2896.46,2896.46,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7373,Kota Palopo,Milyar Rupiah,2994.03,2994.05,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7373,Kota Palopo,Milyar Rupiah,3239.62,3239.63,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7401,Buton,Milyar Rupiah,1424.12,1424.13,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7401,Buton,Milyar Rupiah,1488.49,1488.47,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7402,Muna,Milyar Rupiah,2571.34,2571.34,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7402,Muna,Milyar Rupiah,2651.67,2651.65,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7403,Konawe,Milyar Rupiah,6580.47,6580.46,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7403,Konawe,Milyar Rupiah,7059.55,7059.54,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7404,Kolaka,Milyar Rupiah,10695.5,10695.52,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7404,Kolaka,Milyar Rupiah,11284.26,11284.28,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7405,Konawe Selatan,Milyar Rupiah,4868.77,4868.76,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7405,Konawe Selatan,Milyar Rupiah,5230.28,5230.26,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7406,Bombana,Milyar Rupiah,2372.2,2372.21,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7406,Bombana,Milyar Rupiah,2537.92,2537.93,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7407,Wakatobi,Milyar Rupiah,1599.75,1599.75,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7407,Wakatobi,Milyar Rupiah,1693.37,1693.35,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7408,Kolaka Utara,Milyar Rupiah,3248.61,3248.62,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7408,Kolaka Utara,Milyar Rupiah,3525.02,3525.02,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7409,Buton Utara,Milyar Rupiah,1158.69,1158.67,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7409,Buton Utara,Milyar Rupiah,1196.7,1196.71,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7410,Konawe Utara,Milyar Rupiah,1603.21,1603.22,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7410,Konawe Utara,Milyar Rupiah,1674.3,1674.29,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7411,Kolaka Timur,Milyar Rupiah,1629.4,1629.40,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7411,Kolaka Timur,Milyar Rupiah,1730.62,1730.61,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7412,Konawe Kepulauan,Milyar Rupiah,544.93,544.93,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7412,Konawe Kepulauan,Milyar Rupiah,579.13,579.11,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7413,Muna Barat,Milyar Rupiah,945.79,945.81,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7413,Muna Barat,Milyar Rupiah,982.37,982.38,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7414,Buton Tengah,Milyar Rupiah,866.28,866.26,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7414,Buton Tengah,Milyar Rupiah,913.8,913.82,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7415,Buton Selatan,Milyar Rupiah,1057.82,1057.81,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7415,Buton Selatan,Milyar Rupiah,1086.31,1086.32,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7471,Kota Kendari,Milyar Rupiah,8225.16,8225.16,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7471,Kota Kendari,Milyar Rupiah,8546.46,8546.45,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7472,Kota Baubau,Milyar Rupiah,3235.73,3235.75,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7472,Kota Baubau,Milyar Rupiah,3419.47,3419.47,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7501,Boalemo,Milyar Rupiah,1973.55,1973.55,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7501,Boalemo,Milyar Rupiah,1967.14,1967.15,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7502,Gorontalo,Milyar Rupiah,4973.61,4973.61,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7502,Gorontalo,Milyar Rupiah,4939.03,4939.03,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7503,Pohuwato,Milyar Rupiah,2651.04,2651.06,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7503,Pohuwato,Milyar Rupiah,2919.61,2919.60,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7504,Bone Bolango,Milyar Rupiah,1694.55,1694.56,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7504,Bone Bolango,Milyar Rupiah,1715.57,1715.58,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7505,Gorontalo Utara,Milyar Rupiah,1264.31,1264.31,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7505,Gorontalo Utara,Milyar Rupiah,1271.78,1271.78,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7571,Kota Gorontalo,Milyar Rupiah,3191.62,3191.63,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7571,Kota Gorontalo,Milyar Rupiah,3274.33,3274.30,0.03,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7601,Majene,Milyar Rupiah,1784.64,1784.65,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7601,Majene,Milyar Rupiah,1857.3,1857.31,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7602,Polewali Mandar,Milyar Rupiah,4929.49,4929.47,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7602,Polewali Mandar,Milyar Rupiah,5084.98,5084.97,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7603,Mamasa,Milyar Rupiah,1046.42,1046.41,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7603,Mamasa,Milyar Rupiah,1083.73,1083.74,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7604,Mamuju,Milyar Rupiah,4383.13,4383.13,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7604,Mamuju,Milyar Rupiah,4654.82,4654.81,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7605,Mamuju Utara,Milyar Rupiah,4516.54,4516.54,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7605,Mamuju Utara,Milyar Rupiah,5203.46,5203.46,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,7606,Mamuju Tengah,Milyar Rupiah,1315.58,1315.58,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,7606,Mamuju Tengah,Milyar Rupiah,1432.48,1432.49,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,8101,Maluku Tenggara Barat,Milyar Rupiah,992.62,992.63,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,8101,Maluku Tenggara Barat,Milyar Rupiah,1028.48,1028.48,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,8102,Maluku Tenggara,Milyar Rupiah,1214.94,1214.92,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,8102,Maluku Tenggara,Milyar Rupiah,1250.01,1250.01,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,8103,Maluku Tengah,Milyar Rupiah,3173.32,3173.32,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,8103,Maluku Tengah,Milyar Rupiah,3236.64,3236.64,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,8104,Buru,Milyar Rupiah,865.25,865.24,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,8104,Buru,Milyar Rupiah,886.96,886.96,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,8105,Kepulauan Aru,Milyar Rupiah,1317.97,1317.96,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,8105,Kepulauan Aru,Milyar Rupiah,1347.31,1347.31,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,8106,Seram Bagian Barat,Milyar Rupiah,1126.52,1126.53,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,8106,Seram Bagian Barat,Milyar Rupiah,1140.78,1140.77,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,8107,Seram Bagian Timur,Milyar Rupiah,1000.76,1000.76,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,8107,Seram Bagian Timur,Milyar Rupiah,1064.1,1064.11,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,8108,Maluku Barat Daya,Milyar Rupiah,856.74,856.75,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,8108,Maluku Barat Daya,Milyar Rupiah,885.53,885.52,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,8109,Buru Selatan,Milyar Rupiah,514.55,514.56,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,8109,Buru Selatan,Milyar Rupiah,524.4,524.39,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,8171,Kota Ambon,Milyar Rupiah,5492.7,5492.69,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,8171,Kota Ambon,Milyar Rupiah,5654.24,5654.23,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,8172,Kota Tual,Milyar Rupiah,935.99,936.01,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,8172,Kota Tual,Milyar Rupiah,967.32,967.32,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,8201,Halmahera Barat,Milyar Rupiah,862.44,862.44,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,8201,Halmahera Barat,Milyar Rupiah,908.67,908.68,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,8202,Halmahera Tengah,Milyar Rupiah,15928.37,15928.35,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,8202,Halmahera Tengah,Milyar Rupiah,17160.64,17160.62,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,8203,Kepulauan Sula,Milyar Rupiah,940.88,940.88,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,8203,Kepulauan Sula,Milyar Rupiah,1011.87,1011.85,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,8204,Halmahera Selatan,Milyar Rupiah,8489.68,8489.66,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,8204,Halmahera Selatan,Milyar Rupiah,9425.42,9425.42,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,8205,Halmahera Utara,Milyar Rupiah,2200.23,2200.23,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,8205,Halmahera Utara,Milyar Rupiah,2186.76,2186.76,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,8206,Halmahera Timur,Milyar Rupiah,2082.84,2082.82,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,8206,Halmahera Timur,Milyar Rupiah,2465.3,2465.29,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,8207,Pulau Morotai,Milyar Rupiah,582.05,582.06,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,8207,Pulau Morotai,Milyar Rupiah,592.76,592.77,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,8208,Pulau Taliabu,Milyar Rupiah,600.38,600.42,-0.04,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,8208,Pulau Taliabu,Milyar Rupiah,624.35,624.35,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,8271,Kota Ternate,Milyar Rupiah,4396.15,4396.16,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,8271,Kota Ternate,Milyar Rupiah,4518.16,4518.15,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,8272,Kota Tidore Kepulauan,Milyar Rupiah,1091.11,1091.09,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,8272,Kota Tidore Kepulauan,Milyar Rupiah,1137.86,1137.88,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9101,Fakfak,Milyar Rupiah,1714.09,1714.10,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9101,Fakfak,Milyar Rupiah,1742.8,1742.79,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9102,Kaimana,Milyar Rupiah,810.68,810.67,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9102,Kaimana,Milyar Rupiah,807.87,807.87,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9103,Teluk Wondama,Milyar Rupiah,471.49,471.48,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9103,Teluk Wondama,Milyar Rupiah,486.91,486.92,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9104,Teluk Bintuni,Milyar Rupiah,14885.39,14885.38,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9104,Teluk Bintuni,Milyar Rupiah,14687.74,14687.75,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9105,Manokwari,Milyar Rupiah,3177.01,3176.99,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9105,Manokwari,Milyar Rupiah,3263.62,3263.63,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9111,Manokwari Selatan,Milyar Rupiah,272.68,272.69,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9111,Manokwari Selatan,Milyar Rupiah,272.8,272.79,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9112,Pegunungan Arfak,Milyar Rupiah,100.18,100.18,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9112,Pegunungan Arfak,Milyar Rupiah,101.81,101.82,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9201,Raja Ampat,Milyar Rupiah,1097.01,1097.03,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9201,Raja Ampat,Milyar Rupiah,1105.99,1105.99,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9202,Sorong,Milyar Rupiah,3451.12,3451.10,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9202,Sorong,Milyar Rupiah,3432.69,3432.66,0.03,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9203,Sorong Selatan,Milyar Rupiah,621.2,621.19,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9203,Sorong Selatan,Milyar Rupiah,624.77,624.79,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9204,Maybrat,Milyar Rupiah,231.33,231.33,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9204,Maybrat,Milyar Rupiah,234.59,234.59,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9205,Tambrauw,Milyar Rupiah,85.34,85.34,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9205,Tambrauw,Milyar Rupiah,85.47,85.48,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9271,Kota Sorong,Milyar Rupiah,4710.85,4710.87,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9271,Kota Sorong,Milyar Rupiah,4657.39,4657.39,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9403,Jayapura,Milyar Rupiah,5597.08,5597.12,-0.04,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9403,Jayapura,Milyar Rupiah,5736.98,5736.97,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9408,Kepulauan Yapen,Milyar Rupiah,1432.37,1432.37,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9408,Kepulauan Yapen,Milyar Rupiah,1481.83,1481.82,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9409,Biak Numfor,Milyar Rupiah,1781.52,1781.51,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9409,Biak Numfor,Milyar Rupiah,1835.48,1835.48,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9419,Sarmi,Milyar Rupiah,1062.22,1062.21,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9419,Sarmi,Milyar Rupiah,1094.39,1094.38,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9420,Keerom,Milyar Rupiah,983.93,983.94,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9420,Keerom,Milyar Rupiah,1028.23,1028.23,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9426,Waropen,Milyar Rupiah,680.88,680.88,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9426,Waropen,Milyar Rupiah,699.23,699.20,0.03,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9427,Supiori,Milyar Rupiah,342.6,342.61,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9427,Supiori,Milyar Rupiah,353.75,353.72,0.03,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9428,Mamberamo Raya,Milyar Rupiah,630.07,630.08,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9428,Mamberamo Raya,Milyar Rupiah,642.81,642.83,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9471,Kota Jayapura,Milyar Rupiah,11056.3,11056.28,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9471,Kota Jayapura,Milyar Rupiah,11393.2,11393.21,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9501,Merauke,Milyar Rupiah,5642.83,5642.82,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9501,Merauke,Milyar Rupiah,5861.18,5861.18,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9502,Boven Digoel,Milyar Rupiah,1605.73,1605.75,-0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9502,Boven Digoel,Milyar Rupiah,1653.08,1653.08,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9503,Mappi,Milyar Rupiah,1068.11,1068.12,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9503,Mappi,Milyar Rupiah,1117.97,1117.98,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9504,Asmat,Milyar Rupiah,939.42,939.43,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9504,Asmat,Milyar Rupiah,966.46,966.45,0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9601,Mimika,Milyar Rupiah,37943.56,37943.54,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9601,Mimika,Milyar Rupiah,41209.54,41209.54,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9602,Dogiyai,Milyar Rupiah,446.35,446.35,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9602,Dogiyai,Milyar Rupiah,459.54,459.55,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9603,Deiyai,Milyar Rupiah,484.43,484.42,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9603,Deiyai,Milyar Rupiah,503.9,503.90,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9604,Nabire,Milyar Rupiah,4120.33,4120.31,0.02,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9604,Nabire,Milyar Rupiah,4271.86,4271.84,0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9605,Paniai,Milyar Rupiah,1451.65,1451.64,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9605,Paniai,Milyar Rupiah,1488.11,1488.12,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9606,Intan Jaya,Milyar Rupiah,404.91,404.91,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9606,Intan Jaya,Milyar Rupiah,419.68,419.69,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9607,Puncak,Milyar Rupiah,485.84,485.84,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9607,Puncak,Milyar Rupiah,506.6,506.62,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9608,Puncak Jaya,Milyar Rupiah,455.7,455.69,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9608,Puncak Jaya,Milyar Rupiah,464.33,464.33,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9701,Nduga,Milyar Rupiah,451.87,451.87,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9701,Nduga,Milyar Rupiah,455.34,455.36,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9702,Jayawijaya,Milyar Rupiah,3028.26,3028.26,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9702,Jayawijaya,Milyar Rupiah,3230.2,3230.20,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9703,Lanny Jaya,Milyar Rupiah,688.2,688.21,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9703,Lanny Jaya,Milyar Rupiah,745.32,745.32,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9704,Tolikara,Milyar Rupiah,591.96,591.97,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9704,Tolikara,Milyar Rupiah,603.12,603.12,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9705,Mamberamo Tengah,Milyar Rupiah,428.71,428.72,-0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9705,Mamberamo Tengah,Milyar Rupiah,442.13,442.14,-0.01,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9706,Yalimo,Milyar Rupiah,493.32,493.32,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9706,Yalimo,Milyar Rupiah,512.19,512.21,-0.02,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9707,Yahukimo,Milyar Rupiah,861.06,861.05,0.01,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9707,Yahukimo,Milyar Rupiah,902.28,902.28,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,9708,Pegunungan Bintang,Milyar Rupiah,714.2,714.20,0.00,0.20,true,ADHB
+2026,126,32,Triwulan II,Q2,9708,Pegunungan Bintang,Milyar Rupiah,734.34,734.34,0.00,0.20,true,ADHB
+2026,126,31,Triwulan I,Q1,1101,Simeulue,Milyar Rupiah,478.81,478.82,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1101,Simeulue,Milyar Rupiah,507.15,507.15,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1102,Aceh Singkil,Milyar Rupiah,509.14,509.14,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1102,Aceh Singkil,Milyar Rupiah,527.47,527.49,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1103,Aceh Selatan,Milyar Rupiah,1239.76,1239.75,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1103,Aceh Selatan,Milyar Rupiah,1320.13,1320.14,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1104,Aceh Tenggara,Milyar Rupiah,999.74,999.73,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1104,Aceh Tenggara,Milyar Rupiah,1058.46,1058.46,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1105,Aceh Timur,Milyar Rupiah,2433.97,2433.97,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1105,Aceh Timur,Milyar Rupiah,2513.76,2513.75,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1106,Aceh Tengah,Milyar Rupiah,1832.02,1832.03,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1106,Aceh Tengah,Milyar Rupiah,1822.69,1822.68,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1107,Aceh Barat,Milyar Rupiah,2398.08,2398.09,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1107,Aceh Barat,Milyar Rupiah,2372.14,2372.11,0.03,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1108,Aceh Besar,Milyar Rupiah,3103.27,3103.26,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1108,Aceh Besar,Milyar Rupiah,3142.91,3142.91,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1109,Pidie,Milyar Rupiah,2353.75,2353.75,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1109,Pidie,Milyar Rupiah,2409.91,2409.92,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1110,Bireuen,Milyar Rupiah,3066.48,3066.49,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1110,Bireuen,Milyar Rupiah,3270.1,3270.11,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1111,Aceh Utara,Milyar Rupiah,4658.47,4658.49,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1111,Aceh Utara,Milyar Rupiah,4963.33,4963.33,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1112,Aceh Barat Daya,Milyar Rupiah,899.6,899.60,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1112,Aceh Barat Daya,Milyar Rupiah,939.88,939.89,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1113,Gayo Lues,Milyar Rupiah,570.2,570.22,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1113,Gayo Lues,Milyar Rupiah,589.51,589.52,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1114,Aceh Tamiang,Milyar Rupiah,1755.27,1755.26,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1114,Aceh Tamiang,Milyar Rupiah,1802.38,1802.37,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1115,Nagan Raya,Milyar Rupiah,2117.8,2117.80,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1115,Nagan Raya,Milyar Rupiah,2209.4,2209.40,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1116,Aceh Jaya,Milyar Rupiah,567.3,567.30,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1116,Aceh Jaya,Milyar Rupiah,600.39,600.40,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1117,Bener Meriah,Milyar Rupiah,1105.59,1105.61,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1117,Bener Meriah,Milyar Rupiah,1095.53,1095.52,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1118,Pidie Jaya,Milyar Rupiah,781.3,781.30,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1118,Pidie Jaya,Milyar Rupiah,809.08,809.08,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1171,Kota Banda Aceh,Milyar Rupiah,4707.83,4707.84,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1171,Kota Banda Aceh,Milyar Rupiah,4905.98,4905.99,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1172,Kota Sabang,Milyar Rupiah,323.33,323.33,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1172,Kota Sabang,Milyar Rupiah,338.67,338.67,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1173,Kota Langsa,Milyar Rupiah,1192.08,1192.09,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1173,Kota Langsa,Milyar Rupiah,1229.92,1229.91,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1174,Kota Lhokseumawe,Milyar Rupiah,2153.2,2153.20,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1174,Kota Lhokseumawe,Milyar Rupiah,2232.18,2232.17,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1175,Kota Subulussalam,Milyar Rupiah,417.26,417.26,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1175,Kota Subulussalam,Milyar Rupiah,436.39,436.39,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1201,Nias,Milyar Rupiah,781.78,781.77,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1201,Nias,Milyar Rupiah,799.17,799.17,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1202,Mandailing Natal,Milyar Rupiah,2923.58,2923.60,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1202,Mandailing Natal,Milyar Rupiah,3008.1,3008.09,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1203,Tapanuli Selatan,Milyar Rupiah,3047.49,3047.48,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1203,Tapanuli Selatan,Milyar Rupiah,3185.26,3185.27,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1204,Tapanuli Tengah,Milyar Rupiah,2108.36,2108.35,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1204,Tapanuli Tengah,Milyar Rupiah,2153,2152.99,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1205,Tapanuli Utara,Milyar Rupiah,1865.27,1865.27,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1205,Tapanuli Utara,Milyar Rupiah,1908.17,1908.16,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1206,Toba Samosir,Milyar Rupiah,1648.33,1648.33,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1206,Toba Samosir,Milyar Rupiah,1672.97,1672.96,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1207,Labuhan Batu,Milyar Rupiah,7324.27,7324.29,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1207,Labuhan Batu,Milyar Rupiah,7576.39,7576.37,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1208,Asahan,Milyar Rupiah,8241.85,8241.86,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1208,Asahan,Milyar Rupiah,8582.23,8582.24,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1209,Simalungun,Milyar Rupiah,8802.65,8802.64,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1209,Simalungun,Milyar Rupiah,9075.82,9075.80,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1210,Dairi,Milyar Rupiah,2042.66,2042.65,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1210,Dairi,Milyar Rupiah,2075.13,2075.13,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1211,Karo,Milyar Rupiah,4428.88,4428.87,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1211,Karo,Milyar Rupiah,4511.58,4511.57,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1212,Deli Serdang,Milyar Rupiah,22449.25,22449.26,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1212,Deli Serdang,Milyar Rupiah,22865.19,22865.18,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1213,Langkat,Milyar Rupiah,9192.78,9192.77,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1213,Langkat,Milyar Rupiah,9493.12,9493.14,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1214,Nias Selatan,Milyar Rupiah,1268.55,1268.57,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1214,Nias Selatan,Milyar Rupiah,1287.25,1287.25,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1215,Humbang Hasundutan,Milyar Rupiah,1271.23,1271.24,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1215,Humbang Hasundutan,Milyar Rupiah,1300.28,1300.29,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1216,Pakpak Bharat,Milyar Rupiah,273.35,273.36,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1216,Pakpak Bharat,Milyar Rupiah,273.66,273.66,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1217,Samosir,Milyar Rupiah,968.68,968.66,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1217,Samosir,Milyar Rupiah,1001.21,1001.23,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1218,Serdang Bedagai,Milyar Rupiah,6165.03,6165.02,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1218,Serdang Bedagai,Milyar Rupiah,6334.83,6334.82,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1219,Batu Bara,Milyar Rupiah,7307.39,7307.39,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1219,Batu Bara,Milyar Rupiah,7518.99,7518.98,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1220,Padang Lawas Utara,Milyar Rupiah,2554.73,2554.76,-0.03,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1220,Padang Lawas Utara,Milyar Rupiah,2653.02,2653.03,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1221,Padang Lawas,Milyar Rupiah,2508.05,2508.04,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1221,Padang Lawas,Milyar Rupiah,2590.28,2590.28,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1222,Labuhan Batu Selatan,Milyar Rupiah,5958.22,5958.21,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1222,Labuhan Batu Selatan,Milyar Rupiah,6161.9,6161.90,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1223,Labuhan Batu Utara,Milyar Rupiah,5383.39,5383.39,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1223,Labuhan Batu Utara,Milyar Rupiah,5559.89,5559.90,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1224,Nias Utara,Milyar Rupiah,704.95,704.95,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1224,Nias Utara,Milyar Rupiah,717.49,717.49,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1225,Nias Barat,Milyar Rupiah,373.07,373.07,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1225,Nias Barat,Milyar Rupiah,377.88,377.86,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1271,Kota Sibolga,Milyar Rupiah,1057,1057.00,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1271,Kota Sibolga,Milyar Rupiah,1093.71,1093.71,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1272,Kota Tanjung Balai,Milyar Rupiah,1812.02,1812.04,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1272,Kota Tanjung Balai,Milyar Rupiah,1830.92,1830.90,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1273,Kota Pematang Siantar,Milyar Rupiah,2878.43,2878.42,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1273,Kota Pematang Siantar,Milyar Rupiah,2915.7,2915.69,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1274,Kota Tebing Tinggi,Milyar Rupiah,1183.7,1183.68,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1274,Kota Tebing Tinggi,Milyar Rupiah,1192.13,1192.13,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1275,Kota Medan,Milyar Rupiah,48554.03,48554.03,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1275,Kota Medan,Milyar Rupiah,50430.7,50430.71,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1276,Kota Binjai,Milyar Rupiah,2476.61,2476.61,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1276,Kota Binjai,Milyar Rupiah,2535.6,2535.59,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1277,Kota Padangsidimpuan,Milyar Rupiah,1358.18,1358.19,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1277,Kota Padangsidimpuan,Milyar Rupiah,1358.27,1358.28,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1278,Kota Gunungsitoli,Milyar Rupiah,1027.79,1027.78,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1278,Kota Gunungsitoli,Milyar Rupiah,1046.78,1046.78,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1301,Kepulauan Mentawai,Milyar Rupiah,907.59,907.59,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1301,Kepulauan Mentawai,Milyar Rupiah,921.3,921.31,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1302,Pesisir Selatan,Milyar Rupiah,2957.21,2957.20,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1302,Pesisir Selatan,Milyar Rupiah,2943.67,2943.68,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1303,Solok,Milyar Rupiah,3084.47,3084.47,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1303,Solok,Milyar Rupiah,3096.78,3096.77,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1304,Sijunjung,Milyar Rupiah,2058.71,2058.70,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1304,Sijunjung,Milyar Rupiah,2076.39,2076.39,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1305,Tanah Datar,Milyar Rupiah,3009.46,3009.47,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1305,Tanah Datar,Milyar Rupiah,3016.07,3016.07,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1306,Padang Pariaman,Milyar Rupiah,3811.95,3811.95,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1306,Padang Pariaman,Milyar Rupiah,3834.74,3834.74,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1307,Agam,Milyar Rupiah,4555.25,4555.26,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1307,Agam,Milyar Rupiah,4592.74,4592.75,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1308,Lima Puluh Kota,Milyar Rupiah,3475.05,3475.06,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1308,Lima Puluh Kota,Milyar Rupiah,3491.67,3491.67,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1309,Pasaman,Milyar Rupiah,1919.12,1919.10,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1309,Pasaman,Milyar Rupiah,1929.46,1929.46,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1310,Solok Selatan,Milyar Rupiah,1234.3,1234.31,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1310,Solok Selatan,Milyar Rupiah,1261.07,1261.06,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1311,Dharmasraya,Milyar Rupiah,2306.83,2306.82,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1311,Dharmasraya,Milyar Rupiah,2374.58,2374.58,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1312,Pasaman Barat,Milyar Rupiah,3495.01,3495.02,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1312,Pasaman Barat,Milyar Rupiah,3563.3,3563.31,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1371,Kota Padang,Milyar Rupiah,13879.66,13879.65,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1371,Kota Padang,Milyar Rupiah,14125.87,14125.86,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1372,Kota Solok,Milyar Rupiah,903.06,903.06,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1372,Kota Solok,Milyar Rupiah,918.44,918.45,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1373,Kota Sawah Lunto,Milyar Rupiah,849.71,849.71,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1373,Kota Sawah Lunto,Milyar Rupiah,856.74,856.76,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1374,Kota Padang Panjang,Milyar Rupiah,809.31,809.31,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1374,Kota Padang Panjang,Milyar Rupiah,819.37,819.38,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1375,Kota Bukittinggi,Milyar Rupiah,1930.96,1930.98,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1375,Kota Bukittinggi,Milyar Rupiah,1970.41,1970.39,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1376,Kota Payakumbuh,Milyar Rupiah,1404.03,1404.02,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1376,Kota Payakumbuh,Milyar Rupiah,1428.68,1428.69,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1377,Kota Pariaman,Milyar Rupiah,1122.72,1122.73,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1377,Kota Pariaman,Milyar Rupiah,1136.47,1136.47,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1401,Kuantan Singingi,Milyar Rupiah,7118.75,7118.75,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1401,Kuantan Singingi,Milyar Rupiah,7779.69,7779.69,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1402,Indragiri Hulu,Milyar Rupiah,9378.71,9378.69,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1402,Indragiri Hulu,Milyar Rupiah,9395.5,9395.52,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1403,Indragiri Hilir,Milyar Rupiah,13915.73,13915.73,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1403,Indragiri Hilir,Milyar Rupiah,14017.69,14017.71,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1404,Pelalawan,Milyar Rupiah,11167.86,11167.85,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1404,Pelalawan,Milyar Rupiah,11268.22,11268.22,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1405,Siak,Milyar Rupiah,16629.62,16629.62,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1405,Siak,Milyar Rupiah,16779.71,16779.69,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1406,Kampar,Milyar Rupiah,15888.66,15888.65,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1406,Kampar,Milyar Rupiah,15973.45,15973.44,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1407,Rokan Hulu,Milyar Rupiah,8050.82,8050.82,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1407,Rokan Hulu,Milyar Rupiah,8469.69,8469.70,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1408,Bengkalis,Milyar Rupiah,20397.3,20397.28,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1408,Bengkalis,Milyar Rupiah,20453.75,20453.75,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1409,Rokan Hilir,Milyar Rupiah,13122.3,13122.29,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1409,Rokan Hilir,Milyar Rupiah,13504.97,13504.98,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1410,Kepulauan Meranti,Milyar Rupiah,3894.51,3894.50,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1410,Kepulauan Meranti,Milyar Rupiah,3855.05,3855.03,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1471,Kota Pekanbaru,Milyar Rupiah,23626.35,23626.32,0.03,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1471,Kota Pekanbaru,Milyar Rupiah,24458.94,24458.93,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1473,Kota Dumai,Milyar Rupiah,8612.91,8612.90,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1473,Kota Dumai,Milyar Rupiah,8232.15,8232.14,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1501,Kerinci,Milyar Rupiah,2047.73,2047.73,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1501,Kerinci,Milyar Rupiah,2142.34,2142.34,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1502,Merangin,Milyar Rupiah,3177.05,3177.04,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1502,Merangin,Milyar Rupiah,3324.96,3324.94,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1503,Sarolangun,Milyar Rupiah,3431.5,3431.51,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1503,Sarolangun,Milyar Rupiah,3539.89,3539.88,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1504,Batang Hari,Milyar Rupiah,3806.92,3806.91,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1504,Batang Hari,Milyar Rupiah,3971.65,3971.66,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1505,Muaro Jambi,Milyar Rupiah,5276.92,5276.93,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1505,Muaro Jambi,Milyar Rupiah,5546.25,5546.24,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1506,Tanjung Jabung Timur,Milyar Rupiah,4801.09,4801.12,-0.03,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1506,Tanjung Jabung Timur,Milyar Rupiah,5050.89,5050.89,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1507,Tanjung Jabung Barat,Milyar Rupiah,9025.29,9025.30,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1507,Tanjung Jabung Barat,Milyar Rupiah,9520.44,9520.42,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1508,Tebo,Milyar Rupiah,3247.08,3247.08,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1508,Tebo,Milyar Rupiah,3373.65,3373.65,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1509,Bungo,Milyar Rupiah,3861.98,3861.98,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1509,Bungo,Milyar Rupiah,4063.8,4063.78,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1571,Kota Jambi,Milyar Rupiah,6017.86,6017.85,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1571,Kota Jambi,Milyar Rupiah,6352.65,6352.65,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1572,Kota Sungai Penuh,Milyar Rupiah,1455.24,1455.25,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1572,Kota Sungai Penuh,Milyar Rupiah,1492.22,1492.24,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1601,Ogan Komering Ulu,Milyar Rupiah,3124.89,3124.91,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1601,Ogan Komering Ulu,Milyar Rupiah,3238.04,3238.03,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1602,Ogan Komering Ilir,Milyar Rupiah,7509.43,7509.43,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1602,Ogan Komering Ilir,Milyar Rupiah,7610.95,7610.95,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1603,Muara Enim,Milyar Rupiah,13623.88,13623.90,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1603,Muara Enim,Milyar Rupiah,15501.7,15501.69,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1604,Lahat,Milyar Rupiah,3878.34,3878.36,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1604,Lahat,Milyar Rupiah,4464.77,4464.77,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1605,Musi Rawas,Milyar Rupiah,4186.54,4186.52,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1605,Musi Rawas,Milyar Rupiah,4462.99,4462.98,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1606,Musi Banyuasin,Milyar Rupiah,14286.23,14286.22,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1606,Musi Banyuasin,Milyar Rupiah,14355.42,14355.43,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1607,Banyu Asin,Milyar Rupiah,6803.7,6803.69,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1607,Banyu Asin,Milyar Rupiah,6779.17,6779.17,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1608,Ogan Komering Ulu Selatan,Milyar Rupiah,1846.48,1846.48,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1608,Ogan Komering Ulu Selatan,Milyar Rupiah,1871.5,1871.48,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1609,Ogan Komering Ulu Timur,Milyar Rupiah,3266.77,3266.78,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1609,Ogan Komering Ulu Timur,Milyar Rupiah,3535.75,3535.75,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1610,Ogan Ilir,Milyar Rupiah,2346.24,2346.24,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1610,Ogan Ilir,Milyar Rupiah,2435.85,2435.84,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1611,Empat Lawang,Milyar Rupiah,1092.15,1092.17,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1611,Empat Lawang,Milyar Rupiah,1158.07,1158.08,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1612,Penukal Abab Lematang Ilir,Milyar Rupiah,1489.74,1489.73,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1612,Penukal Abab Lematang Ilir,Milyar Rupiah,1492.78,1492.77,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1613,Musi Rawas Utara,Milyar Rupiah,1696.48,1696.48,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1613,Musi Rawas Utara,Milyar Rupiah,1799.71,1799.70,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1671,Kota Palembang,Milyar Rupiah,33824.87,33824.88,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1671,Kota Palembang,Milyar Rupiah,34588.25,34588.25,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1672,Kota Prabumulih,Milyar Rupiah,1728.91,1728.91,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1672,Kota Prabumulih,Milyar Rupiah,1769.1,1769.11,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1673,Kota Pagar Alam,Milyar Rupiah,712.25,712.24,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1673,Kota Pagar Alam,Milyar Rupiah,746.88,746.90,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1674,Kota Lubuklinggau,Milyar Rupiah,1365.71,1365.70,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1674,Kota Lubuklinggau,Milyar Rupiah,1400.35,1400.34,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1701,Bengkulu Selatan,Milyar Rupiah,1088.08,1088.07,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1701,Bengkulu Selatan,Milyar Rupiah,1169.11,1169.10,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1702,Rejang Lebong,Milyar Rupiah,1868.8,1868.80,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1702,Rejang Lebong,Milyar Rupiah,1983.97,1983.97,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1703,Bengkulu Utara,Milyar Rupiah,1548.91,1548.91,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1703,Bengkulu Utara,Milyar Rupiah,1677.61,1677.62,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1704,Kaur,Milyar Rupiah,688.24,688.26,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1704,Kaur,Milyar Rupiah,736.94,736.96,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1705,Seluma,Milyar Rupiah,842.85,842.85,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1705,Seluma,Milyar Rupiah,902.24,902.24,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1706,Mukomuko,Milyar Rupiah,1010.77,1010.79,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1706,Mukomuko,Milyar Rupiah,1113.85,1113.84,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1707,Lebong,Milyar Rupiah,639.74,639.73,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1707,Lebong,Milyar Rupiah,672.63,672.63,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1708,Kepahiang,Milyar Rupiah,863.65,863.63,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1708,Kepahiang,Milyar Rupiah,921.56,921.54,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1709,Bengkulu Tengah,Milyar Rupiah,835.48,835.50,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1709,Bengkulu Tengah,Milyar Rupiah,870.82,870.82,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1771,Kota Bengkulu,Milyar Rupiah,4964.55,4964.53,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1771,Kota Bengkulu,Milyar Rupiah,5355.55,5355.54,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1801,Lampung Barat,Milyar Rupiah,1500.24,1500.24,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1801,Lampung Barat,Milyar Rupiah,1592.31,1592.30,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1802,Tanggamus,Milyar Rupiah,3206.35,3206.36,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1802,Tanggamus,Milyar Rupiah,3514.64,3514.66,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1803,Lampung Selatan,Milyar Rupiah,9205.58,9205.59,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1803,Lampung Selatan,Milyar Rupiah,10081.36,10081.38,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1804,Lampung Timur,Milyar Rupiah,8186.05,8186.04,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1804,Lampung Timur,Milyar Rupiah,9260.44,9260.45,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1805,Lampung Tengah,Milyar Rupiah,14528.95,14528.97,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1805,Lampung Tengah,Milyar Rupiah,16061.56,16061.57,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1806,Lampung Utara,Milyar Rupiah,4835.95,4835.95,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1806,Lampung Utara,Milyar Rupiah,5313.26,5313.28,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1807,Way Kanan,Milyar Rupiah,2907.37,2907.38,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1807,Way Kanan,Milyar Rupiah,3146.64,3146.63,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1808,Tulangbawang,Milyar Rupiah,4706.75,4706.76,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1808,Tulangbawang,Milyar Rupiah,5176.02,5176.03,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1809,Pesawaran,Milyar Rupiah,3392.33,3392.33,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1809,Pesawaran,Milyar Rupiah,3740.16,3740.14,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1810,Pringsewu,Milyar Rupiah,2354.52,2354.52,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1810,Pringsewu,Milyar Rupiah,2536.79,2536.79,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1811,Mesuji,Milyar Rupiah,2072.95,2072.93,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1811,Mesuji,Milyar Rupiah,2268.75,2268.78,-0.03,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1812,Tulang Bawang Barat,Milyar Rupiah,2309.22,2309.22,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1812,Tulang Bawang Barat,Milyar Rupiah,2618.92,2618.92,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1813,Pesisir Barat,Milyar Rupiah,892.57,892.57,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1813,Pesisir Barat,Milyar Rupiah,951.63,951.64,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1871,Kota Bandar Lampung,Milyar Rupiah,12387.22,12387.22,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1871,Kota Bandar Lampung,Milyar Rupiah,12864.66,12864.64,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1872,Kota Metro,Milyar Rupiah,1336.19,1336.19,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1872,Kota Metro,Milyar Rupiah,1391.41,1391.40,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1901,Bangka,Milyar Rupiah,3066.22,3066.23,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1901,Bangka,Milyar Rupiah,3195.1,3195.11,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1902,Belitung,Milyar Rupiah,2015.89,2015.89,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1902,Belitung,Milyar Rupiah,2142.21,2142.22,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1903,Bangka Barat,Milyar Rupiah,2918.45,2918.45,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1903,Bangka Barat,Milyar Rupiah,2957.62,2957.62,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1904,Bangka Tengah,Milyar Rupiah,1746.41,1746.43,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1904,Bangka Tengah,Milyar Rupiah,1874.68,1874.68,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1905,Bangka Selatan,Milyar Rupiah,1751.73,1751.74,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1905,Bangka Selatan,Milyar Rupiah,1813.25,1813.26,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1906,Belitung Timur,Milyar Rupiah,1638.95,1638.95,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1906,Belitung Timur,Milyar Rupiah,1731.84,1731.83,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,1971,Kota Pangkal Pinang,Milyar Rupiah,2702.36,2702.38,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,1971,Kota Pangkal Pinang,Milyar Rupiah,2878.07,2878.05,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,2101,Karimun,Milyar Rupiah,2887.95,2887.95,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,2101,Karimun,Milyar Rupiah,2974.63,2974.62,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,2102,Bintan,Milyar Rupiah,4796.15,4796.17,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,2102,Bintan,Milyar Rupiah,4874.29,4874.29,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,2103,Natuna,Milyar Rupiah,3971.93,3971.94,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,2103,Natuna,Milyar Rupiah,4193.42,4193.41,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,2104,Lingga,Milyar Rupiah,870.5,870.51,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,2104,Lingga,Milyar Rupiah,899.79,899.80,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,2105,Kepulauan Anambas,Milyar Rupiah,3058.1,3058.09,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,2105,Kepulauan Anambas,Milyar Rupiah,3208.92,3208.92,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,2171,Kota Batam,Milyar Rupiah,37416.15,37416.12,0.03,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,2171,Kota Batam,Milyar Rupiah,38296.84,38296.84,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,2172,Kota Tanjung Pinang,Milyar Rupiah,4184.04,4184.05,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,2172,Kota Tanjung Pinang,Milyar Rupiah,4303.01,4303.01,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3101,Kepulauan Seribu,Milyar Rupiah,810.06,810.07,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3101,Kepulauan Seribu,Milyar Rupiah,820.82,820.81,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3171,Kota Jakarta Selatan,Milyar Rupiah,136815.45,136815.44,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3171,Kota Jakarta Selatan,Milyar Rupiah,138826.13,138826.14,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3172,Kota Jakarta Timur,Milyar Rupiah,98089.2,98089.20,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3172,Kota Jakarta Timur,Milyar Rupiah,99243.83,99243.83,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3173,Kota Jakarta Pusat,Milyar Rupiah,145118.12,145118.09,0.03,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3173,Kota Jakarta Pusat,Milyar Rupiah,147895.54,147895.55,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3174,Kota Jakarta Barat,Milyar Rupiah,104581.73,104581.73,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3174,Kota Jakarta Barat,Milyar Rupiah,106045.21,106045.22,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3175,Kota Jakarta Utara,Milyar Rupiah,102557.93,102557.92,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3175,Kota Jakarta Utara,Milyar Rupiah,104204.39,104204.38,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3201,Bogor,Milyar Rupiah,50582.85,50582.84,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3201,Bogor,Milyar Rupiah,51219.64,51219.65,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3202,Sukabumi,Milyar Rupiah,15404.1,15404.11,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3202,Sukabumi,Milyar Rupiah,15426.9,15426.90,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3203,Cianjur,Milyar Rupiah,10626.74,10626.72,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3203,Cianjur,Milyar Rupiah,11043.04,11043.03,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3204,Bandung,Milyar Rupiah,26732.95,26732.95,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3204,Bandung,Milyar Rupiah,27441.75,27441.77,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3205,Garut,Milyar Rupiah,13118.77,13118.77,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3205,Garut,Milyar Rupiah,13140.37,13140.35,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3206,Tasikmalaya,Milyar Rupiah,7942.56,7942.55,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3206,Tasikmalaya,Milyar Rupiah,8040.32,8040.32,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3207,Ciamis,Milyar Rupiah,7184.6,7184.60,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3207,Ciamis,Milyar Rupiah,7382.81,7382.80,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3208,Kuningan,Milyar Rupiah,5678.09,5678.09,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3208,Kuningan,Milyar Rupiah,5988.32,5988.32,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3209,Cirebon,Milyar Rupiah,10600.4,10600.41,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3209,Cirebon,Milyar Rupiah,11277.63,11277.63,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3210,Majalengka,Milyar Rupiah,7635.04,7635.03,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3210,Majalengka,Milyar Rupiah,8047.99,8047.99,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3211,Sumedang,Milyar Rupiah,7577.98,7577.98,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3211,Sumedang,Milyar Rupiah,7841.5,7841.49,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3212,Indramayu,Milyar Rupiah,17512.07,17512.08,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3212,Indramayu,Milyar Rupiah,18750.99,18750.99,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3213,Subang,Milyar Rupiah,8811.85,8811.85,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3213,Subang,Milyar Rupiah,9170.22,9170.21,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3214,Purwakarta,Milyar Rupiah,14710.91,14710.89,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3214,Purwakarta,Milyar Rupiah,15086.92,15086.93,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3215,Karawang,Milyar Rupiah,51763.61,51763.61,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3215,Karawang,Milyar Rupiah,53144.18,53144.18,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3216,Bekasi,Milyar Rupiah,79358.14,79358.13,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3216,Bekasi,Milyar Rupiah,80855.37,80855.35,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3217,Bandung Barat,Milyar Rupiah,9968.74,9968.77,-0.03,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3217,Bandung Barat,Milyar Rupiah,10231.07,10231.05,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3218,Pangandaran,Milyar Rupiah,2574.98,2574.98,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3218,Pangandaran,Milyar Rupiah,2584.74,2584.73,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3271,Kota Bogor,Milyar Rupiah,10615.43,10615.43,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3271,Kota Bogor,Milyar Rupiah,10786.47,10786.47,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3272,Kota Sukabumi,Milyar Rupiah,2799.14,2799.13,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3272,Kota Sukabumi,Milyar Rupiah,2869.2,2869.19,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3273,Kota Bandung,Milyar Rupiah,63087.8,63087.80,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3273,Kota Bandung,Milyar Rupiah,64791.85,64791.83,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3274,Kota Cirebon,Milyar Rupiah,5393.44,5393.44,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3274,Kota Cirebon,Milyar Rupiah,5576.86,5576.88,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3275,Kota Bekasi,Milyar Rupiah,22057.06,22057.04,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3275,Kota Bekasi,Milyar Rupiah,22807.65,22807.66,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3276,Kota Depok,Milyar Rupiah,15767.52,15767.52,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3276,Kota Depok,Milyar Rupiah,16266.33,16266.31,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3277,Kota Cimahi,Milyar Rupiah,7418.46,7418.47,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3277,Kota Cimahi,Milyar Rupiah,7676.04,7676.04,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3278,Kota Tasikmalaya,Milyar Rupiah,5112.18,5112.18,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3278,Kota Tasikmalaya,Milyar Rupiah,5224.78,5224.76,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3279,Kota Banjar,Milyar Rupiah,1041.89,1041.91,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3279,Kota Banjar,Milyar Rupiah,1052.61,1052.62,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3301,Cilacap,Milyar Rupiah,27265.18,27265.19,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3301,Cilacap,Milyar Rupiah,27481.77,27481.76,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3302,Banyumas,Milyar Rupiah,13255.71,13255.71,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3302,Banyumas,Milyar Rupiah,13452.66,13452.65,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3303,Purbalingga,Milyar Rupiah,5623.08,5623.09,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3303,Purbalingga,Milyar Rupiah,5793.84,5793.85,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3304,Banjarnegara,Milyar Rupiah,4899.13,4899.14,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3304,Banjarnegara,Milyar Rupiah,4985.17,4985.17,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3305,Kebumen,Milyar Rupiah,6716.07,6716.05,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3305,Kebumen,Milyar Rupiah,6491.4,6491.42,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3306,Purworejo,Milyar Rupiah,4345.06,4345.05,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3306,Purworejo,Milyar Rupiah,4336.25,4336.26,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3307,Wonosobo,Milyar Rupiah,4299.37,4299.38,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3307,Wonosobo,Milyar Rupiah,4478.58,4478.58,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3308,Magelang,Milyar Rupiah,7536.99,7536.99,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3308,Magelang,Milyar Rupiah,7742.59,7742.59,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3309,Boyolali,Milyar Rupiah,7508.17,7508.17,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3309,Boyolali,Milyar Rupiah,7712.97,7712.98,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3310,Klaten,Milyar Rupiah,9033.53,9033.54,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3310,Klaten,Milyar Rupiah,9220.34,9220.35,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3311,Sukoharjo,Milyar Rupiah,8774.59,8774.58,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3311,Sukoharjo,Milyar Rupiah,8931.19,8931.18,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3312,Wonogiri,Milyar Rupiah,7080.87,7080.88,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3312,Wonogiri,Milyar Rupiah,6777.39,6777.39,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3313,Karanganyar,Milyar Rupiah,8681.82,8681.84,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3313,Karanganyar,Milyar Rupiah,8925.5,8925.50,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3314,Sragen,Milyar Rupiah,8747.55,8747.55,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3314,Sragen,Milyar Rupiah,8958.17,8958.18,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3315,Grobogan,Milyar Rupiah,6779.89,6779.90,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3315,Grobogan,Milyar Rupiah,6490.37,6490.37,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3316,Blora,Milyar Rupiah,5495.61,5495.62,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3316,Blora,Milyar Rupiah,5277.5,5277.49,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3317,Rembang,Milyar Rupiah,4623.64,4623.63,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3317,Rembang,Milyar Rupiah,4444.12,4444.14,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3318,Pati,Milyar Rupiah,10155.65,10155.65,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3318,Pati,Milyar Rupiah,10469.58,10469.58,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3319,Kudus,Milyar Rupiah,19704.13,19704.14,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3319,Kudus,Milyar Rupiah,20070.56,20070.54,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3320,Jepara,Milyar Rupiah,6945.26,6945.27,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3320,Jepara,Milyar Rupiah,7229.08,7229.08,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3321,Demak,Milyar Rupiah,6255.09,6255.09,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3321,Demak,Milyar Rupiah,6175.36,6175.36,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3322,Semarang,Milyar Rupiah,11240.9,11240.89,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3322,Semarang,Milyar Rupiah,11625.95,11625.98,-0.03,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3323,Temanggung,Milyar Rupiah,4912.2,4912.20,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3323,Temanggung,Milyar Rupiah,5129.5,5129.49,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3324,Kendal,Milyar Rupiah,10415.47,10415.46,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3324,Kendal,Milyar Rupiah,10850.16,10850.16,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3325,Batang,Milyar Rupiah,5147.63,5147.63,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3325,Batang,Milyar Rupiah,5397.1,5397.10,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3326,Pekalongan,Milyar Rupiah,5359.02,5359.01,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3326,Pekalongan,Milyar Rupiah,5456.76,5456.77,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3327,Pemalang,Milyar Rupiah,5803.29,5803.28,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3327,Pemalang,Milyar Rupiah,6116.63,6116.65,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3328,Tegal,Milyar Rupiah,8112.72,8112.72,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3328,Tegal,Milyar Rupiah,8258,8257.99,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3329,Brebes,Milyar Rupiah,10694.52,10694.51,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3329,Brebes,Milyar Rupiah,10823.16,10823.16,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3371,Kota Magelang,Milyar Rupiah,2086.25,2086.23,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3371,Kota Magelang,Milyar Rupiah,2147.75,2147.74,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3372,Kota Surakarta,Milyar Rupiah,11548.83,11548.83,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3372,Kota Surakarta,Milyar Rupiah,11867.78,11867.77,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3373,Kota Salatiga,Milyar Rupiah,3175.73,3175.75,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3373,Kota Salatiga,Milyar Rupiah,3249.67,3249.68,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3374,Kota Semarang,Milyar Rupiah,46881.14,46881.12,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3374,Kota Semarang,Milyar Rupiah,47932.24,47932.24,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3375,Kota Pekalongan,Milyar Rupiah,2436.53,2436.51,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3375,Kota Pekalongan,Milyar Rupiah,2492.65,2492.64,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3376,Kota Tegal,Milyar Rupiah,3601.75,3601.75,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3376,Kota Tegal,Milyar Rupiah,3674.79,3674.79,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3401,Kulon Progo,Milyar Rupiah,2808.63,2808.64,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3401,Kulon Progo,Milyar Rupiah,2830.58,2830.59,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3402,Bantul,Milyar Rupiah,6211.18,6211.17,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3402,Bantul,Milyar Rupiah,6300.05,6300.05,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3403,Gunung Kidul,Milyar Rupiah,4630.88,4630.89,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3403,Gunung Kidul,Milyar Rupiah,4554.62,4554.61,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3404,Sleman,Milyar Rupiah,11503.55,11503.55,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3404,Sleman,Milyar Rupiah,11807.85,11807.83,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3471,Kota Yogyakarta,Milyar Rupiah,8834.75,8834.75,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3471,Kota Yogyakarta,Milyar Rupiah,9073.83,9073.82,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3501,Pacitan,Milyar Rupiah,3516.82,3516.84,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3501,Pacitan,Milyar Rupiah,3630.07,3630.06,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3502,Ponorogo,Milyar Rupiah,4409.22,4409.23,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3502,Ponorogo,Milyar Rupiah,4678.78,4678.77,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3503,Trenggalek,Milyar Rupiah,3948.6,3948.61,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3503,Trenggalek,Milyar Rupiah,4147.47,4147.50,-0.03,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3504,Tulungagung,Milyar Rupiah,8457.76,8457.75,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3504,Tulungagung,Milyar Rupiah,8872.66,8872.66,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3505,Blitar,Milyar Rupiah,7860.16,7860.16,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3505,Blitar,Milyar Rupiah,8401.6,8401.62,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3506,Kediri,Milyar Rupiah,8965.01,8965.03,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3506,Kediri,Milyar Rupiah,9255.34,9255.36,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3507,Malang,Milyar Rupiah,21571.36,21571.36,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3507,Malang,Milyar Rupiah,22255.02,22255.02,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3508,Lumajang,Milyar Rupiah,6849.92,6849.92,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3508,Lumajang,Milyar Rupiah,7359.14,7359.16,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3509,Jember,Milyar Rupiah,16406.12,16406.11,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3509,Jember,Milyar Rupiah,17890.2,17890.21,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3510,Banyuwangi,Milyar Rupiah,16785.61,16785.61,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3510,Banyuwangi,Milyar Rupiah,18120.51,18120.52,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3511,Bondowoso,Milyar Rupiah,4097.11,4097.11,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3511,Bondowoso,Milyar Rupiah,4645.95,4645.96,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3512,Situbondo,Milyar Rupiah,4171.66,4171.66,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3512,Situbondo,Milyar Rupiah,4501.51,4501.53,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3513,Probolinggo,Milyar Rupiah,7060.3,7060.30,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3513,Probolinggo,Milyar Rupiah,8034.32,8034.29,0.03,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3514,Pasuruan,Milyar Rupiah,34171.77,34171.75,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3514,Pasuruan,Milyar Rupiah,34900.27,34900.28,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3515,Sidoarjo,Milyar Rupiah,46258.07,46258.06,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3515,Sidoarjo,Milyar Rupiah,47270.01,47270.00,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3516,Mojokerto,Milyar Rupiah,18965.94,18965.96,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3516,Mojokerto,Milyar Rupiah,19762.06,19762.06,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3517,Jombang,Milyar Rupiah,8828.63,8828.63,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3517,Jombang,Milyar Rupiah,9351.97,9351.96,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3518,Nganjuk,Milyar Rupiah,5996.07,5996.07,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3518,Nganjuk,Milyar Rupiah,6084.56,6084.54,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3519,Madiun,Milyar Rupiah,4050.14,4050.14,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3519,Madiun,Milyar Rupiah,4337.26,4337.23,0.03,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3520,Magetan,Milyar Rupiah,4102.33,4102.34,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3520,Magetan,Milyar Rupiah,4199.38,4199.38,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3521,Ngawi,Milyar Rupiah,4309.98,4309.96,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3521,Ngawi,Milyar Rupiah,4175.74,4175.73,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3522,Bojonegoro,Milyar Rupiah,17086.66,17086.66,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3522,Bojonegoro,Milyar Rupiah,16451.72,16451.75,-0.03,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3523,Tuban,Milyar Rupiah,14526.53,14526.54,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3523,Tuban,Milyar Rupiah,13928.56,13928.57,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3524,Lamongan,Milyar Rupiah,8872.15,8872.16,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3524,Lamongan,Milyar Rupiah,9461.2,9461.20,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3525,Gresik,Milyar Rupiah,32430.14,32430.14,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3525,Gresik,Milyar Rupiah,33357.11,33357.10,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3526,Bangkalan,Milyar Rupiah,4642.78,4642.77,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3526,Bangkalan,Milyar Rupiah,4796.29,4796.28,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3527,Sampang,Milyar Rupiah,4045.7,4045.71,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3527,Sampang,Milyar Rupiah,4075.12,4075.11,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3528,Pamekasan,Milyar Rupiah,3786.25,3786.24,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3528,Pamekasan,Milyar Rupiah,3639.45,3639.45,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3529,Sumenep,Milyar Rupiah,7038.2,7038.18,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3529,Sumenep,Milyar Rupiah,7609.4,7609.40,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3571,Kota Kediri,Milyar Rupiah,24696.55,24696.56,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3571,Kota Kediri,Milyar Rupiah,24808.16,24808.16,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3572,Kota Blitar,Milyar Rupiah,1545.64,1545.64,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3572,Kota Blitar,Milyar Rupiah,1595.71,1595.70,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3573,Kota Malang,Milyar Rupiah,17232.26,17232.25,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3573,Kota Malang,Milyar Rupiah,17752.73,17752.72,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3574,Kota Probolinggo,Milyar Rupiah,2657.52,2657.52,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3574,Kota Probolinggo,Milyar Rupiah,2743.64,2743.65,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3575,Kota Pasuruan,Milyar Rupiah,1902.6,1902.61,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3575,Kota Pasuruan,Milyar Rupiah,1913,1913.01,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3576,Kota Mojokerto,Milyar Rupiah,1551.58,1551.58,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3576,Kota Mojokerto,Milyar Rupiah,1578.65,1578.66,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3577,Kota Madiun,Milyar Rupiah,3415.02,3415.02,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3577,Kota Madiun,Milyar Rupiah,3498.85,3498.83,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3578,Kota Surabaya,Milyar Rupiah,133452.85,133452.85,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3578,Kota Surabaya,Milyar Rupiah,135787.6,135787.60,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3579,Kota Batu,Milyar Rupiah,3639.86,3639.86,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3579,Kota Batu,Milyar Rupiah,3828.84,3828.86,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3601,Pandeglang,Milyar Rupiah,6236.3,6236.31,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3601,Pandeglang,Milyar Rupiah,5932.7,5932.69,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3602,Lebak,Milyar Rupiah,6477.81,6477.83,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3602,Lebak,Milyar Rupiah,6299.28,6299.28,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3603,Tangerang,Milyar Rupiah,30970.43,30970.43,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3603,Tangerang,Milyar Rupiah,31890.14,31890.13,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3604,Serang,Milyar Rupiah,17267.28,17267.29,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3604,Serang,Milyar Rupiah,17405.95,17405.98,-0.03,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3671,Kota Tangerang,Milyar Rupiah,34042.01,34042.03,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3671,Kota Tangerang,Milyar Rupiah,34603.82,34603.81,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3672,Kota Cilegon,Milyar Rupiah,24173.16,24173.15,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3672,Kota Cilegon,Milyar Rupiah,24287.45,24287.46,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3673,Kota Serang,Milyar Rupiah,7303.16,7303.17,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3673,Kota Serang,Milyar Rupiah,7442.27,7442.25,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,3674,Kota Tangerang Selatan,Milyar Rupiah,19802.77,19802.77,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,3674,Kota Tangerang Selatan,Milyar Rupiah,20239.58,20239.57,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5101,Jembrana,Milyar Rupiah,2626.03,2626.03,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5101,Jembrana,Milyar Rupiah,2744.36,2744.36,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5102,Tabanan,Milyar Rupiah,4269.53,4269.52,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5102,Tabanan,Milyar Rupiah,4590.11,4590.10,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5103,Badung,Milyar Rupiah,9837.63,9837.63,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5103,Badung,Milyar Rupiah,10678.71,10678.72,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5104,Gianyar,Milyar Rupiah,5330.48,5330.49,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5104,Gianyar,Milyar Rupiah,5516.4,5516.40,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5105,Klungkung,Milyar Rupiah,1685.11,1685.09,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5105,Klungkung,Milyar Rupiah,1782.62,1782.62,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5106,Bangli,Milyar Rupiah,1288.44,1288.43,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5106,Bangli,Milyar Rupiah,1378.11,1378.12,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5107,Karangasem,Milyar Rupiah,3105.71,3105.69,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5107,Karangasem,Milyar Rupiah,3240.27,3240.26,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5108,Buleleng,Milyar Rupiah,6417.43,6417.45,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5108,Buleleng,Milyar Rupiah,6829.32,6829.32,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5171,Kota Denpasar,Milyar Rupiah,10060.12,10060.13,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5171,Kota Denpasar,Milyar Rupiah,10773.2,10773.22,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5201,Lombok Barat,Milyar Rupiah,3148.49,3148.48,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5201,Lombok Barat,Milyar Rupiah,3191.48,3191.49,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5202,Lombok Tengah,Milyar Rupiah,3590.26,3590.28,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5202,Lombok Tengah,Milyar Rupiah,3619.2,3619.21,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5203,Lombok Timur,Milyar Rupiah,4157.09,4157.10,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5203,Lombok Timur,Milyar Rupiah,4188.97,4188.99,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5204,Sumbawa,Milyar Rupiah,3085.51,3085.52,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5204,Sumbawa,Milyar Rupiah,3084.37,3084.38,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5205,Dompu,Milyar Rupiah,1500.34,1500.36,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5205,Dompu,Milyar Rupiah,1560.75,1560.75,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5206,Bima,Milyar Rupiah,2372.06,2372.04,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5206,Bima,Milyar Rupiah,2508.61,2508.60,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5207,Sumbawa Barat,Milyar Rupiah,5978.04,5978.05,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5207,Sumbawa Barat,Milyar Rupiah,5785.54,5785.53,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5208,Lombok Utara,Milyar Rupiah,957.57,957.55,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5208,Lombok Utara,Milyar Rupiah,1032.06,1032.05,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5271,Kota Mataram,Milyar Rupiah,4120.76,4120.74,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5271,Kota Mataram,Milyar Rupiah,4181.58,4181.58,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5272,Kota Bima,Milyar Rupiah,869.25,869.23,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5272,Kota Bima,Milyar Rupiah,891.21,891.21,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5301,Sumba Barat,Milyar Rupiah,425.74,425.77,-0.03,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5301,Sumba Barat,Milyar Rupiah,456.92,456.91,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5302,Sumba Timur,Milyar Rupiah,1144.42,1144.42,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5302,Sumba Timur,Milyar Rupiah,1220.49,1220.49,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5303,Kupang,Milyar Rupiah,1382.19,1382.20,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5303,Kupang,Milyar Rupiah,1490.5,1490.50,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5304,Timor Tengah Selatan,Milyar Rupiah,1376.47,1376.46,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5304,Timor Tengah Selatan,Milyar Rupiah,1509.5,1509.50,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5305,Timor Tengah Utara,Milyar Rupiah,831.21,831.19,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5305,Timor Tengah Utara,Milyar Rupiah,898.66,898.67,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5306,Belu,Milyar Rupiah,882.8,882.80,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5306,Belu,Milyar Rupiah,939.35,939.33,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5307,Alor,Milyar Rupiah,596.89,596.88,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5307,Alor,Milyar Rupiah,639.46,639.46,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5308,Lembata,Milyar Rupiah,337.48,337.48,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5308,Lembata,Milyar Rupiah,358.84,358.87,-0.03,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5309,Flores Timur,Milyar Rupiah,996.58,996.60,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5309,Flores Timur,Milyar Rupiah,1063.28,1063.27,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5310,Sikka,Milyar Rupiah,984.52,984.51,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5310,Sikka,Milyar Rupiah,1054.75,1054.73,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5311,Ende,Milyar Rupiah,1201.75,1201.78,-0.03,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5311,Ende,Milyar Rupiah,1293.06,1293.07,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5312,Ngada,Milyar Rupiah,666.62,666.61,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5312,Ngada,Milyar Rupiah,719.09,719.09,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5313,Manggarai,Milyar Rupiah,861.28,861.28,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5313,Manggarai,Milyar Rupiah,938.69,938.69,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5314,Rote Ndao,Milyar Rupiah,623.75,623.73,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5314,Rote Ndao,Milyar Rupiah,644.01,644.02,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5315,Manggarai Barat,Milyar Rupiah,685.74,685.75,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5315,Manggarai Barat,Milyar Rupiah,763.7,763.69,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5316,Sumba Tengah,Milyar Rupiah,216.98,217.00,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5316,Sumba Tengah,Milyar Rupiah,239.07,239.05,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5317,Sumba Barat Daya,Milyar Rupiah,681.05,681.05,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5317,Sumba Barat Daya,Milyar Rupiah,728.01,728.03,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5318,Nagekeo,Milyar Rupiah,398.72,398.69,0.03,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5318,Nagekeo,Milyar Rupiah,440.07,440.08,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5319,Manggarai Timur,Milyar Rupiah,602.27,602.27,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5319,Manggarai Timur,Milyar Rupiah,663.57,663.57,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5320,Sabu Raijua,Milyar Rupiah,225.44,225.43,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5320,Sabu Raijua,Milyar Rupiah,241.01,241.01,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5321,Malaka,Milyar Rupiah,544.12,544.12,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5321,Malaka,Milyar Rupiah,591.97,591.98,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,5371,Kota Kupang,Milyar Rupiah,4889.02,4889.03,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,5371,Kota Kupang,Milyar Rupiah,5172.06,5172.06,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6101,Sambas,Milyar Rupiah,4303.16,4303.17,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6101,Sambas,Milyar Rupiah,4365.14,4365.14,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6102,Bengkayang,Milyar Rupiah,1858.57,1858.56,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6102,Bengkayang,Milyar Rupiah,1819.26,1819.27,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6103,Landak,Milyar Rupiah,2295.96,2295.98,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6103,Landak,Milyar Rupiah,2237.23,2237.24,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6104,Mempawah,Milyar Rupiah,1770.29,1770.29,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6104,Mempawah,Milyar Rupiah,1819.57,1819.56,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6105,Sanggau,Milyar Rupiah,4192.17,4192.17,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6105,Sanggau,Milyar Rupiah,4230.28,4230.27,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6106,Ketapang,Milyar Rupiah,5879.92,5879.93,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6106,Ketapang,Milyar Rupiah,6048.65,6048.65,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6107,Sintang,Milyar Rupiah,3058.91,3058.93,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6107,Sintang,Milyar Rupiah,3106.44,3106.44,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6108,Kapuas Hulu,Milyar Rupiah,1991.93,1991.93,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6108,Kapuas Hulu,Milyar Rupiah,2039.09,2039.08,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6109,Sekadau,Milyar Rupiah,1363.17,1363.17,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6109,Sekadau,Milyar Rupiah,1402.2,1402.20,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6110,Melawi,Milyar Rupiah,1072.95,1072.95,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6110,Melawi,Milyar Rupiah,1084.42,1084.42,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6111,Kayong Utara,Milyar Rupiah,823.73,823.74,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6111,Kayong Utara,Milyar Rupiah,846.39,846.39,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6112,Kubu Raya,Milyar Rupiah,5887.04,5887.04,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6112,Kubu Raya,Milyar Rupiah,5998.39,5998.40,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6171,Kota Pontianak,Milyar Rupiah,7657.43,7657.43,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6171,Kota Pontianak,Milyar Rupiah,7957.19,7957.19,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6172,Kota Singkawang,Milyar Rupiah,2232.93,2232.91,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6172,Kota Singkawang,Milyar Rupiah,2204.22,2204.20,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6201,Kotawaringin Barat,Milyar Rupiah,4242.32,4242.33,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6201,Kotawaringin Barat,Milyar Rupiah,4451.01,4451.00,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6202,Kotawaringin Timur,Milyar Rupiah,5363.58,5363.57,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6202,Kotawaringin Timur,Milyar Rupiah,5684.47,5684.46,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6203,Kapuas,Milyar Rupiah,3577.35,3577.37,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6203,Kapuas,Milyar Rupiah,3503.22,3503.22,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6204,Barito Selatan,Milyar Rupiah,1288.21,1288.21,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6204,Barito Selatan,Milyar Rupiah,1277.31,1277.32,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6205,Barito Utara,Milyar Rupiah,2192.38,2192.38,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6205,Barito Utara,Milyar Rupiah,2185.11,2185.11,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6206,Sukamara,Milyar Rupiah,888.66,888.65,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6206,Sukamara,Milyar Rupiah,950.81,950.78,0.03,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6207,Lamandau,Milyar Rupiah,1095.97,1095.96,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6207,Lamandau,Milyar Rupiah,1177.05,1177.06,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6208,Seruyan,Milyar Rupiah,1687.04,1687.03,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6208,Seruyan,Milyar Rupiah,1792.37,1792.37,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6209,Katingan,Milyar Rupiah,1531.95,1531.96,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6209,Katingan,Milyar Rupiah,1606.21,1606.22,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6210,Pulang Pisau,Milyar Rupiah,1046.39,1046.36,0.03,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6210,Pulang Pisau,Milyar Rupiah,1101.12,1101.13,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6211,Gunung Mas,Milyar Rupiah,1144.91,1144.92,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6211,Gunung Mas,Milyar Rupiah,1151.13,1151.14,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6212,Barito Timur,Milyar Rupiah,1546.15,1546.17,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6212,Barito Timur,Milyar Rupiah,1525.32,1525.33,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6213,Murung Raya,Milyar Rupiah,1789.84,1789.84,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6213,Murung Raya,Milyar Rupiah,1703.96,1703.98,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6271,Kota Palangka Raya,Milyar Rupiah,3513.37,3513.37,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6271,Kota Palangka Raya,Milyar Rupiah,3635.25,3635.25,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6301,Tanah Laut,Milyar Rupiah,3109.46,3109.47,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6301,Tanah Laut,Milyar Rupiah,3339.72,3339.72,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6302,Kota Baru,Milyar Rupiah,5400.71,5400.71,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6302,Kota Baru,Milyar Rupiah,5673.28,5673.29,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6303,Banjar,Milyar Rupiah,3465.73,3465.71,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6303,Banjar,Milyar Rupiah,3639.85,3639.86,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6304,Barito Kuala,Milyar Rupiah,1636.34,1636.33,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6304,Barito Kuala,Milyar Rupiah,1685.49,1685.50,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6305,Tapin,Milyar Rupiah,1800.51,1800.51,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6305,Tapin,Milyar Rupiah,2240.74,2240.74,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6306,Hulu Sungai Selatan,Milyar Rupiah,1400.56,1400.56,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6306,Hulu Sungai Selatan,Milyar Rupiah,1616.18,1616.18,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6307,Hulu Sungai Tengah,Milyar Rupiah,1533.75,1533.77,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6307,Hulu Sungai Tengah,Milyar Rupiah,1749.95,1749.93,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6308,Hulu Sungai Utara,Milyar Rupiah,1001.7,1001.73,-0.03,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6308,Hulu Sungai Utara,Milyar Rupiah,1033.45,1033.45,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6309,Tabalong,Milyar Rupiah,4545.19,4545.20,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6309,Tabalong,Milyar Rupiah,4887.41,4887.41,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6310,Tanah Bumbu,Milyar Rupiah,4947.23,4947.24,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6310,Tanah Bumbu,Milyar Rupiah,5287,5287.03,-0.03,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6311,Balangan,Milyar Rupiah,2623.71,2623.70,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6311,Balangan,Milyar Rupiah,3069.63,3069.62,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6371,Kota Banjarmasin,Milyar Rupiah,7066.44,7066.47,-0.03,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6371,Kota Banjarmasin,Milyar Rupiah,7341.67,7341.68,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6372,Kota Banjar Baru,Milyar Rupiah,2097.46,2097.46,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6372,Kota Banjar Baru,Milyar Rupiah,2196.45,2196.45,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6401,Paser,Milyar Rupiah,10104.39,10104.38,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6401,Paser,Milyar Rupiah,10490.37,10490.36,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6402,Kutai Barat,Milyar Rupiah,6683.88,6683.87,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6402,Kutai Barat,Milyar Rupiah,6907.87,6907.85,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6403,Kutai Kartanegara,Milyar Rupiah,36769.75,36769.76,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6403,Kutai Kartanegara,Milyar Rupiah,37482.12,37482.14,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6404,Kutai Timur,Milyar Rupiah,28941.37,28941.36,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6404,Kutai Timur,Milyar Rupiah,29635.21,29635.21,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6405,Berau,Milyar Rupiah,8475.7,8475.70,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6405,Berau,Milyar Rupiah,8739.87,8739.85,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6409,Penajam Paser Utara,Milyar Rupiah,3361.01,3361.00,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6409,Penajam Paser Utara,Milyar Rupiah,3420.43,3420.42,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6411,Mahakam Ulu,Milyar Rupiah,512.57,512.56,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6411,Mahakam Ulu,Milyar Rupiah,529.06,529.07,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6471,Kota Balikpapan,Milyar Rupiah,27912.38,27912.38,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6471,Kota Balikpapan,Milyar Rupiah,28700.87,28700.86,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6472,Kota Samarinda,Milyar Rupiah,15886.3,15886.30,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6472,Kota Samarinda,Milyar Rupiah,16040.46,16040.47,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6474,Kota Bontang,Milyar Rupiah,10459.53,10459.52,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6474,Kota Bontang,Milyar Rupiah,10926.55,10926.54,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6501,Malinau,Milyar Rupiah,2369.88,2369.90,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6501,Malinau,Milyar Rupiah,2390.27,2390.27,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6502,Bulungan,Milyar Rupiah,3730.62,3730.65,-0.03,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6502,Bulungan,Milyar Rupiah,3892.22,3892.23,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6503,Tana Tidung,Milyar Rupiah,1140.13,1140.14,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6503,Tana Tidung,Milyar Rupiah,1149.73,1149.73,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6504,Nunukan,Milyar Rupiah,4867,4867.02,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6504,Nunukan,Milyar Rupiah,4947.93,4947.93,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,6571,Kota Tarakan,Milyar Rupiah,7236.18,7236.19,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,6571,Kota Tarakan,Milyar Rupiah,7383.68,7383.69,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7101,Bolaang Mongondow,Milyar Rupiah,1734.18,1734.18,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7101,Bolaang Mongondow,Milyar Rupiah,1854.68,1854.71,-0.03,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7102,Minahasa,Milyar Rupiah,3719.55,3719.56,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7102,Minahasa,Milyar Rupiah,3915.85,3915.85,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7103,Kepulauan Sangihe,Milyar Rupiah,971.35,971.35,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7103,Kepulauan Sangihe,Milyar Rupiah,1036.57,1036.60,-0.03,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7104,Kepulauan Talaud,Milyar Rupiah,497.81,497.82,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7104,Kepulauan Talaud,Milyar Rupiah,536.31,536.31,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7105,Minahasa Selatan,Milyar Rupiah,1943.37,1943.35,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7105,Minahasa Selatan,Milyar Rupiah,2048.14,2048.14,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7106,Minahasa Utara,Milyar Rupiah,2978.95,2978.93,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7106,Minahasa Utara,Milyar Rupiah,3123.51,3123.51,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7107,Bolaang Mongondow Utara,Milyar Rupiah,528.38,528.38,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7107,Bolaang Mongondow Utara,Milyar Rupiah,559.74,559.75,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7108,Siau Tagulandang Biaro,Milyar Rupiah,506.24,506.24,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7108,Siau Tagulandang Biaro,Milyar Rupiah,526.87,526.89,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7109,Minahasa Tenggara,Milyar Rupiah,1143.04,1143.05,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7109,Minahasa Tenggara,Milyar Rupiah,1203.85,1203.85,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7110,Bolaang Mongondow Selatan,Milyar Rupiah,416.57,416.57,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7110,Bolaang Mongondow Selatan,Milyar Rupiah,446.01,446.00,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7111,Bolaang Mongondow Timur,Milyar Rupiah,591.53,591.53,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7111,Bolaang Mongondow Timur,Milyar Rupiah,625,624.99,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7171,Kota Manado,Milyar Rupiah,7992.6,7992.60,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7171,Kota Manado,Milyar Rupiah,8498.31,8498.32,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7172,Kota Bitung,Milyar Rupiah,3702.73,3702.70,0.03,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7172,Kota Bitung,Milyar Rupiah,3833.68,3833.67,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7173,Kota Tomohon,Milyar Rupiah,963.24,963.24,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7173,Kota Tomohon,Milyar Rupiah,1023.53,1023.52,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7174,Kota Kotamobagu,Milyar Rupiah,759.75,759.77,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7174,Kota Kotamobagu,Milyar Rupiah,801.97,801.97,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7201,Banggai Kepulauan,Milyar Rupiah,814.12,814.11,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7201,Banggai Kepulauan,Milyar Rupiah,846.97,846.96,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7202,Banggai,Milyar Rupiah,5827.52,5827.53,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7202,Banggai,Milyar Rupiah,5723.26,5723.25,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7203,Morowali,Milyar Rupiah,26778.75,26778.75,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7203,Morowali,Milyar Rupiah,27609.15,27609.16,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7204,Poso,Milyar Rupiah,1927.91,1927.92,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7204,Poso,Milyar Rupiah,2026.93,2026.93,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7205,Donggala,Milyar Rupiah,2461.01,2461.01,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7205,Donggala,Milyar Rupiah,2717,2716.98,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7206,Toli-Toli,Milyar Rupiah,1661.04,1661.02,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7206,Toli-Toli,Milyar Rupiah,1749.44,1749.44,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7207,Buol,Milyar Rupiah,1165.48,1165.47,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7207,Buol,Milyar Rupiah,1223.26,1223.26,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7208,Parigi Moutong,Milyar Rupiah,3405.17,3405.17,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7208,Parigi Moutong,Milyar Rupiah,3498.84,3498.84,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7209,Tojo Una-Una,Milyar Rupiah,1105.24,1105.24,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7209,Tojo Una-Una,Milyar Rupiah,1186.65,1186.66,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7210,Sigi,Milyar Rupiah,1884.65,1884.63,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7210,Sigi,Milyar Rupiah,1916.51,1916.53,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7211,Banggai Laut,Milyar Rupiah,494.81,494.80,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7211,Banggai Laut,Milyar Rupiah,510.12,510.14,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7212,Morowali Utara,Milyar Rupiah,4982.84,4982.85,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7212,Morowali Utara,Milyar Rupiah,5082.3,5082.30,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7271,Kota Palu,Milyar Rupiah,4917.72,4917.69,0.03,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7271,Kota Palu,Milyar Rupiah,5241.56,5241.56,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7301,Kepulauan Selayar,Milyar Rupiah,1100.18,1100.17,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7301,Kepulauan Selayar,Milyar Rupiah,1149.34,1149.35,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7302,Bulukumba,Milyar Rupiah,2656.9,2656.92,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7302,Bulukumba,Milyar Rupiah,2814.54,2814.54,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7303,Bantaeng,Milyar Rupiah,1940.29,1940.28,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7303,Bantaeng,Milyar Rupiah,1989.71,1989.69,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7304,Jeneponto,Milyar Rupiah,1999.34,1999.34,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7304,Jeneponto,Milyar Rupiah,2468.09,2468.10,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7305,Takalar,Milyar Rupiah,2062.82,2062.81,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7305,Takalar,Milyar Rupiah,2096.96,2096.95,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7306,Gowa,Milyar Rupiah,4713.7,4713.70,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7306,Gowa,Milyar Rupiah,5112.1,5112.10,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7307,Sinjai,Milyar Rupiah,2413.67,2413.69,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7307,Sinjai,Milyar Rupiah,2447.81,2447.83,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7308,Maros,Milyar Rupiah,3866.46,3866.48,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7308,Maros,Milyar Rupiah,3939.07,3939.07,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7309,Pangkajene dan Kepulauan,Milyar Rupiah,5588.82,5588.79,0.03,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7309,Pangkajene dan Kepulauan,Milyar Rupiah,5678.44,5678.44,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7310,Barru,Milyar Rupiah,1522.89,1522.90,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7310,Barru,Milyar Rupiah,1635.37,1635.37,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7311,Bone,Milyar Rupiah,7483.43,7483.43,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7311,Bone,Milyar Rupiah,7698.55,7698.55,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7312,Soppeng,Milyar Rupiah,2318.86,2318.85,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7312,Soppeng,Milyar Rupiah,2269,2269.00,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7313,Wajo,Milyar Rupiah,4073.88,4073.88,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7313,Wajo,Milyar Rupiah,3936.56,3936.57,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7314,Sidenreng Rappang,Milyar Rupiah,2760.79,2760.78,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7314,Sidenreng Rappang,Milyar Rupiah,2885.07,2885.05,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7315,Pinrang,Milyar Rupiah,3740.31,3740.33,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7315,Pinrang,Milyar Rupiah,4515.94,4515.94,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7316,Enrekang,Milyar Rupiah,1416.87,1416.87,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7316,Enrekang,Milyar Rupiah,1464.57,1464.56,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7317,Luwu,Milyar Rupiah,3325.17,3325.15,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7317,Luwu,Milyar Rupiah,3595.89,3595.90,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7318,Tana Toraja,Milyar Rupiah,1450.03,1450.05,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7318,Tana Toraja,Milyar Rupiah,1481.33,1481.33,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7322,Luwu Utara,Milyar Rupiah,2586.31,2586.31,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7322,Luwu Utara,Milyar Rupiah,2787.16,2787.15,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7325,Luwu Timur,Milyar Rupiah,4286.06,4286.06,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7325,Luwu Timur,Milyar Rupiah,4855.09,4855.09,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7326,Toraja Utara,Milyar Rupiah,1613.72,1613.72,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7326,Toraja Utara,Milyar Rupiah,1685.47,1685.46,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7371,Kota Makassar,Milyar Rupiah,38566.62,38566.61,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7371,Kota Makassar,Milyar Rupiah,41552.47,41552.47,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7372,Kota Parepare,Milyar Rupiah,1496.74,1496.73,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7372,Kota Parepare,Milyar Rupiah,1639.37,1639.37,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7373,Kota Palopo,Milyar Rupiah,1730.38,1730.38,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7373,Kota Palopo,Milyar Rupiah,1843.19,1843.19,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7401,Buton,Milyar Rupiah,820.28,820.28,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7401,Buton,Milyar Rupiah,844.32,844.32,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7402,Muna,Milyar Rupiah,1542.59,1542.60,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7402,Muna,Milyar Rupiah,1564.74,1564.76,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7403,Konawe,Milyar Rupiah,3741.8,3741.80,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7403,Konawe,Milyar Rupiah,3917.92,3917.90,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7404,Kolaka,Milyar Rupiah,5818.3,5818.30,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7404,Kolaka,Milyar Rupiah,5980.95,5980.95,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7405,Konawe Selatan,Milyar Rupiah,2652.8,2652.80,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7405,Konawe Selatan,Milyar Rupiah,2774.26,2774.28,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7406,Bombana,Milyar Rupiah,1394,1393.99,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7406,Bombana,Milyar Rupiah,1459.66,1459.65,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7407,Wakatobi,Milyar Rupiah,921.42,921.42,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7407,Wakatobi,Milyar Rupiah,956.48,956.48,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7408,Kolaka Utara,Milyar Rupiah,1830.6,1830.59,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7408,Kolaka Utara,Milyar Rupiah,1946.37,1946.36,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7409,Buton Utara,Milyar Rupiah,672.37,672.35,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7409,Buton Utara,Milyar Rupiah,684.13,684.11,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7410,Konawe Utara,Milyar Rupiah,909.91,909.90,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7410,Konawe Utara,Milyar Rupiah,929.2,929.18,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7411,Kolaka Timur,Milyar Rupiah,945.32,945.32,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7411,Kolaka Timur,Milyar Rupiah,986.54,986.54,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7412,Konawe Kepulauan,Milyar Rupiah,315.83,315.82,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7412,Konawe Kepulauan,Milyar Rupiah,332.24,332.25,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7413,Muna Barat,Milyar Rupiah,554.76,554.78,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7413,Muna Barat,Milyar Rupiah,567.2,567.20,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7414,Buton Tengah,Milyar Rupiah,512.22,512.22,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7414,Buton Tengah,Milyar Rupiah,531.1,531.10,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7415,Buton Selatan,Milyar Rupiah,611.79,611.78,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7415,Buton Selatan,Milyar Rupiah,618.83,618.83,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7471,Kota Kendari,Milyar Rupiah,5158.61,5158.62,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7471,Kota Kendari,Milyar Rupiah,5273.97,5273.99,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7472,Kota Baubau,Milyar Rupiah,1994.78,1994.79,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7472,Kota Baubau,Milyar Rupiah,2066.33,2066.34,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7501,Boalemo,Milyar Rupiah,1067.26,1067.27,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7501,Boalemo,Milyar Rupiah,1060.02,1060.02,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7502,Gorontalo,Milyar Rupiah,2845.18,2845.17,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7502,Gorontalo,Milyar Rupiah,2792.67,2792.67,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7503,Pohuwato,Milyar Rupiah,1500.74,1500.74,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7503,Pohuwato,Milyar Rupiah,1597.85,1597.83,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7504,Bone Bolango,Milyar Rupiah,980.73,980.75,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7504,Bone Bolango,Milyar Rupiah,989.04,989.04,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7505,Gorontalo Utara,Milyar Rupiah,730.16,730.17,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7505,Gorontalo Utara,Milyar Rupiah,730.97,730.96,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7571,Kota Gorontalo,Milyar Rupiah,1970.14,1970.12,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7571,Kota Gorontalo,Milyar Rupiah,2011.47,2011.47,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7601,Majene,Milyar Rupiah,1061.61,1061.62,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7601,Majene,Milyar Rupiah,1104.37,1104.36,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7602,Polewali Mandar,Milyar Rupiah,2838.05,2838.04,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7602,Polewali Mandar,Milyar Rupiah,2891.19,2891.17,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7603,Mamasa,Milyar Rupiah,639.21,639.20,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7603,Mamasa,Milyar Rupiah,655.14,655.15,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7604,Mamuju,Milyar Rupiah,2472.25,2472.25,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7604,Mamuju,Milyar Rupiah,2583.37,2583.36,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7605,Mamuju Utara,Milyar Rupiah,2134.4,2134.39,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7605,Mamuju Utara,Milyar Rupiah,2401.19,2401.18,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,7606,Mamuju Tengah,Milyar Rupiah,657.38,657.39,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,7606,Mamuju Tengah,Milyar Rupiah,702.19,702.20,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,8101,Maluku Tenggara Barat,Milyar Rupiah,538.59,538.59,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,8101,Maluku Tenggara Barat,Milyar Rupiah,550.92,550.92,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,8102,Maluku Tenggara,Milyar Rupiah,634.26,634.26,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,8102,Maluku Tenggara,Milyar Rupiah,641.96,641.97,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,8103,Maluku Tengah,Milyar Rupiah,1869.47,1869.48,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,8103,Maluku Tengah,Milyar Rupiah,1892.19,1892.21,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,8104,Buru,Milyar Rupiah,490.92,490.92,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,8104,Buru,Milyar Rupiah,496.11,496.13,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,8105,Kepulauan Aru,Milyar Rupiah,725.09,725.08,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,8105,Kepulauan Aru,Milyar Rupiah,727.79,727.77,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,8106,Seram Bagian Barat,Milyar Rupiah,635.78,635.77,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,8106,Seram Bagian Barat,Milyar Rupiah,635.9,635.90,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,8107,Seram Bagian Timur,Milyar Rupiah,576.81,576.79,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,8107,Seram Bagian Timur,Milyar Rupiah,569.42,569.42,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,8108,Maluku Barat Daya,Milyar Rupiah,438.18,438.18,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,8108,Maluku Barat Daya,Milyar Rupiah,439.76,439.76,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,8109,Buru Selatan,Milyar Rupiah,285.41,285.43,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,8109,Buru Selatan,Milyar Rupiah,286.93,286.93,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,8171,Kota Ambon,Milyar Rupiah,3313.2,3313.20,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,8171,Kota Ambon,Milyar Rupiah,3354.1,3354.13,-0.03,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,8172,Kota Tual,Milyar Rupiah,480.87,480.87,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,8172,Kota Tual,Milyar Rupiah,490.63,490.65,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,8201,Halmahera Barat,Milyar Rupiah,480.06,480.08,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,8201,Halmahera Barat,Milyar Rupiah,504.18,504.16,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,8202,Halmahera Tengah,Milyar Rupiah,8344.11,8344.11,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,8202,Halmahera Tengah,Milyar Rupiah,8290.12,8290.13,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,8203,Kepulauan Sula,Milyar Rupiah,514.78,514.78,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,8203,Kepulauan Sula,Milyar Rupiah,547.69,547.70,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,8204,Halmahera Selatan,Milyar Rupiah,4796.17,4796.17,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,8204,Halmahera Selatan,Milyar Rupiah,4995.8,4995.78,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,8205,Halmahera Utara,Milyar Rupiah,1144.71,1144.72,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,8205,Halmahera Utara,Milyar Rupiah,1150.8,1150.80,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,8206,Halmahera Timur,Milyar Rupiah,1258.21,1258.19,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,8206,Halmahera Timur,Milyar Rupiah,1440.56,1440.55,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,8207,Pulau Morotai,Milyar Rupiah,325.19,325.19,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,8207,Pulau Morotai,Milyar Rupiah,327.67,327.68,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,8208,Pulau Taliabu,Milyar Rupiah,341.15,341.14,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,8208,Pulau Taliabu,Milyar Rupiah,350.06,350.06,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,8271,Kota Ternate,Milyar Rupiah,2452.03,2452.05,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,8271,Kota Ternate,Milyar Rupiah,2473.75,2473.77,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,8272,Kota Tidore Kepulauan,Milyar Rupiah,617.12,617.12,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,8272,Kota Tidore Kepulauan,Milyar Rupiah,633.87,633.85,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9101,Fakfak,Milyar Rupiah,977.75,977.75,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9101,Fakfak,Milyar Rupiah,986.2,986.22,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9102,Kaimana,Milyar Rupiah,464.54,464.55,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9102,Kaimana,Milyar Rupiah,455.56,455.56,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9103,Teluk Wondama,Milyar Rupiah,275.02,274.99,0.03,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9103,Teluk Wondama,Milyar Rupiah,279.99,279.99,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9104,Teluk Bintuni,Milyar Rupiah,9789.4,9789.42,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9104,Teluk Bintuni,Milyar Rupiah,9607.16,9607.18,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9105,Manokwari,Milyar Rupiah,1898,1897.99,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9105,Manokwari,Milyar Rupiah,1922.83,1922.82,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9111,Manokwari Selatan,Milyar Rupiah,171.45,171.43,0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9111,Manokwari Selatan,Milyar Rupiah,170.75,170.75,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9112,Pegunungan Arfak,Milyar Rupiah,59.51,59.51,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9112,Pegunungan Arfak,Milyar Rupiah,59.84,59.84,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9201,Raja Ampat,Milyar Rupiah,743.58,743.58,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9201,Raja Ampat,Milyar Rupiah,746.9,746.90,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9202,Sorong,Milyar Rupiah,2530.24,2530.23,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9202,Sorong,Milyar Rupiah,2508.26,2508.26,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9203,Sorong Selatan,Milyar Rupiah,386.16,386.16,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9203,Sorong Selatan,Milyar Rupiah,384.21,384.20,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9204,Maybrat,Milyar Rupiah,132.23,132.23,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9204,Maybrat,Milyar Rupiah,132.32,132.34,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9205,Tambrauw,Milyar Rupiah,47.47,47.48,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9205,Tambrauw,Milyar Rupiah,47.49,47.49,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9271,Kota Sorong,Milyar Rupiah,2848.26,2848.26,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9271,Kota Sorong,Milyar Rupiah,2813.08,2813.09,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9403,Jayapura,Milyar Rupiah,2979.33,2979.33,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9403,Jayapura,Milyar Rupiah,2998.9,2998.88,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9408,Kepulauan Yapen,Milyar Rupiah,845.21,845.23,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9408,Kepulauan Yapen,Milyar Rupiah,862.61,862.63,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9409,Biak Numfor,Milyar Rupiah,968.76,968.76,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9409,Biak Numfor,Milyar Rupiah,987.55,987.56,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9419,Sarmi,Milyar Rupiah,545.4,545.40,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9419,Sarmi,Milyar Rupiah,553.49,553.49,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9420,Keerom,Milyar Rupiah,582.19,582.18,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9420,Keerom,Milyar Rupiah,597.34,597.35,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9426,Waropen,Milyar Rupiah,420.56,420.57,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9426,Waropen,Milyar Rupiah,425.7,425.69,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9427,Supiori,Milyar Rupiah,225.09,225.09,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9427,Supiori,Milyar Rupiah,227.16,227.17,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9428,Mamberamo Raya,Milyar Rupiah,301.2,301.22,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9428,Mamberamo Raya,Milyar Rupiah,303.54,303.54,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9471,Kota Jayapura,Milyar Rupiah,6869.31,6869.33,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9471,Kota Jayapura,Milyar Rupiah,6945.94,6945.95,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9501,Merauke,Milyar Rupiah,3131.03,3131.03,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9501,Merauke,Milyar Rupiah,3214.79,3214.77,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9502,Boven Digoel,Milyar Rupiah,891.23,891.22,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9502,Boven Digoel,Milyar Rupiah,912.29,912.30,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9503,Mappi,Milyar Rupiah,546.19,546.18,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9503,Mappi,Milyar Rupiah,564.51,564.50,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9504,Asmat,Milyar Rupiah,475.27,475.27,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9504,Asmat,Milyar Rupiah,485.18,485.16,0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9601,Mimika,Milyar Rupiah,14796.11,14796.10,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9601,Mimika,Milyar Rupiah,15830.13,15830.12,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9602,Dogiyai,Milyar Rupiah,244.08,244.10,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9602,Dogiyai,Milyar Rupiah,248.89,248.90,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9603,Deiyai,Milyar Rupiah,238.1,238.12,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9603,Deiyai,Milyar Rupiah,245.03,245.03,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9604,Nabire,Milyar Rupiah,2162.85,2162.87,-0.02,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9604,Nabire,Milyar Rupiah,2206.78,2206.80,-0.02,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9605,Paniai,Milyar Rupiah,860.44,860.45,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9605,Paniai,Milyar Rupiah,874.3,874.30,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9606,Intan Jaya,Milyar Rupiah,214.12,214.13,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9606,Intan Jaya,Milyar Rupiah,218.8,218.79,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9607,Puncak,Milyar Rupiah,230.35,230.34,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9607,Puncak,Milyar Rupiah,235.9,235.91,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9608,Puncak Jaya,Milyar Rupiah,272.45,272.46,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9608,Puncak Jaya,Milyar Rupiah,276.29,276.28,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9701,Nduga,Milyar Rupiah,233.52,233.53,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9701,Nduga,Milyar Rupiah,234.08,234.09,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9702,Jayawijaya,Milyar Rupiah,1395.82,1395.83,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9702,Jayawijaya,Milyar Rupiah,1480.23,1480.23,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9703,Lanny Jaya,Milyar Rupiah,353.44,353.43,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9703,Lanny Jaya,Milyar Rupiah,380.9,380.91,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9704,Tolikara,Milyar Rupiah,313.48,313.47,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9704,Tolikara,Milyar Rupiah,318.1,318.10,0.00,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9705,Mamberamo Tengah,Milyar Rupiah,223.22,223.21,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9705,Mamberamo Tengah,Milyar Rupiah,225.24,225.23,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9706,Yalimo,Milyar Rupiah,234.45,234.45,0.00,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9706,Yalimo,Milyar Rupiah,239.75,239.76,-0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9707,Yahukimo,Milyar Rupiah,434.95,434.94,0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9707,Yahukimo,Milyar Rupiah,448.25,448.24,0.01,0.20,true,ADHK
+2026,126,31,Triwulan I,Q1,9708,Pegunungan Bintang,Milyar Rupiah,417.93,417.94,-0.01,0.20,true,ADHK
+2026,126,32,Triwulan II,Q2,9708,Pegunungan Bintang,Milyar Rupiah,425.86,425.87,-0.01,0.20,true,ADHK

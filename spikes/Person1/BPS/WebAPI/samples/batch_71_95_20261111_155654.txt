@@ -1,0 +1,98 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261111155654
+Username: LAPTOP-2JE222S4\Atha Habibi Gunanda
+RunAs User: LAPTOP-2JE222S4\Atha Habibi Gunanda
+Configuration Name: 
+Machine: LAPTOP-2JE222S4 (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\Atha Habibi Gunanda\AppData\Local\Programs\Microsoft VS Code\c4453f8ea4\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 32676
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is spikes\Person1\BPS\WebAPI\samples\batch_71_95_20261111_155654.txt
+
+========== HALAMAN 71 / 177 ==========
+
+
+========== HALAMAN 72 / 177 ==========
+
+
+========== HALAMAN 73 / 177 ==========
+
+
+========== HALAMAN 74 / 177 ==========
+
+
+========== HALAMAN 75 / 177 ==========
+
+
+========== HALAMAN 76 / 177 ==========
+
+
+========== HALAMAN 77 / 177 ==========
+
+
+========== HALAMAN 78 / 177 ==========
+
+
+========== HALAMAN 79 / 177 ==========
+
+
+========== HALAMAN 80 / 177 ==========
+
+
+========== HALAMAN 81 / 177 ==========
+
+
+========== HALAMAN 82 / 177 ==========
+
+
+========== HALAMAN 83 / 177 ==========
+
+
+========== HALAMAN 84 / 177 ==========
+
+
+========== HALAMAN 85 / 177 ==========
+
+
+========== HALAMAN 86 / 177 ==========
+
+
+========== HALAMAN 87 / 177 ==========
+
+
+========== HALAMAN 88 / 177 ==========
+
+
+========== HALAMAN 89 / 177 ==========
+
+
+========== HALAMAN 90 / 177 ==========
+
+
+========== HALAMAN 91 / 177 ==========
+
+
+========== HALAMAN 92 / 177 ==========
+
+
+========== HALAMAN 93 / 177 ==========
+
+
+========== HALAMAN 94 / 177 ==========
+
+
+========== HALAMAN 95 / 177 ==========
+
+**********************
+Windows PowerShell transcript end
+End time: 20261111155747
+**********************
