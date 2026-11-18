@@ -1,5 +1,0 @@
-﻿source,domain,subject,vervar_id,vervar_label,variable_id,variable_label,turvar_id,turvar_label,period_id,period_label,subperiod_id,subperiod_label,value,unit,last_update,datacontent_key,decode_status
-BPS WebAPI,0000,Masyarakat Informasi,1,Komputer,402,Persentase Rumah Tangga yang Pernah Mengakses Internet dalam 3 Bulan Terakhir Menurut Media Akses,0,Tidak ada,123,2023,0,Tahun,3.86,,2024-10-02 08:50:57,140201230,decoded
-BPS WebAPI,0000,Masyarakat Informasi,2,Laptop,402,Persentase Rumah Tangga yang Pernah Mengakses Internet dalam 3 Bulan Terakhir Menurut Media Akses,0,Tidak ada,123,2023,0,Tahun,13.94,,2024-10-02 08:50:57,240201230,decoded
-BPS WebAPI,0000,Masyarakat Informasi,3,Telepon Seluler,402,Persentase Rumah Tangga yang Pernah Mengakses Internet dalam 3 Bulan Terakhir Menurut Media Akses,0,Tidak ada,123,2023,0,Tahun,99.32,,2024-10-02 08:50:57,340201230,decoded
-BPS WebAPI,0000,Masyarakat Informasi,4,Lainnya,402,Persentase Rumah Tangga yang Pernah Mengakses Internet dalam 3 Bulan Terakhir Menurut Media Akses,0,Tidak ada,123,2023,0,Tahun,0.49,,2024-10-02 08:50:57,440201230,decoded
