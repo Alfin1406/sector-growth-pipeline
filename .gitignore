@@ -229,3 +229,12 @@ airflow/logs/
 !.env.example
 
 raw_data/
+# ==========================================
+# Person1 - Generated BPS data
+# ==========================================
+
+# BPS WebAPI test samples (JSON, CSV, TXT)
+/spikes/Person1/BPS/WebAPI/samples/
+
+# Generated BPS processed datasets
+/spikes/Person1/BPS/processed/

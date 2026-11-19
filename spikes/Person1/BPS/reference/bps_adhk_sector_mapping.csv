@@ -1,0 +1,23 @@
+﻿variable_id,turvar_id,turvar_label,sector_group,is_aggregate,aggregation_method
+2534,2186,Sektor Primer,Primer,false,published_group
+2534,2187,Sektor Sekunder,Sekunder,false,published_group
+2534,2188,Sektor Tersier,Tersier,false,published_group
+2534,2189,PDRB,PDRB,true,published_total
+2775,2005,"A Pertanian, Kehutanan dan Perikanan",Primer,false,sum_17_industries
+2775,2006,B Pertambangan dan Penggalian,Primer,false,sum_17_industries
+2775,2007,C Industri Pengolahan,Sekunder,false,sum_17_industries
+2775,2008,D Pengadaan Listrik dan Gas,Sekunder,false,sum_17_industries
+2775,2009,"E Pengadaan Air, Pengelolaan Sampah, Limbah dan Daur Ulang",Sekunder,false,sum_17_industries
+2775,2010,F Konstruksi,Sekunder,false,sum_17_industries
+2775,2011,"G Perdagangan Besar dan Eceran, Reparasi Mobil dan Sepeda Motor",Tersier,false,sum_17_industries
+2775,2012,H Transportasi dan Pergudangan,Tersier,false,sum_17_industries
+2775,2013,I Penyediaan Akomodasi dan Makan Minum,Tersier,false,sum_17_industries
+2775,2014,J Informasi dan Komunikasi,Tersier,false,sum_17_industries
+2775,2015,K Jasa Keuangan dan Asuransi,Tersier,false,sum_17_industries
+2775,2016,L Real Estate,Tersier,false,sum_17_industries
+2775,2017,"M,N Jasa Perusahaan",Tersier,false,sum_17_industries
+2775,2018,"O Administrasi Pemerintahan, Pertahanan dan Jaminan Sosial Wajib",Tersier,false,sum_17_industries
+2775,2019,P Jasa Pendidikan,Tersier,false,sum_17_industries
+2775,2020,Q Jasa Kesehatan dan Kegiatan Sosial,Tersier,false,sum_17_industries
+2775,2021,"R,S,T,U Jasa Lainnya",Tersier,false,sum_17_industries
+2775,2022,Produk Domestik Regional Bruto,PDRB,true,published_total
