@@ -1,16 +1,25 @@
-from datetime import datetime
-from sqlalchemy import Column, Integer, String, Numeric, Text, Date, DateTime, UniqueConstraint
-from sqlalchemy.orm import declarative_base
 
-# Catatan: Jika di file ini Arza sudah mendefinisikan 'Base = declarative_base()', 
-# kamu bisa menghapus baris di bawah ini agar tidak bentrok. Jika file ini kosong, biarkan saja.
-Base = declarative_base()
+from datetime import datetime
+
+from sqlalchemy import (
+    Column,
+    Integer,
+    String,
+    Numeric,
+    Text,
+    Date,
+    DateTime,
+    UniqueConstraint,
+)
+
+from . import Base
+
 
 # ==========================================
 # 1. TABEL BANK INDONESIA (SEKI)
 # ==========================================
 class SekiKredit(Base):
-    __tablename__ = 'seki_kredit_sektor'
+    __tablename__ = "seki_kredit_sektor"
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     tahun = Column(Integer, nullable=False)
@@ -22,14 +31,22 @@ class SekiKredit(Base):
     created_at = Column(DateTime, default=datetime.utcnow)
 
     __table_args__ = (
-        UniqueConstraint('tahun', 'bulan', 'kelompok_bank', 'kategori_pinjaman', 'sektor_kbli', name='uix_seki_kredit'),
+        UniqueConstraint(
+            "tahun",
+            "bulan",
+            "kelompok_bank",
+            "kategori_pinjaman",
+            "sektor_kbli",
+            name="uix_seki_kredit",
+        ),
     )
+
 
 # ==========================================
 # 2. TABEL BURSA EFEK INDONESIA (IDX)
 # ==========================================
 class IdxFinancial(Base):
-    __tablename__ = 'idx_financial_statements'
+    __tablename__ = "idx_financial_statements"
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     kode_emiten = Column(String(10), nullable=False)
@@ -46,11 +63,17 @@ class IdxFinancial(Base):
     created_at = Column(DateTime, default=datetime.utcnow)
 
     __table_args__ = (
-        UniqueConstraint('kode_emiten', 'tahun', 'kuartal', name='uix_idx_financial'),
+        UniqueConstraint(
+            "kode_emiten",
+            "tahun",
+            "kuartal",
+            name="uix_idx_financial",
+        ),
     )
 
+
 class IdxCorporateAction(Base):
-    __tablename__ = 'idx_corporate_actions'
+    __tablename__ = "idx_corporate_actions"
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     kode_emiten = Column(String(10), nullable=False)
@@ -61,23 +84,32 @@ class IdxCorporateAction(Base):
     created_at = Column(DateTime, default=datetime.utcnow)
 
     __table_args__ = (
-        UniqueConstraint('kode_emiten', 'tanggal_pencatatan', 'jenis_tindakan', name='uix_idx_corporate_action'),
+        UniqueConstraint(
+            "kode_emiten",
+            "tanggal_pencatatan",
+            "jenis_tindakan",
+            name="uix_idx_corporate_action",
+        ),
     )
+
 
 # ==========================================
 # 3. TABEL OTORITAS JASA KEUANGAN (OJK)
 # ==========================================
 class OjkDokumen(Base):
-    __tablename__ = 'ojk_dokumen'
+    __tablename__ = "ojk_dokumen"
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     kategori = Column(String(50), nullable=False)
-    tanggal_rilis = Column(Date)  # <-- Sudah diubah menjadi tipe Date yang ketat
+    tanggal_rilis = Column(Date)
     judul = Column(Text, nullable=False)
     isi_teks = Column(Text)
     link_lampiran = Column(String(255), nullable=False)
     created_at = Column(DateTime, default=datetime.utcnow)
 
     __table_args__ = (
-        UniqueConstraint('link_lampiran', name='uix_ojk_link'),
+        UniqueConstraint(
+            "link_lampiran",
+            name="uix_ojk_link",
+        ),
     )
