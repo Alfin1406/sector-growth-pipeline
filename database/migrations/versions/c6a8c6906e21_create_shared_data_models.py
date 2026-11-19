@@ -1,8 +1,8 @@
-"""add alfin and arza data models
+"""create shared data models
 
-Revision ID: d617008f54ab
+Revision ID: c6a8c6906e21
 Revises: 002
-Create Date: 2026-11-18 15:55:54.440194
+Create Date: 2026-11-19 15:16:55.604970
 
 """
 from typing import Sequence, Union
@@ -12,7 +12,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision: str = 'd617008f54ab'
+revision: str = 'c6a8c6906e21'
 down_revision: Union[str, Sequence[str], None] = '002'
 branch_labels: Union[str, Sequence[str], None] = None
 depends_on: Union[str, Sequence[str], None] = None
@@ -97,6 +97,108 @@ def upgrade() -> None:
     sa.PrimaryKeyConstraint('id'),
     sa.UniqueConstraint('source', 'record_hash', name='uq_arza_job_market_source_hash')
     )
+    op.create_table('bkpm_investments',
+    sa.Column('id', sa.Integer(), autoincrement=True, nullable=False),
+    sa.Column('periode', sa.String(length=50), nullable=False),
+    sa.Column('status_penanaman_modal', sa.String(length=20), nullable=False),
+    sa.Column('regional', sa.String(length=100), nullable=False),
+    sa.Column('negara', sa.String(length=150), nullable=False),
+    sa.Column('sektor_utama', sa.String(length=100), nullable=False),
+    sa.Column('nama_sektor', sa.String(length=200), nullable=False),
+    sa.Column('deskripsi_kbli_2digit', sa.Text(), nullable=False),
+    sa.Column('provinsi', sa.String(length=150), nullable=False),
+    sa.Column('kabupaten_kota', sa.String(length=150), nullable=False),
+    sa.Column('jawa_luar_jawa', sa.String(length=50), nullable=False),
+    sa.Column('pulau', sa.String(length=100), nullable=False),
+    sa.Column('investasi_rp_juta', sa.Numeric(precision=24, scale=8), nullable=False),
+    sa.Column('investasi_us_ribu', sa.Numeric(precision=24, scale=8), nullable=False),
+    sa.Column('tki', sa.Integer(), nullable=False),
+    sa.Column('created_at', sa.DateTime(), nullable=True),
+    sa.PrimaryKeyConstraint('id'),
+    sa.UniqueConstraint('periode', 'status_penanaman_modal', 'regional', 'negara', 'sektor_utama', 'nama_sektor', 'deskripsi_kbli_2digit', 'provinsi', 'kabupaten_kota', 'jawa_luar_jawa', 'pulau', name='uq_bkpm_investment_natural_key')
+    )
+    op.create_table('bps_observations',
+    sa.Column('id', sa.Integer(), autoincrement=True, nullable=False),
+    sa.Column('source', sa.String(length=50), nullable=False),
+    sa.Column('domain', sa.Integer(), nullable=False),
+    sa.Column('subject', sa.Text(), nullable=False),
+    sa.Column('vervar_id', sa.Integer(), nullable=False),
+    sa.Column('vervar_label', sa.Text(), nullable=False),
+    sa.Column('variable_id', sa.Integer(), nullable=False),
+    sa.Column('variable_label', sa.Text(), nullable=False),
+    sa.Column('turvar_id', sa.Integer(), nullable=False),
+    sa.Column('turvar_label', sa.Text(), nullable=False),
+    sa.Column('period_id', sa.Integer(), nullable=False),
+    sa.Column('period_label', sa.Integer(), nullable=False),
+    sa.Column('subperiod_id', sa.Integer(), nullable=False),
+    sa.Column('subperiod_label', sa.String(length=50), nullable=False),
+    sa.Column('value', sa.Numeric(precision=30, scale=10), nullable=False),
+    sa.Column('unit', sa.String(length=100), nullable=False),
+    sa.Column('last_update', sa.String(length=50), nullable=False),
+    sa.Column('datacontent_key', sa.BigInteger(), nullable=False),
+    sa.Column('decode_status', sa.String(length=50), nullable=False),
+    sa.Column('year', sa.Integer(), nullable=False),
+    sa.Column('frequency', sa.String(length=20), nullable=False),
+    sa.Column('quarter', sa.String(length=5), nullable=True),
+    sa.Column('category_type', sa.String(length=100), nullable=False),
+    sa.Column('sector_group', sa.String(length=100), nullable=False),
+    sa.Column('is_aggregate', sa.Boolean(), nullable=False),
+    sa.Column('aggregation_method', sa.String(length=100), nullable=False),
+    sa.Column('price_basis', sa.String(length=10), nullable=False),
+    sa.Column('created_at', sa.DateTime(), nullable=True),
+    sa.PrimaryKeyConstraint('id'),
+    sa.UniqueConstraint('price_basis', 'variable_id', 'period_id', 'vervar_id', 'turvar_id', 'subperiod_id', name='uq_bps_observation_natural_key')
+    )
+    op.create_table('bps_pdrb_reconciliation',
+    sa.Column('id', sa.Integer(), autoincrement=True, nullable=False),
+    sa.Column('year', sa.Integer(), nullable=False),
+    sa.Column('period_id', sa.Integer(), nullable=False),
+    sa.Column('subperiod_id', sa.Integer(), nullable=False),
+    sa.Column('subperiod_label', sa.String(length=50), nullable=False),
+    sa.Column('quarter', sa.String(length=5), nullable=False),
+    sa.Column('vervar_id', sa.Integer(), nullable=False),
+    sa.Column('vervar_label', sa.Text(), nullable=False),
+    sa.Column('unit', sa.String(length=100), nullable=False),
+    sa.Column('published_pdrb_total', sa.Numeric(precision=30, scale=10), nullable=False),
+    sa.Column('sum_of_17_industries', sa.Numeric(precision=30, scale=10), nullable=False),
+    sa.Column('difference_total_minus_industries', sa.Numeric(precision=30, scale=10), nullable=False),
+    sa.Column('review_tolerance_miliar', sa.Numeric(precision=30, scale=10), nullable=False),
+    sa.Column('within_review_tolerance', sa.Boolean(), nullable=False),
+    sa.Column('price_basis', sa.String(length=10), nullable=False),
+    sa.Column('created_at', sa.DateTime(), nullable=True),
+    sa.PrimaryKeyConstraint('id'),
+    sa.UniqueConstraint('price_basis', 'period_id', 'subperiod_id', 'vervar_id', name='uq_bps_pdrb_reconciliation')
+    )
+    op.create_table('bps_sector_timeseries',
+    sa.Column('id', sa.Integer(), autoincrement=True, nullable=False),
+    sa.Column('source', sa.String(length=50), nullable=False),
+    sa.Column('source_variable_id', sa.Integer(), nullable=False),
+    sa.Column('source_variable_label', sa.Text(), nullable=False),
+    sa.Column('domain', sa.Integer(), nullable=False),
+    sa.Column('subject', sa.Text(), nullable=False),
+    sa.Column('year', sa.Integer(), nullable=False),
+    sa.Column('period_id', sa.Integer(), nullable=False),
+    sa.Column('frequency', sa.String(length=20), nullable=False),
+    sa.Column('subperiod_id', sa.Integer(), nullable=False),
+    sa.Column('subperiod_label', sa.String(length=50), nullable=False),
+    sa.Column('quarter', sa.String(length=5), nullable=True),
+    sa.Column('vervar_id', sa.Integer(), nullable=False),
+    sa.Column('vervar_label', sa.Text(), nullable=False),
+    sa.Column('series_name', sa.Text(), nullable=False),
+    sa.Column('sector_group', sa.String(length=100), nullable=False),
+    sa.Column('value', sa.Numeric(precision=30, scale=10), nullable=False),
+    sa.Column('unit', sa.String(length=100), nullable=False),
+    sa.Column('is_aggregate', sa.Boolean(), nullable=False),
+    sa.Column('aggregation_method', sa.String(length=100), nullable=False),
+    sa.Column('source_record_count', sa.Integer(), nullable=False),
+    sa.Column('source_category_ids', sa.Text(), nullable=False),
+    sa.Column('source_datacontent_keys', sa.Text(), nullable=False),
+    sa.Column('last_update', sa.String(length=50), nullable=False),
+    sa.Column('price_basis', sa.String(length=10), nullable=False),
+    sa.Column('created_at', sa.DateTime(), nullable=True),
+    sa.PrimaryKeyConstraint('id'),
+    sa.UniqueConstraint('price_basis', 'source_variable_id', 'period_id', 'subperiod_id', 'vervar_id', 'series_name', name='uq_bps_timeseries_natural_key')
+    )
     op.create_table('idx_corporate_actions',
     sa.Column('id', sa.Integer(), autoincrement=True, nullable=False),
     sa.Column('kode_emiten', sa.String(length=10), nullable=False),
@@ -158,6 +260,10 @@ def downgrade() -> None:
     op.drop_table('ojk_dokumen')
     op.drop_table('idx_financial_statements')
     op.drop_table('idx_corporate_actions')
+    op.drop_table('bps_sector_timeseries')
+    op.drop_table('bps_pdrb_reconciliation')
+    op.drop_table('bps_observations')
+    op.drop_table('bkpm_investments')
     op.drop_table('arza_job_market')
     op.drop_table('arza_bps_exim_monthly')
     op.drop_table('arza_bps_exim_hs2')
