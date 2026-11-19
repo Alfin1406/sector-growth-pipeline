@@ -1,0 +1,44 @@
+{
+    "dataset": "BKPM Realisasi Investasi 2026",
+    "quarters": [
+        "2026_TW1",
+        "2026_TW2",
+        "2026_TW3"
+    ],
+    "total_rows": 98306,
+    "total_columns": 16,
+    "columns": [
+        "periode",
+        "status_penanaman_modal",
+        "regional",
+        "negara",
+        "sektor_utama",
+        "nama_sektor",
+        "deskripsi_kbli_2digit",
+        "provinsi",
+        "kabupaten_kota",
+        "jawa_luar_jawa",
+        "pulau",
+        "investasi_rp_juta",
+        "investasi_us_ribu",
+        "tki",
+        "source_quarter",
+        "tki_negative_flag"
+    ],
+    "numeric_dtypes": {
+        "investasi_rp_juta": "float64",
+        "investasi_us_ribu": "float64",
+        "tki": "int64"
+    },
+    "source_quarter_distribution": {
+        "2026_TW1": 34643,
+        "2026_TW2": 33641,
+        "2026_TW3": 30022
+    },
+    "negative_tki_count": 1,
+    "parquet_created": false,
+    "outputs": {
+        "csv": "C:\\dev\\sector-growth-pipeline\\spikes\\Person1\\BKPM\\processed\\bkpm_2026_combined.csv",
+        "parquet": null
+    }
+}

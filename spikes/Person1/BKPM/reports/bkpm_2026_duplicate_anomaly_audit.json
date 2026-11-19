@@ -1,0 +1,62 @@
+{
+    "dataset": "BKPM Realisasi Investasi 2026",
+    "business_key": [
+        "periode",
+        "status_penanaman_modal",
+        "regional",
+        "negara",
+        "sektor_utama",
+        "nama_sektor",
+        "deskripsi_kbli_2digit",
+        "provinsi",
+        "kabupaten_kota",
+        "jawa_luar_jawa",
+        "pulau"
+    ],
+    "metric_columns": [
+        "investasi_rp_juta",
+        "investasi_us_ribu",
+        "tki"
+    ],
+    "quarters": [
+        {
+            "quarter": "2026_TW1",
+            "rows": 34643,
+            "duplicate_key_rows": 0,
+            "duplicate_key_groups": 0,
+            "conflicting_metric_groups": 0,
+            "negative_values": {
+                "investasi_rp_juta": 0,
+                "investasi_us_ribu": 0,
+                "tki": 0
+            }
+        },
+        {
+            "quarter": "2026_TW2",
+            "rows": 33641,
+            "duplicate_key_rows": 0,
+            "duplicate_key_groups": 0,
+            "conflicting_metric_groups": 0,
+            "negative_values": {
+                "investasi_rp_juta": 0,
+                "investasi_us_ribu": 0,
+                "tki": 0
+            }
+        },
+        {
+            "quarter": "2026_TW3",
+            "rows": 30022,
+            "duplicate_key_rows": 0,
+            "duplicate_key_groups": 0,
+            "conflicting_metric_groups": 0,
+            "negative_values": {
+                "investasi_rp_juta": 0,
+                "investasi_us_ribu": 0,
+                "tki": 1
+            }
+        }
+    ],
+    "total_duplicate_key_rows": 0,
+    "total_duplicate_key_groups": 0,
+    "total_conflicting_metric_groups": 0
+}

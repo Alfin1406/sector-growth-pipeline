@@ -1,0 +1,86 @@
+{
+    "dataset": "BKPM Realisasi Investasi 2026",
+    "quarters": [
+        {
+            "quarter": "2026_TW1",
+            "rows": 34643,
+            "numeric_columns": {
+                "investasi_rp_juta": {
+                    "invalid_values": 0,
+                    "empty_values": 0,
+                    "negative_values": 0,
+                    "minimum": 0.0,
+                    "maximum": 11208204.0
+                },
+                "investasi_us_ribu": {
+                    "invalid_values": 0,
+                    "empty_values": 0,
+                    "negative_values": 0,
+                    "minimum": 0.0,
+                    "maximum": 679285.0908
+                },
+                "tki": {
+                    "invalid_values": 0,
+                    "empty_values": 0,
+                    "negative_values": 0,
+                    "minimum": 0.0,
+                    "maximum": 17692.0
+                }
+            }
+        },
+        {
+            "quarter": "2026_TW2",
+            "rows": 33641,
+            "numeric_columns": {
+                "investasi_rp_juta": {
+                    "invalid_values": 0,
+                    "empty_values": 0,
+                    "negative_values": 0,
+                    "minimum": 0.0,
+                    "maximum": 25560537.58
+                },
+                "investasi_us_ribu": {
+                    "invalid_values": 0,
+                    "empty_values": 0,
+                    "negative_values": 0,
+                    "minimum": 0.0,
+                    "maximum": 1549123.49
+                },
+                "tki": {
+                    "invalid_values": 0,
+                    "empty_values": 0,
+                    "negative_values": 0,
+                    "minimum": 0.0,
+                    "maximum": 5987.0
+                }
+            }
+        },
+        {
+            "quarter": "2026_TW3",
+            "rows": 30022,
+            "numeric_columns": {
+                "investasi_rp_juta": {
+                    "invalid_values": 0,
+                    "empty_values": 0,
+                    "negative_values": 0,
+                    "minimum": 0.0,
+                    "maximum": 23241270.15
+                },
+                "investasi_us_ribu": {
+                    "invalid_values": 0,
+                    "empty_values": 0,
+                    "negative_values": 0,
+                    "minimum": 0.0,
+                    "maximum": 1408561.827
+                },
+                "tki": {
+                    "invalid_values": 0,
+                    "empty_values": 0,
+                    "negative_values": 1,
+                    "minimum": -8.0,
+                    "maximum": 9095.0
+                }
+            }
+        }
+    ]
+}
