@@ -242,3 +242,5 @@ raw_data/
 # Person1 - BKPM generated and downloaded datasets
 /spikes/Person1/BKPM/raw/
 /spikes/Person1/BKPM/processed/
+/data/bps/raw/
+/data/bps/processed/
