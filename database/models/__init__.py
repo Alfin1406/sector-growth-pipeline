@@ -6,7 +6,8 @@ from .alfin import (
     SekiKredit,
     IdxFinancial,
     IdxCorporateAction,
-    OjkDokumen,
+    OjkPengumuman,
+    OjkRancanganRegulasi,
 )
 
 from .arza import (
