@@ -11,7 +11,8 @@ from .alfin import (
 )
 
 from .arza import (
-    ArzaJobMarket,
+    ArzaJobPortal,
+    ArzaCareerPage,
     ArzaBpsEximMonthly,
     ArzaBpsEximHs2,
 )
