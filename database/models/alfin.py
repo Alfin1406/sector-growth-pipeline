@@ -1,4 +1,3 @@
-
 from datetime import datetime
 
 from sqlalchemy import (
@@ -22,8 +21,9 @@ class SekiKredit(Base):
     __tablename__ = "seki_kredit_sektor"
 
     id = Column(Integer, primary_key=True, autoincrement=True)
+    sheet_asal = Column(String(20))
     tahun = Column(Integer, nullable=False)
-    bulan = Column(String(15), nullable=False)
+    bulan = Column(Integer, nullable=False)  # 1-12 agar sorting time-series rapi
     kelompok_bank = Column(String(100), nullable=False)
     kategori_pinjaman = Column(String(100), nullable=False)
     sektor_kbli = Column(String(150), nullable=False)
@@ -52,14 +52,22 @@ class IdxFinancial(Base):
     kode_emiten = Column(String(10), nullable=False)
     nama_perusahaan = Column(String(150), nullable=False)
     sektor = Column(String(100))
+    subsektor = Column(String(100))
+    industri = Column(String(100))
+    subindustri = Column(String(100))
+    tanggal_laporan = Column(Date)
     tahun = Column(Integer, nullable=False)
     kuartal = Column(String(5), nullable=False)
+    mata_uang = Column(String(50), nullable=False)
     cash_current = Column(Numeric)
     cash_prior = Column(Numeric)
     total_asset_current = Column(Numeric)
     total_asset_prior = Column(Numeric)
     total_liabilitas_current = Column(Numeric)
+    total_liabilitas_prior = Column(Numeric)
     total_ekuitas_current = Column(Numeric)
+    total_ekuitas_prior = Column(Numeric)
+    link_sumber = Column(Text)
     created_at = Column(DateTime, default=datetime.utcnow)
 
     __table_args__ = (
@@ -96,20 +104,40 @@ class IdxCorporateAction(Base):
 # ==========================================
 # 3. TABEL OTORITAS JASA KEUANGAN (OJK)
 # ==========================================
-class OjkDokumen(Base):
-    __tablename__ = "ojk_dokumen"
+class OjkPengumuman(Base):
+    __tablename__ = "ojk_pengumuman"
 
     id = Column(Integer, primary_key=True, autoincrement=True)
-    kategori = Column(String(50), nullable=False)
     tanggal_rilis = Column(Date)
     judul = Column(Text, nullable=False)
+    link_halaman = Column(Text, nullable=False)
     isi_teks = Column(Text)
-    link_lampiran = Column(String(255), nullable=False)
+    link_lampiran = Column(Text)
     created_at = Column(DateTime, default=datetime.utcnow)
 
     __table_args__ = (
         UniqueConstraint(
-            "link_lampiran",
-            name="uix_ojk_link",
+            "link_halaman",
+            name="uix_ojk_pengumuman_link",
+        ),
+    )
+
+
+class OjkRancanganRegulasi(Base):
+    __tablename__ = "ojk_rancangan_regulasi"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    satker = Column(String(50))  # Contoh: PVML, PPDP, Pasar Modal, OJK
+    tanggal_rilis = Column(Date)
+    judul = Column(Text, nullable=False)
+    link_halaman = Column(Text, nullable=False)
+    isi_teks = Column(Text)
+    link_lampiran = Column(Text)
+    created_at = Column(DateTime, default=datetime.utcnow)
+
+    __table_args__ = (
+        UniqueConstraint(
+            "link_halaman",
+            name="uix_ojk_regulasi_link",
         ),
     )
