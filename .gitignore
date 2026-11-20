@@ -238,3 +238,6 @@ raw_data/
 
 # Generated BPS processed datasets
 /spikes/Person1/BPS/processed/
+
+# Database backups
+/backups/
