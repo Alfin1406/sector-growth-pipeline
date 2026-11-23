@@ -112,14 +112,28 @@ def main() -> None:
     args.output_dir.mkdir(parents=True, exist_ok=True)
 
     df = pd.read_csv(args.input)
+    print(f"Input V4 berhasil dibaca: {len(df)} baris")
     required = {"article_id", "title", "summary", "relevance_level", "sector3_topic"}
     missing = required - set(df.columns)
     if missing:
         raise ValueError(f"Kolom wajib tidak ditemukan: {sorted(missing)}")
+    # Normalize IDs before duplicate checks and manual-decision matching.
+    # This avoids false "not found" results caused by whitespace or null values.
+    df["article_id"] = df["article_id"].fillna("").astype(str).str.strip()
+    if df["article_id"].eq("").any():
+        bad_rows = int(df["article_id"].eq("").sum())
+        raise ValueError(
+            f"Ditemukan {bad_rows} baris tanpa article_id; "
+            "perbaiki input V4 sebelum klasifikasi."
+        )
     if df["article_id"].duplicated().any():
-        raise ValueError("article_id duplikat ditemukan; hentikan sebelum klasifikasi V5.")
-
-    df["article_id"] = df["article_id"].astype(str).str.strip()
+        duplicates = sorted(
+            df.loc[df["article_id"].duplicated(keep=False), "article_id"].unique().tolist()
+        )
+        raise ValueError(
+            "article_id duplikat ditemukan; hentikan sebelum klasifikasi V5: "
+            + ", ".join(duplicates[:20])
+        )
     df["relevance_level_v4"] = df["relevance_level"]
     df["sector3_topic_v4"] = df["sector3_topic"]
     df["v5_audit_action"] = "Dipertahankan dari V4"
@@ -140,25 +154,38 @@ def main() -> None:
 
     applied = {"promote": 0, "demote": 0, "oos": 0}
 
+    # Guard against inconsistent manual-decision dictionaries.
+    missing_topics = sorted(set(PROMOTE_TO_RELEVANT) - set(TOPIC))
+    if missing_topics:
+        raise ValueError(
+            "TOPIC belum didefinisikan untuk ID promosi: "
+            + ", ".join(missing_topics)
+        )
+
     for aid, note in PROMOTE_TO_RELEVANT.items():
-        m = df["article_id"].eq(aid)
-        if not m.any():
+        matched_index = df.index[df["article_id"].eq(aid)].tolist()
+        if not matched_index:
+            print(f"[WARNING] ID promosi tidak ditemukan di V4, dilewati: {aid}")
             continue
 
-        title = df.loc[m, "title"].iloc[0]
-        summary = df.loc[m, "summary"].iloc[0]
-        df.loc[m, "relevance_level"] = "Relevan"
-        df.loc[m, "sector3_topic"] = TOPIC[aid]
-        df.loc[m, "classification_confidence"] = "Sedang"
-        df.loc[m, "review_priority"] = "Low"
-        df.loc[m, "manual_review_recommended"] = False
-        df.loc[m, "classification_reason"] = note
-        df.loc[m, "classification_evidence"] = f"title={title} | summary={summary}"
-        df.loc[m, "classification_rule_override"] = "v5_scope_evidence_promotion"
-        df.loc[m, "classification_rule_evidence"] = note
-        df.loc[m, "v5_audit_action"] = "Promosi Review → Relevan"
-        df.loc[m, "v5_audit_note"] = note
-        applied["promote"] += int(m.sum())
+        # Read from a known matched row; never index an empty filtered result.
+        first_index = matched_index[0]
+        title = df.at[first_index, "title"]
+        summary = df.at[first_index, "summary"]
+        evidence = f"title={title} | summary={summary}"
+
+        df.loc[matched_index, "relevance_level"] = "Relevan"
+        df.loc[matched_index, "sector3_topic"] = TOPIC[aid]
+        df.loc[matched_index, "classification_confidence"] = "Sedang"
+        df.loc[matched_index, "review_priority"] = "Low"
+        df.loc[matched_index, "manual_review_recommended"] = False
+        df.loc[matched_index, "classification_reason"] = note
+        df.loc[matched_index, "classification_evidence"] = evidence
+        df.loc[matched_index, "classification_rule_override"] = "v5_scope_evidence_promotion"
+        df.loc[matched_index, "classification_rule_evidence"] = note
+        df.loc[matched_index, "v5_audit_action"] = "Promosi Review → Relevan"
+        df.loc[matched_index, "v5_audit_note"] = note
+        applied["promote"] += len(matched_index)
 
     for aid, note in DEMOTE_TO_REVIEW.items():
         m = df["article_id"].eq(aid)
