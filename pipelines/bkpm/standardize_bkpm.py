@@ -4,7 +4,7 @@ import importlib.util
 import pandas as pd
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-RAW_DIR = REPO_ROOT / "spikes" / "Person1" / "BKPM" / "raw"
+RAW_DIR = REPO_ROOT / "data" / "bkpm" / "raw"
 PROCESSED_DIR = REPO_ROOT / "data" / "bkpm" / "processed"
 REPORT_DIR = REPO_ROOT / "data" / "bkpm" / "reports"
 
