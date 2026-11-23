@@ -238,3 +238,9 @@ raw_data/
 
 # Generated BPS processed datasets
 /spikes/Person1/BPS/processed/
+
+# Person1 - BKPM generated and downloaded datasets
+/spikes/Person1/BKPM/raw/
+/spikes/Person1/BKPM/processed/
+/data/bps/raw/
+/data/bps/processed/

@@ -1,0 +1,82 @@
+{
+    "dataset": "BKPM Realisasi Investasi 2026",
+    "total_rows": 98306,
+    "quarters": [
+        {
+            "quarter": "2026_TW1",
+            "filename": "Data_Realisasi_Invetasi_Triwulan_I_Tahun_2026.csv",
+            "rows": 34643,
+            "columns_count": 14,
+            "columns": [
+                "periode",
+                "status_penanaman_modal",
+                "regional",
+                "negara",
+                "sektor_utama",
+                "nama_sektor",
+                "deskripsi_kbli_2digit",
+                "provinsi",
+                "kabupaten_kota",
+                "jawa_luar_jawa",
+                "pulau",
+                "investasi_rp_juta",
+                "investasi_us_ribu",
+                "tki"
+            ],
+            "empty_cells": 0,
+            "duplicate_identical_rows": 0,
+            "file_size_bytes": 6753306
+        },
+        {
+            "quarter": "2026_TW2",
+            "filename": "Data_Realisasi_Investasi_Triwulan_2_Tahun_2026.csv",
+            "rows": 33641,
+            "columns_count": 14,
+            "columns": [
+                "periode",
+                "status_penanaman_modal",
+                "regional",
+                "negara",
+                "sektor_utama",
+                "nama_sektor",
+                "deskripsi_kbli_2digit",
+                "provinsi",
+                "kabupaten_kota",
+                "jawa_luar_jawa",
+                "pulau",
+                "investasi_rp_juta",
+                "investasi_us_ribu",
+                "tki"
+            ],
+            "empty_cells": 0,
+            "duplicate_identical_rows": 0,
+            "file_size_bytes": 6563601
+        },
+        {
+            "quarter": "2026_TW3",
+            "filename": "Data_Realisasi_Investasi_Triwulan_III_Tahun_2026.csv",
+            "rows": 30022,
+            "columns_count": 14,
+            "columns": [
+                "periode",
+                "status_penanaman_modal",
+                "regional",
+                "negara",
+                "sektor_utama",
+                "nama_sektor",
+                "deskripsi_kbli_2digit",
+                "provinsi",
+                "kabupaten_kota",
+                "jawa_luar_jawa",
+                "pulau",
+                "investasi_rp_juta",
+                "investasi_us_ribu",
+                "tki"
+            ],
+            "empty_cells": 0,
+            "duplicate_identical_rows": 0,
+            "file_size_bytes": 5832212
+        }
+    ],
+    "schema_consistent": true
+}
