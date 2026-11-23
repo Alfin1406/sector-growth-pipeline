@@ -1,6 +1,8 @@
+import argparse
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+
 import pandas as pd
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
@@ -8,6 +10,7 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from pipelines.common.db import get_engine_with_retry, upsert_records
+from pipelines.idx.scrape_idx_corp_actions import scrape_idx_corp_actions
 
 UPSERT_SQL = """
     INSERT INTO public.idx_corporate_actions (
@@ -40,11 +43,12 @@ def find_csv() -> Path:
     return matches[-1]
 
 
-def main(csv_path: str | None = None) -> None:
-    file_path = Path(csv_path) if csv_path else find_csv()
-    print(f"Membaca IDX Corporate Actions: {file_path}")
+def ingest_corp_action_rows(engine, rows: list[dict]) -> int:
+    if not rows:
+        print("IDX Corporate Actions: Tidak ada data untuk di-UPSERT.")
+        return 0
 
-    df = pd.read_csv(file_path, sep=";")
+    df = pd.DataFrame(rows)
     df["TanggalPencatatan"] = pd.to_datetime(df["TanggalPencatatan"], errors="coerce").dt.date
     df = df.dropna(subset=["KodeEmiten", "TanggalPencatatan", "JenisTindakan"])
     df = df.drop_duplicates(subset=["KodeEmiten", "TanggalPencatatan", "JenisTindakan"])
@@ -55,10 +59,10 @@ def main(csv_path: str | None = None) -> None:
             "kode_emiten": str(r["KodeEmiten"]).strip(),
             "tanggal_pencatatan": r["TanggalPencatatan"],
             "jenis_tindakan": str(r["JenisTindakan"]).strip(),
-            "jumlah_saham": None if pd.isna(r["JumlahSaham"]) else float(r["JumlahSaham"]),
+            "jumlah_saham": None if pd.isna(r.get("JumlahSaham")) else float(r["JumlahSaham"]),
             "jumlah_saham_setelah_tindakan": (
                 None
-                if pd.isna(r["JumlahSahamSetelahTindakan"])
+                if pd.isna(r.get("JumlahSahamSetelahTindakan"))
                 else float(r["JumlahSahamSetelahTindakan"])
             ),
             "created_at": now,
@@ -66,14 +70,40 @@ def main(csv_path: str | None = None) -> None:
         for _, r in df.iterrows()
     ]
 
+    processed = upsert_records(engine, UPSERT_SQL, records)
+    print(f"IDX Corporate Actions selesai: {processed} baris diproses (UPSERT).")
+    return processed
+
+
+def run_idx_corp_actions_pipeline(
+    days_back: int = 90,
+    from_csv: bool = False,
+    csv_path: str | None = None,
+) -> None:
+    """Entrypoint utama (siap dipanggil PythonOperator Airflow maupun CLI)."""
+    if from_csv:
+        file_path = Path(csv_path) if csv_path else find_csv()
+        print(f"Mode CSV -> {file_path}")
+        rows = pd.read_csv(file_path, sep=";").to_dict("records")
+    else:
+        rows = scrape_idx_corp_actions(days_back=days_back)
+
     engine = get_engine_with_retry()
     try:
-        processed = upsert_records(engine, UPSERT_SQL, records)
-        print(f"IDX Corporate Actions selesai: {processed} baris diproses (UPSERT).")
+        ingest_corp_action_rows(engine, rows)
     finally:
         engine.dispose()
 
 
 if __name__ == "__main__":
-    arg_path = sys.argv[1] if len(sys.argv) > 1 else None
-    main(arg_path)
+    parser = argparse.ArgumentParser(description="Pipeline IDX Corporate Actions in-memory ke Neon DB.")
+    parser.add_argument("--days-back", type=int, default=90)
+    parser.add_argument("--from-csv", action="store_true", help="Fallback baca dari CSV lokal.")
+    parser.add_argument("--csv-path", type=str, default=None)
+    args = parser.parse_args()
+
+    run_idx_corp_actions_pipeline(
+        days_back=args.days_back,
+        from_csv=args.from_csv,
+        csv_path=args.csv_path,
+    )
