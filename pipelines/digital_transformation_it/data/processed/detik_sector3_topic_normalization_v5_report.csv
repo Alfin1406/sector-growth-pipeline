@@ -1,18 +1,17 @@
 ﻿relevance_level_v5_original,sector3_topic_v5_original,relevance_level,sector3_topic,sector3_topic_normalization_status,article_count
-Di Luar Cakupan,Di Luar Cakupan,Di Luar Cakupan,Di Luar Cakupan,Out of scope preserved,54
-Perlu Tinjau,Cloud Enterprise,Perlu Tinjau,Cloud Enterprise,Already one of the four topics,19
-Perlu Tinjau,Cyber Security,Perlu Tinjau,Cyber Security,Already one of the four topics,11
-Perlu Tinjau,Digital Transformation,Perlu Tinjau,Digital Transformation,Already one of the four topics,3
-Perlu Tinjau,Enterprise Data & AI,Perlu Tinjau,Cloud Enterprise,Mapped,5
-Perlu Tinjau,Enterprise Data & AI,Perlu Tinjau,Digital Transformation,Mapped,2
-Perlu Tinjau,Enterprise Data & AI,Perlu Tinjau,Perlu Tinjau,Needs review,18
-Perlu Tinjau,Enterprise Software,Perlu Tinjau,Enterprise Software,Already one of the four topics,1
+Di Luar Cakupan,Di Luar Cakupan,Di Luar Cakupan,Di Luar Cakupan,Out of scope preserved,50
+Perlu Tinjau,Cloud Enterprise,Perlu Tinjau,Cloud Enterprise,Already one of the four topics,23
+Perlu Tinjau,Cyber Security,Perlu Tinjau,Cyber Security,Already one of the four topics,9
+Perlu Tinjau,Digital Transformation,Perlu Tinjau,Digital Transformation,Already one of the four topics,1
+Perlu Tinjau,Enterprise Data & AI,Perlu Tinjau,Cloud Enterprise,Mapped,2
+Perlu Tinjau,Enterprise Data & AI,Perlu Tinjau,Digital Transformation,Mapped,1
+Perlu Tinjau,Enterprise Data & AI,Perlu Tinjau,Enterprise Software,Mapped,1
+Perlu Tinjau,Enterprise Data & AI,Perlu Tinjau,Perlu Tinjau,Needs review,19
 Perlu Tinjau,Perlu Tinjau,Perlu Tinjau,Perlu Tinjau,Needs review,1
 Relevan,Cloud Enterprise,Relevan,Cloud Enterprise,Already one of the four topics,7
-Relevan,Cyber Security,Relevan,Cyber Security,Already one of the four topics,22
+Relevan,Cyber Security,Relevan,Cyber Security,Already one of the four topics,18
 Relevan,Digital Transformation,Relevan,Digital Transformation,Already one of the four topics,1
-Relevan,Enterprise Data & AI,Perlu Tinjau,Perlu Tinjau,Needs review,7
-Relevan,Enterprise Data & AI,Relevan,Cloud Enterprise,Mapped,4
+Relevan,Enterprise Data & AI,Perlu Tinjau,Perlu Tinjau,Needs review,13
+Relevan,Enterprise Data & AI,Relevan,Cloud Enterprise,Mapped,2
 Relevan,Enterprise Data & AI,Relevan,Cyber Security,Mapped,1
-Relevan,Enterprise Data & AI,Relevan,Digital Transformation,Mapped,2
-Relevan,Enterprise Software,Relevan,Enterprise Software,Already one of the four topics,1
+Relevan,Enterprise Data & AI,Relevan,Enterprise Software,Mapped,1
