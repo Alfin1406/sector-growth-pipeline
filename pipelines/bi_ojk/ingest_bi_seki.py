@@ -1,12 +1,15 @@
+import argparse
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+
 import pandas as pd
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
+from pipelines.bi_ojk.scrape_bi_seki import scrape_bi_seki
 from pipelines.common.db import get_engine_with_retry, upsert_records
 
 BULAN_MAP = {
@@ -51,11 +54,12 @@ def find_latest_seki_csv() -> Path:
     return candidates[-1]
 
 
-def main(csv_path: str | None = None) -> None:
-    file_path = Path(csv_path) if csv_path else find_latest_seki_csv()
-    print(f"Membaca file SEKI BI: {file_path}")
+def ingest_seki_rows(engine, rows: list[dict]) -> int:
+    if not rows:
+        print("SEKI BI: Tidak ada data untuk di-UPSERT.")
+        return 0
 
-    df = pd.read_csv(file_path, sep=",")
+    df = pd.DataFrame(rows)
     df["bulan_num"] = (
         df["Bulan"].astype(str).str.strip().str.lower().str[:3].map(BULAN_MAP)
     )
@@ -83,14 +87,40 @@ def main(csv_path: str | None = None) -> None:
         for _, r in df.iterrows()
     ]
 
+    processed = upsert_records(engine, UPSERT_SQL, records)
+    print(f"SEKI BI selesai: {processed} baris diproses (UPSERT) ke seki_kredit_sektor.")
+    return processed
+
+
+def run_bi_seki_pipeline(
+    lookback_months: int = 4,
+    from_csv: bool = False,
+    csv_path: str | None = None,
+) -> None:
+    """Entrypoint utama (siap dipanggil PythonOperator Airflow maupun CLI)."""
+    if from_csv:
+        file_path = Path(csv_path) if csv_path else find_latest_seki_csv()
+        print(f"Mode CSV -> {file_path}")
+        rows = pd.read_csv(file_path, sep=",").to_dict("records")
+    else:
+        rows = scrape_bi_seki(lookback_months=lookback_months)
+
     engine = get_engine_with_retry()
     try:
-        processed = upsert_records(engine, UPSERT_SQL, records)
-        print(f"SEKI BI selesai: {processed} baris diproses (UPSERT) ke seki_kredit_sektor.")
+        ingest_seki_rows(engine, rows)
     finally:
         engine.dispose()
 
 
 if __name__ == "__main__":
-    arg_path = sys.argv[1] if len(sys.argv) > 1 else None
-    main(arg_path)
+    parser = argparse.ArgumentParser(description="Pipeline BI SEKI in-memory ke Neon DB.")
+    parser.add_argument("--lookback-months", type=int, default=4)
+    parser.add_argument("--from-csv", action="store_true", help="Fallback baca dari CSV lokal.")
+    parser.add_argument("--csv-path", type=str, default=None)
+    args = parser.parse_args()
+
+    run_bi_seki_pipeline(
+        lookback_months=args.lookback_months,
+        from_csv=args.from_csv,
+        csv_path=args.csv_path,
+    )
